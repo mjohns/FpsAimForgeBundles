@@ -136,10 +136,10 @@
         },
         "point": {
          "x": {
-          "xPercentValue": -0.49
+          "xPercentValue": -0.47
          },
          "y": {
-          "yPercentValue": -0.48
+          "yPercentValue": -0.47
          }
         }
        },
@@ -149,10 +149,10 @@
         },
         "point": {
          "x": {
-          "xPercentValue": 0.48
+          "xPercentValue": 0.47
          },
          "y": {
-          "yPercentValue": 0.48
+          "yPercentValue": 0.47
          }
         }
        },
@@ -162,10 +162,10 @@
         },
         "point": {
          "x": {
-          "xPercentValue": 0.48
+          "xPercentValue": 0.47
          },
          "y": {
-          "yPercentValue": -0.48
+          "yPercentValue": -0.47
          }
         }
        },
@@ -175,10 +175,10 @@
         },
         "point": {
          "x": {
-          "xPercentValue": -0.48
+          "xPercentValue": -0.47
          },
          "y": {
-          "yPercentValue": 0.48
+          "yPercentValue": 0.47
          }
         }
        }
@@ -216,6 +216,22 @@
        "width": 248
       }
      }
+    }
+   }
+  },
+  {
+   "name": "Box Tracking Ladder",
+   "def": {
+    "overrides": {},
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96
+    },
+    "scoreTargets": {
+     "targetScore": 70
+    },
+    "referenceDef": {
+     "scenarioName": "TSK Box Tracking",
+     "explicitTargetRadius": 5
     }
    }
   },
@@ -2016,6 +2032,22 @@
    }
   },
   {
+   "name": "DVD Tracking Ladder",
+   "def": {
+    "overrides": {},
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96
+    },
+    "scoreTargets": {
+     "targetScore": 75
+    },
+    "referenceDef": {
+     "scenarioName": "TSK DVD Tracking",
+     "explicitTargetRadius": 5
+    }
+   }
+  },
+  {
    "name": "DVD Tracking Small",
    "def": {
     "overrides": {
@@ -2079,6 +2111,43 @@
     "referenceDef": {
      "scenarioName": "TSK Hewchy's VAI 110",
      "explicitTargetRadius": 5
+    }
+   }
+  },
+  {
+   "name": "Hewchy's VAI 110 Prox",
+   "def": {
+    "durationSeconds": 30,
+    "shotType": {
+     "trackingProximity": true
+    },
+    "targetDef": {
+     "numTargets": 1,
+     "profiles": [
+      {
+       "targetRadius": 6,
+       "speed": 95
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "barrelRoom": {
+      "radius": 123
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.95
+    },
+    "centeringDef": {
+     "angle": -20,
+     "angleLength": {
+      "xPercentValue": 0.95
+     }
     }
    }
   },
@@ -2166,6 +2235,43 @@
    }
   },
   {
+   "name": "Hewchy's VAI 135 Prox",
+   "def": {
+    "durationSeconds": 30,
+    "shotType": {
+     "trackingProximity": true
+    },
+    "targetDef": {
+     "numTargets": 1,
+     "profiles": [
+      {
+       "targetRadius": 6,
+       "speed": 95
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "barrelRoom": {
+      "radius": 123
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.95
+    },
+    "centeringDef": {
+     "angle": -45,
+     "angleLength": {
+      "xPercentValue": 0.95
+     }
+    }
+   }
+  },
+  {
    "name": "Hewchy's VAI 135 Small",
    "def": {
     "overrides": {
@@ -2229,6 +2335,43 @@
     "referenceDef": {
      "scenarioName": "TSK Hewchy's VAI 160",
      "explicitTargetRadius": 5
+    }
+   }
+  },
+  {
+   "name": "Hewchy's VAI 160 Prox",
+   "def": {
+    "durationSeconds": 30,
+    "shotType": {
+     "trackingProximity": true
+    },
+    "targetDef": {
+     "numTargets": 1,
+     "profiles": [
+      {
+       "targetRadius": 6,
+       "speed": 95
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "barrelRoom": {
+      "radius": 123
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.95
+    },
+    "centeringDef": {
+     "angle": -70,
+     "angleLength": {
+      "xPercentValue": 0.95
+     }
     }
    }
   },
@@ -2300,6 +2443,43 @@
    }
   },
   {
+   "name": "Hewchy's VAI 20 Prox",
+   "def": {
+    "durationSeconds": 30,
+    "shotType": {
+     "trackingProximity": true
+    },
+    "targetDef": {
+     "numTargets": 1,
+     "profiles": [
+      {
+       "targetRadius": 6,
+       "speed": 95
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "barrelRoom": {
+      "radius": 123
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.95
+    },
+    "centeringDef": {
+     "angle": 70,
+     "angleLength": {
+      "xPercentValue": 0.95
+     }
+    }
+   }
+  },
+  {
    "name": "Hewchy's VAI 20 Small",
    "def": {
     "overrides": {
@@ -2367,18 +2547,39 @@
    }
   },
   {
-   "name": "Hewchy's VAI 70 Ladder",
+   "name": "Hewchy's VAI 45 Prox",
    "def": {
-    "overrides": {},
+    "durationSeconds": 30,
+    "shotType": {
+     "trackingProximity": true
+    },
+    "targetDef": {
+     "numTargets": 1,
+     "profiles": [
+      {
+       "targetRadius": 6,
+       "speed": 95
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "barrelRoom": {
+      "radius": 123
+     }
+    },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.95
     },
-    "scoreTargets": {
-     "targetScore": 70
-    },
-    "referenceDef": {
-     "scenarioName": "TSK Hewchy's VAI 70",
-     "explicitTargetRadius": 5
+    "centeringDef": {
+     "angle": 45,
+     "angleLength": {
+      "xPercentValue": 0.95
+     }
     }
    }
   },
@@ -2429,6 +2630,59 @@
      "angle": 20,
      "angleLength": {
       "xPercentValue": 0.97
+     }
+    }
+   }
+  },
+  {
+   "name": "Hewchy's VAI 70 Ladder",
+   "def": {
+    "overrides": {},
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96
+    },
+    "scoreTargets": {
+     "targetScore": 70
+    },
+    "referenceDef": {
+     "scenarioName": "TSK Hewchy's VAI 70",
+     "explicitTargetRadius": 5
+    }
+   }
+  },
+  {
+   "name": "Hewchy's VAI 70 Prox",
+   "def": {
+    "durationSeconds": 30,
+    "shotType": {
+     "trackingProximity": true
+    },
+    "targetDef": {
+     "numTargets": 1,
+     "profiles": [
+      {
+       "targetRadius": 6,
+       "speed": 95
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "barrelRoom": {
+      "radius": 123
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.95
+    },
+    "centeringDef": {
+     "angle": 20,
+     "angleLength": {
+      "xPercentValue": 0.95
      }
     }
    }
@@ -3365,6 +3619,15 @@
    }
   },
   {
+   "name": "Box Tracking Ladder",
+   "def": {
+    "levels": {
+     "baseScenario": "TSK Box Tracking Ladder",
+     "maxLevel": 40
+    }
+   }
+  },
+  {
    "name": "Centering 180 Speed 2 Ladder",
    "def": {
     "levels": {
@@ -3397,6 +3660,15 @@
    "def": {
     "levels": {
      "baseScenario": "TSK Centering 90 Speed 2 Ladder",
+     "maxLevel": 40
+    }
+   }
+  },
+  {
+   "name": "DVD Tracking Ladder",
+   "def": {
+    "levels": {
+     "baseScenario": "TSK DVD Tracking Ladder",
      "maxLevel": 40
     }
    }
@@ -3700,6 +3972,37 @@
    }
   },
   {
+   "name": "Ultimate Benchmarks - VAI Prox",
+   "def": {
+    "items": [
+     {
+      "scenario": "TSK Hewchy's VAI 20 Prox",
+      "numPlays": 1
+     },
+     {
+      "scenario": "TSK Hewchy's VAI 160 Prox",
+      "numPlays": 1
+     },
+     {
+      "scenario": "TSK Hewchy's VAI 70 Prox",
+      "numPlays": 1
+     },
+     {
+      "scenario": "TSK Hewchy's VAI 110 Prox",
+      "numPlays": 1
+     },
+     {
+      "scenario": "TSK Hewchy's VAI 45 Prox",
+      "numPlays": 1
+     },
+     {
+      "scenario": "TSK Hewchy's VAI 135 Prox",
+      "numPlays": 1
+     }
+    ]
+   }
+  },
+  {
    "name": "Ultimate Benchmarks - Vertical",
    "def": {
     "description": "",
@@ -3804,6 +4107,41 @@
        "TSK 360 Turn Ladder 105cm",
        "TSK 360 Turn Ladder 110cm",
        "TSK 360 Turn Ladder 115cm"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "name": "Box Tracking",
+   "def": {
+    "sections": [
+     {
+      "text": "",
+      "playlists": [
+       "TSK Box Tracking Ladder",
+       "TSK Box Tracking Ladder 10cm",
+       "TSK Box Tracking Ladder 15cm",
+       "TSK Box Tracking Ladder 20cm",
+       "TSK Box Tracking Ladder 25cm",
+       "TSK Box Tracking Ladder 30cm",
+       "TSK Box Tracking Ladder 35cm",
+       "TSK Box Tracking Ladder 40cm",
+       "TSK Box Tracking Ladder 45cm",
+       "TSK Box Tracking Ladder 50cm",
+       "TSK Box Tracking Ladder 55cm",
+       "TSK Box Tracking Ladder 60cm",
+       "TSK Box Tracking Ladder 65cm",
+       "TSK Box Tracking Ladder 70cm",
+       "TSK Box Tracking Ladder 75cm",
+       "TSK Box Tracking Ladder 80cm",
+       "TSK Box Tracking Ladder 85cm",
+       "TSK Box Tracking Ladder 90cm",
+       "TSK Box Tracking Ladder 95cm",
+       "TSK Box Tracking Ladder 100cm",
+       "TSK Box Tracking Ladder 105cm",
+       "TSK Box Tracking Ladder 110cm",
+       "TSK Box Tracking Ladder 115cm"
       ]
      }
     ]
@@ -3944,6 +4282,41 @@
        "TSK Centering 90 Speed 2 Ladder 105cm",
        "TSK Centering 90 Speed 2 Ladder 110cm",
        "TSK Centering 90 Speed 2 Ladder 115cm"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "name": "DVD Tracking",
+   "def": {
+    "sections": [
+     {
+      "text": "",
+      "playlists": [
+       "TSK DVD Tracking Ladder",
+       "TSK DVD Tracking Ladder 10cm",
+       "TSK DVD Tracking Ladder 15cm",
+       "TSK DVD Tracking Ladder 20cm",
+       "TSK DVD Tracking Ladder 25cm",
+       "TSK DVD Tracking Ladder 30cm",
+       "TSK DVD Tracking Ladder 35cm",
+       "TSK DVD Tracking Ladder 40cm",
+       "TSK DVD Tracking Ladder 45cm",
+       "TSK DVD Tracking Ladder 50cm",
+       "TSK DVD Tracking Ladder 55cm",
+       "TSK DVD Tracking Ladder 60cm",
+       "TSK DVD Tracking Ladder 65cm",
+       "TSK DVD Tracking Ladder 70cm",
+       "TSK DVD Tracking Ladder 75cm",
+       "TSK DVD Tracking Ladder 80cm",
+       "TSK DVD Tracking Ladder 85cm",
+       "TSK DVD Tracking Ladder 90cm",
+       "TSK DVD Tracking Ladder 95cm",
+       "TSK DVD Tracking Ladder 100cm",
+       "TSK DVD Tracking Ladder 105cm",
+       "TSK DVD Tracking Ladder 110cm",
+       "TSK DVD Tracking Ladder 115cm"
       ]
      }
     ]
