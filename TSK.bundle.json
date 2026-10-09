@@ -2055,6 +2055,9 @@
     "levelOverrides": {
      "targetRadiusMultiplier": 0.95
     },
+    "scoreTargets": {
+     "targetScore": 70
+    },
     "centeringDef": {
      "angle": -20,
      "angleLength": {
@@ -2135,6 +2138,9 @@
     "levelOverrides": {
      "targetRadiusMultiplier": 0.95
     },
+    "scoreTargets": {
+     "targetScore": 70
+    },
     "centeringDef": {
      "angle": -45,
      "angleLength": {
@@ -2198,6 +2204,9 @@
     },
     "levelOverrides": {
      "targetRadiusMultiplier": 0.95
+    },
+    "scoreTargets": {
+     "targetScore": 70
     },
     "centeringDef": {
      "angle": -70,
@@ -2263,6 +2272,9 @@
     "levelOverrides": {
      "targetRadiusMultiplier": 0.95
     },
+    "scoreTargets": {
+     "targetScore": 70
+    },
     "centeringDef": {
      "angle": 70,
      "angleLength": {
@@ -2327,6 +2339,9 @@
     "levelOverrides": {
      "targetRadiusMultiplier": 0.95
     },
+    "scoreTargets": {
+     "targetScore": 70
+    },
     "centeringDef": {
      "angle": 45,
      "angleLength": {
@@ -2347,6 +2362,22 @@
     },
     "referenceDef": {
      "scenarioName": "TSK Hewchy's VAI 45",
+     "explicitTargetRadius": 5
+    }
+   }
+  },
+  {
+   "name": "Hewchy's VAI 70 Ladder",
+   "def": {
+    "overrides": {},
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96
+    },
+    "scoreTargets": {
+     "targetScore": 70
+    },
+    "referenceDef": {
+     "scenarioName": "TSK Hewchy's VAI 70",
      "explicitTargetRadius": 5
     }
    }
@@ -2389,7 +2420,10 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.950000048
+     "targetRadiusMultiplier": 0.95
+    },
+    "scoreTargets": {
+     "targetScore": 70
     },
     "centeringDef": {
      "angle": 20,
@@ -3946,6 +3980,28 @@
        "TSK Hewchy's VAI 110 Ladder 110cm",
        "TSK Hewchy's VAI 110 Ladder 115cm"
       ]
+     },
+     {
+      "text": "\nOther angles",
+      "playlists": [
+       "TSK Hewchy's VAI 110 Ladder",
+       "TSK Hewchy's VAI 135 Ladder",
+       "TSK Hewchy's VAI 160 Ladder",
+       "TSK Hewchy's VAI 20 Ladder",
+       "TSK Hewchy's VAI 45 Ladder",
+       "TSK Hewchy's VAI 70 Ladder"
+      ]
+     },
+     {
+      "text": "\n",
+      "guides": [
+       "TSK Hewchy's VAI 110",
+       "TSK Hewchy's VAI 135",
+       "TSK Hewchy's VAI 160",
+       "TSK Hewchy's VAI 20",
+       "TSK Hewchy's VAI 45",
+       "TSK Hewchy's VAI 70"
+      ]
      }
     ]
    }
@@ -3980,6 +4036,28 @@
        "TSK Hewchy's VAI 135 Ladder 105cm",
        "TSK Hewchy's VAI 135 Ladder 110cm",
        "TSK Hewchy's VAI 135 Ladder 115cm"
+      ]
+     },
+     {
+      "text": "\nOther angles",
+      "playlists": [
+       "TSK Hewchy's VAI 110 Ladder",
+       "TSK Hewchy's VAI 135 Ladder",
+       "TSK Hewchy's VAI 160 Ladder",
+       "TSK Hewchy's VAI 20 Ladder",
+       "TSK Hewchy's VAI 45 Ladder",
+       "TSK Hewchy's VAI 70 Ladder"
+      ]
+     },
+     {
+      "text": "\n",
+      "guides": [
+       "TSK Hewchy's VAI 110",
+       "TSK Hewchy's VAI 135",
+       "TSK Hewchy's VAI 160",
+       "TSK Hewchy's VAI 20",
+       "TSK Hewchy's VAI 45",
+       "TSK Hewchy's VAI 70"
       ]
      }
     ]
@@ -4016,6 +4094,28 @@
        "TSK Hewchy's VAI 160 Ladder 110cm",
        "TSK Hewchy's VAI 160 Ladder 115cm"
       ]
+     },
+     {
+      "text": "\nOther angles",
+      "playlists": [
+       "TSK Hewchy's VAI 110 Ladder",
+       "TSK Hewchy's VAI 135 Ladder",
+       "TSK Hewchy's VAI 160 Ladder",
+       "TSK Hewchy's VAI 20 Ladder",
+       "TSK Hewchy's VAI 45 Ladder",
+       "TSK Hewchy's VAI 70 Ladder"
+      ]
+     },
+     {
+      "text": "\n",
+      "guides": [
+       "TSK Hewchy's VAI 110",
+       "TSK Hewchy's VAI 135",
+       "TSK Hewchy's VAI 160",
+       "TSK Hewchy's VAI 20",
+       "TSK Hewchy's VAI 45",
+       "TSK Hewchy's VAI 70"
+      ]
      }
     ]
    }
@@ -4050,6 +4150,28 @@
        "TSK Hewchy's VAI 20 Ladder 105cm",
        "TSK Hewchy's VAI 20 Ladder 110cm",
        "TSK Hewchy's VAI 20 Ladder 115cm"
+      ]
+     },
+     {
+      "text": "\nOther angles",
+      "playlists": [
+       "TSK Hewchy's VAI 110 Ladder",
+       "TSK Hewchy's VAI 135 Ladder",
+       "TSK Hewchy's VAI 160 Ladder",
+       "TSK Hewchy's VAI 20 Ladder",
+       "TSK Hewchy's VAI 45 Ladder",
+       "TSK Hewchy's VAI 70 Ladder"
+      ]
+     },
+     {
+      "text": "\n",
+      "guides": [
+       "TSK Hewchy's VAI 110",
+       "TSK Hewchy's VAI 135",
+       "TSK Hewchy's VAI 160",
+       "TSK Hewchy's VAI 20",
+       "TSK Hewchy's VAI 45",
+       "TSK Hewchy's VAI 70"
       ]
      }
     ]
@@ -4086,6 +4208,28 @@
        "TSK Hewchy's VAI 45 Ladder 110cm",
        "TSK Hewchy's VAI 45 Ladder 115cm"
       ]
+     },
+     {
+      "text": "\nOther angles",
+      "playlists": [
+       "TSK Hewchy's VAI 110 Ladder",
+       "TSK Hewchy's VAI 135 Ladder",
+       "TSK Hewchy's VAI 160 Ladder",
+       "TSK Hewchy's VAI 20 Ladder",
+       "TSK Hewchy's VAI 45 Ladder",
+       "TSK Hewchy's VAI 70 Ladder"
+      ]
+     },
+     {
+      "text": "\n",
+      "guides": [
+       "TSK Hewchy's VAI 110",
+       "TSK Hewchy's VAI 135",
+       "TSK Hewchy's VAI 160",
+       "TSK Hewchy's VAI 20",
+       "TSK Hewchy's VAI 45",
+       "TSK Hewchy's VAI 70"
+      ]
      }
     ]
    }
@@ -4121,6 +4265,28 @@
        "TSK Hewchy's VAI 70 Ladder 110cm",
        "TSK Hewchy's VAI 70 Ladder 115cm"
       ]
+     },
+     {
+      "text": "\nOther angles",
+      "playlists": [
+       "TSK Hewchy's VAI 110 Ladder",
+       "TSK Hewchy's VAI 135 Ladder",
+       "TSK Hewchy's VAI 160 Ladder",
+       "TSK Hewchy's VAI 20 Ladder",
+       "TSK Hewchy's VAI 45 Ladder",
+       "TSK Hewchy's VAI 70 Ladder"
+      ]
+     },
+     {
+      "text": "\n",
+      "guides": [
+       "TSK Hewchy's VAI 110",
+       "TSK Hewchy's VAI 135",
+       "TSK Hewchy's VAI 160",
+       "TSK Hewchy's VAI 20",
+       "TSK Hewchy's VAI 45",
+       "TSK Hewchy's VAI 70"
+      ]
      }
     ]
    }
@@ -4155,6 +4321,41 @@
        "TSK ST60 Ladder 105cm",
        "TSK ST60 Ladder 110cm",
        "TSK ST60 Ladder 115cm"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "name": "SYV",
+   "def": {
+    "sections": [
+     {
+      "text": "",
+      "playlists": [
+       "TSK SYV Ladder",
+       "TSK SYV Ladder 10cm",
+       "TSK SYV Ladder 15cm",
+       "TSK SYV Ladder 20cm",
+       "TSK SYV Ladder 25cm",
+       "TSK SYV Ladder 30cm",
+       "TSK SYV Ladder 35cm",
+       "TSK SYV Ladder 40cm",
+       "TSK SYV Ladder 45cm",
+       "TSK SYV Ladder 50cm",
+       "TSK SYV Ladder 55cm",
+       "TSK SYV Ladder 60cm",
+       "TSK SYV Ladder 65cm",
+       "TSK SYV Ladder 70cm",
+       "TSK SYV Ladder 75cm",
+       "TSK SYV Ladder 80cm",
+       "TSK SYV Ladder 85cm",
+       "TSK SYV Ladder 90cm",
+       "TSK SYV Ladder 95cm",
+       "TSK SYV Ladder 100cm",
+       "TSK SYV Ladder 105cm",
+       "TSK SYV Ladder 110cm",
+       "TSK SYV Ladder 115cm"
       ]
      }
     ]
@@ -4365,41 +4566,6 @@
        "TSK Varied Centering 90 Trio Ladder 105cm",
        "TSK Varied Centering 90 Trio Ladder 110cm",
        "TSK Varied Centering 90 Trio Ladder 115cm"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "SYV",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "TSK SYV Ladder",
-       "TSK SYV Ladder 10cm",
-       "TSK SYV Ladder 15cm",
-       "TSK SYV Ladder 20cm",
-       "TSK SYV Ladder 25cm",
-       "TSK SYV Ladder 30cm",
-       "TSK SYV Ladder 35cm",
-       "TSK SYV Ladder 40cm",
-       "TSK SYV Ladder 45cm",
-       "TSK SYV Ladder 50cm",
-       "TSK SYV Ladder 55cm",
-       "TSK SYV Ladder 60cm",
-       "TSK SYV Ladder 65cm",
-       "TSK SYV Ladder 70cm",
-       "TSK SYV Ladder 75cm",
-       "TSK SYV Ladder 80cm",
-       "TSK SYV Ladder 85cm",
-       "TSK SYV Ladder 90cm",
-       "TSK SYV Ladder 95cm",
-       "TSK SYV Ladder 100cm",
-       "TSK SYV Ladder 105cm",
-       "TSK SYV Ladder 110cm",
-       "TSK SYV Ladder 115cm"
       ]
      }
     ]
