@@ -1342,12 +1342,11 @@
   {
    "name": "Bounce Overhead Ladder",
    "def": {
-    "overrides": {},
     "levelOverrides": {
      "targetRadiusMultiplier": 0.96
     },
     "scoreTargets": {
-     "targetScore": 55
+     "targetScore": 50
     },
     "referenceDef": {
      "scenarioName": "AF Bounce Overhead",
@@ -6468,6 +6467,68 @@
      }
     }
    }
+  },
+  {
+   "name": "WidePulse",
+   "def": {
+    "durationSeconds": 40,
+    "shotType": {
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 4,
+     "profiles": [
+      {
+       "targetRadius": 1.1,
+       "speedJitter": 0,
+       "targetRadiusGrowthTimeSeconds": 2.1,
+       "targetRadiusGrowthSize": 4,
+       "targetRadiusGrowthFinalSizeTimeSeconds": 0.3,
+       "targetRadiusGrowthAccelerationFactor": 0.6
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 92,
+      "width": 231
+     }
+    },
+    "levelOverrides": {
+     "growthTimeMultiplier": 0.95
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "ellipse": {
+         "xDiameter": {
+          "xPercentValue": 0.9
+         },
+         "yDiameter": {
+          "yPercentValue": 0.9
+         }
+        }
+       }
+      ],
+      "minDistance": {
+       "value": 20
+      },
+      "minXDistance": {
+       "xPercentValue": 0.03
+      },
+      "minYDistance": {
+       "yPercentValue": 0.03
+      }
+     }
+    }
+   }
   }
  ],
  "playlists": [
@@ -6700,7 +6761,6 @@
   {
    "name": "Clicking",
    "def": {
-    "description": "",
     "items": [
      {
       "scenario": "AF Static3",
@@ -6744,6 +6804,10 @@
      },
      {
       "scenario": "AF MicroClick Wander",
+      "numPlays": 1
+     },
+     {
+      "scenario": "AF WidePulse",
       "numPlays": 1
      }
     ]
@@ -7002,26 +7066,6 @@
    }
   },
   {
-   "name": "SnakeClick Distance",
-   "def": {
-    "levels": {
-     "baseScenario": "AF SnakeClick Distance",
-     "maxLevel": 30
-    }
-   }
-  },
-  {
-   "name": "Static Precision Ladder",
-   "def": {
-    "description": "",
-    "levels": {
-     "baseScenario": "AF Static Precision Ladder",
-     "maxLevel": 40,
-     "numPlaysPerLevel": 1
-    }
-   }
-  },
-  {
    "name": "Static Speed Ladder",
    "def": {
     "description": "",
@@ -7057,11 +7101,11 @@
   {
    "name": "Static3 Poke Ladder",
    "def": {
-    "description": "",
     "levels": {
      "baseScenario": "AF Static3 Ladder Poke",
      "maxLevel": 40,
-     "numPlaysPerLevel": 1
+     "numPlaysPerLevel": 1,
+     "targetScore": 125
     }
    }
   },
