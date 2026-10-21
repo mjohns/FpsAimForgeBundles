@@ -33,7 +33,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.95,
+     "levelOffset": 30
+    },
+    "scoreTargets": {
+     "targetScore": 75
     },
     "waypointDef": {
      "targetPlacementStrategy": {
@@ -82,22 +86,6 @@
    }
   },
   {
-   "name": "360 Turn Ladder",
-   "def": {
-    "overrides": {},
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
-    },
-    "scoreTargets": {
-     "targetScore": 75
-    },
-    "referenceDef": {
-     "scenarioName": "TSK 360 Turn",
-     "explicitTargetRadius": 4.5
-    }
-   }
-  },
-  {
    "name": "Box Tracking",
    "def": {
     "durationSeconds": 30,
@@ -125,7 +113,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.95,
+     "levelOffset": 30
+    },
+    "scoreTargets": {
+     "targetScore": 70
     },
     "waypointDef": {
      "targetPlacementStrategy": {
@@ -220,157 +212,6 @@
    }
   },
   {
-   "name": "Box Tracking Ladder",
-   "def": {
-    "overrides": {},
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
-    },
-    "scoreTargets": {
-     "targetScore": 70
-    },
-    "referenceDef": {
-     "scenarioName": "TSK Box Tracking",
-     "explicitTargetRadius": 5
-    }
-   }
-  },
-  {
-   "name": "Box Tracking Pure",
-   "def": {
-    "description": "Box tracking but bottom left is always fixed in the corner",
-    "durationSeconds": 30,
-    "shotType": {
-     "trackingInvincible": true
-    },
-    "targetDef": {
-     "numTargets": 1,
-     "profiles": [
-      {
-       "targetRadius": 1.6,
-       "speed": 92
-      }
-     ]
-    },
-    "room": {
-     "cameraPosition": {
-      "x": 0,
-      "y": -200,
-      "z": 0
-     },
-     "simpleRoom": {
-      "height": 114,
-      "width": 248
-     }
-    },
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.950000048
-    },
-    "waypointDef": {
-     "targetPlacementStrategy": {
-      "regions": [
-       {
-        "info": {
-         "description": "Bottom Left"
-        },
-        "depth": {
-         "depthPercentValue": 0
-        },
-        "depthJitter": {
-         "depthPercentValue": 0
-        },
-        "point": {
-         "x": {
-          "xPercentValue": -0.49
-         },
-         "y": {
-          "yPercentValue": -0.48
-         }
-        }
-       },
-       {
-        "info": {
-         "description": "Top Right"
-        },
-        "depth": {
-         "depthPercentValue": 0
-        },
-        "depthJitter": {
-         "depthPercentValue": 0
-        },
-        "point": {
-         "x": {
-          "xPercentValue": 0.49
-         },
-         "y": {
-          "yPercentValue": 0.48
-         }
-        }
-       },
-       {
-        "info": {
-         "description": "Bottom Right"
-        },
-        "depth": {
-         "depthPercentValue": 0
-        },
-        "depthJitter": {
-         "depthPercentValue": 0
-        },
-        "point": {
-         "x": {
-          "xPercentValue": 0.49
-         },
-         "y": {
-          "yPercentValue": -0.48
-         }
-        }
-       },
-       {
-        "info": {
-         "description": "Top Left"
-        },
-        "depth": {
-         "depthPercentValue": 0
-        },
-        "depthJitter": {
-         "depthPercentValue": 0
-        },
-        "point": {
-         "x": {
-          "xPercentValue": -0.49
-         },
-         "y": {
-          "yPercentValue": 0.48
-         }
-        }
-       }
-      ],
-      "regionsInfo": {
-       "explicitOrder": [
-        0,
-        1,
-        2,
-        3
-       ]
-      }
-     }
-    }
-   }
-  },
-  {
-   "name": "Box Tracking Pure Small",
-   "def": {
-    "description": "Box tracking but bottom left is always fixed in the corner",
-    "overrides": {
-     "targetRadiusMultiplier": 0.9
-    },
-    "referenceDef": {
-     "scenarioName": "TSK Box Tracking Pure"
-    }
-   }
-  },
-  {
    "name": "Box Tracking Small",
    "def": {
     "overrides": {
@@ -384,7 +225,7 @@
   {
    "name": "Centering 180 Speed 2",
    "def": {
-    "durationSeconds": 30,
+    "durationSeconds": 40,
     "shotType": {
      "trackingInvincible": true
     },
@@ -415,7 +256,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.950000048
+     "targetRadiusMultiplier": 0.95,
+     "levelOffset": 30
+    },
+    "scoreTargets": {
+     "targetScore": 75
     },
     "strafeDef": {
      "bounds": {
@@ -436,22 +281,6 @@
      "leftRightInitialDirection": "DIRECTION_POSITIVE",
      "upDownInitialDirection": "DIRECTION_RANDOM",
      "forwardBackInitialDirection": "DIRECTION_RANDOM"
-    }
-   }
-  },
-  {
-   "name": "Centering 180 Speed 2 Ladder",
-   "def": {
-    "overrides": {},
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
-    },
-    "scoreTargets": {
-     "targetScore": 75
-    },
-    "referenceDef": {
-     "scenarioName": "TSK Centering 180 Speed 2",
-     "explicitTargetRadius": 4.5
     }
    }
   },
@@ -489,7 +318,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.950000048
+     "targetRadiusMultiplier": 0.95,
+     "levelOffset": 30
+    },
+    "scoreTargets": {
+     "targetScore": 75
     },
     "strafeDef": {
      "bounds": {
@@ -510,22 +343,6 @@
      "leftRightInitialDirection": "DIRECTION_POSITIVE",
      "upDownInitialDirection": "DIRECTION_RANDOM",
      "forwardBackInitialDirection": "DIRECTION_RANDOM"
-    }
-   }
-  },
-  {
-   "name": "Centering 180 Speed 3 Ladder",
-   "def": {
-    "overrides": {},
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
-    },
-    "scoreTargets": {
-     "targetScore": 75
-    },
-    "referenceDef": {
-     "scenarioName": "TSK Centering 180 Speed 3",
-     "explicitTargetRadius": 4.5
     }
    }
   },
@@ -562,7 +379,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.950000048
+     "targetRadiusMultiplier": 0.95,
+     "levelOffset": 30
+    },
+    "scoreTargets": {
+     "targetScore": 75
     },
     "strafeDef": {
      "bounds": {
@@ -588,22 +409,6 @@
    }
   },
   {
-   "name": "Centering 45 Speed 2 Stop Ladder",
-   "def": {
-    "overrides": {},
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
-    },
-    "scoreTargets": {
-     "targetScore": 75
-    },
-    "referenceDef": {
-     "scenarioName": "TSK Centering 45 Speed 2 Stop",
-     "explicitTargetRadius": 4.5
-    }
-   }
-  },
-  {
    "name": "Centering 90 Speed 2",
    "def": {
     "durationSeconds": 30,
@@ -614,7 +419,7 @@
      "numTargets": 1,
      "profiles": [
       {
-       "targetRadius": 1.0999999,
+       "targetRadius": 1.1,
        "speed": 75.5999908,
        "acceleration": 220,
        "pill": {
@@ -637,7 +442,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.950000048
+     "targetRadiusMultiplier": 0.95,
+     "levelOffset": 30
+    },
+    "scoreTargets": {
+     "targetScore": 75
     },
     "strafeDef": {
      "bounds": {
@@ -658,21 +467,6 @@
      "leftRightInitialDirection": "DIRECTION_POSITIVE",
      "upDownInitialDirection": "DIRECTION_RANDOM",
      "forwardBackInitialDirection": "DIRECTION_RANDOM"
-    }
-   }
-  },
-  {
-   "name": "Centering 90 Speed 2 Ladder",
-   "def": {
-    "overrides": {
-     "targetRadiusMultiplier": 0.96
-    },
-    "scoreTargets": {
-     "targetScore": 75
-    },
-    "referenceDef": {
-     "scenarioName": "TSK Centering 90 Speed 2",
-     "explicitTargetRadius": 4.5
     }
    }
   },
@@ -714,7 +508,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.95,
+     "levelOffset": 30
+    },
+    "scoreTargets": {
+     "targetScore": 130
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -811,7 +609,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.95,
+     "levelOffset": 30
+    },
+    "scoreTargets": {
+     "targetScore": 130
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -936,7 +738,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 25
+    },
+    "scoreTargets": {
+     "targetScore": 115
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -1016,7 +822,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 25
+    },
+    "scoreTargets": {
+     "targetScore": 115
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -1111,7 +921,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 25
+    },
+    "scoreTargets": {
+     "targetScore": 115
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -1191,7 +1005,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 25
+    },
+    "scoreTargets": {
+     "targetScore": 115
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -1286,7 +1104,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 25
+    },
+    "scoreTargets": {
+     "targetScore": 115
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -1366,7 +1188,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 25
+    },
+    "scoreTargets": {
+     "targetScore": 115
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -1461,7 +1287,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 25
+    },
+    "scoreTargets": {
+     "targetScore": 110
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -1541,7 +1371,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 25
+    },
+    "scoreTargets": {
+     "targetScore": 110
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -1609,7 +1443,7 @@
      "numTargets": 1,
      "profiles": [
       {
-       "targetRadius": 1.39999986,
+       "targetRadius": 1.4,
        "speed": 57
       }
      ]
@@ -1626,7 +1460,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.950000048
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 30
+    },
+    "scoreTargets": {
+     "targetScore": 75
     },
     "waypointDef": {
      "targetPlacementStrategy": {
@@ -2032,22 +1870,6 @@
    }
   },
   {
-   "name": "DVD Tracking Ladder",
-   "def": {
-    "overrides": {},
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
-    },
-    "scoreTargets": {
-     "targetScore": 75
-    },
-    "referenceDef": {
-     "scenarioName": "TSK DVD Tracking",
-     "explicitTargetRadius": 5
-    }
-   }
-  },
-  {
    "name": "DVD Tracking Small",
    "def": {
     "overrides": {
@@ -2085,7 +1907,8 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.95,
+     "levelOffset": 20
     },
     "scoreTargets": {
      "targetScore": 70
@@ -2095,22 +1918,6 @@
      "angleLength": {
       "xPercentValue": 0.97
      }
-    }
-   }
-  },
-  {
-   "name": "Hewchy's VAI 110 Ladder",
-   "def": {
-    "overrides": {},
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
-    },
-    "scoreTargets": {
-     "targetScore": 70
-    },
-    "referenceDef": {
-     "scenarioName": "TSK Hewchy's VAI 110",
-     "explicitTargetRadius": 5
     }
    }
   },
@@ -2141,7 +1948,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "speedMultiplier": 1.03,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 700
     },
     "centeringDef": {
      "angle": -20,
@@ -2159,22 +1970,6 @@
     },
     "referenceDef": {
      "scenarioName": "TSK Hewchy's VAI 110"
-    }
-   }
-  },
-  {
-   "name": "Hewchy's VAI 130 Ladder",
-   "def": {
-    "overrides": {},
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
-    },
-    "scoreTargets": {
-     "targetScore": 70
-    },
-    "referenceDef": {
-     "scenarioName": "TSK Hewchy's VAI 130",
-     "explicitTargetRadius": 5
     }
    }
   },
@@ -2205,7 +2000,8 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.95,
+     "levelOffset": 20
     },
     "scoreTargets": {
      "targetScore": 70
@@ -2215,22 +2011,6 @@
      "angleLength": {
       "xPercentValue": 0.97
      }
-    }
-   }
-  },
-  {
-   "name": "Hewchy's VAI 135 Ladder",
-   "def": {
-    "overrides": {},
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
-    },
-    "scoreTargets": {
-     "targetScore": 70
-    },
-    "referenceDef": {
-     "scenarioName": "TSK Hewchy's VAI 110",
-     "explicitTargetRadius": 5
     }
    }
   },
@@ -2261,7 +2041,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "speedMultiplier": 1.03,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 700
     },
     "centeringDef": {
      "angle": -45,
@@ -2309,7 +2093,8 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.95,
+     "levelOffset": 20
     },
     "scoreTargets": {
      "targetScore": 70
@@ -2319,22 +2104,6 @@
      "angleLength": {
       "xPercentValue": 0.98
      }
-    }
-   }
-  },
-  {
-   "name": "Hewchy's VAI 160 Ladder",
-   "def": {
-    "overrides": {},
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
-    },
-    "scoreTargets": {
-     "targetScore": 70
-    },
-    "referenceDef": {
-     "scenarioName": "TSK Hewchy's VAI 160",
-     "explicitTargetRadius": 5
     }
    }
   },
@@ -2365,7 +2134,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "speedMultiplier": 1.03,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 700
     },
     "centeringDef": {
      "angle": -70,
@@ -2413,7 +2186,8 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.95,
+     "levelOffset": 20
     },
     "scoreTargets": {
      "targetScore": 70
@@ -2423,22 +2197,6 @@
      "angleLength": {
       "xPercentValue": 0.97
      }
-    }
-   }
-  },
-  {
-   "name": "Hewchy's VAI 20 Ladder",
-   "def": {
-    "overrides": {},
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
-    },
-    "scoreTargets": {
-     "targetScore": 70
-    },
-    "referenceDef": {
-     "scenarioName": "TSK Hewchy's VAI 20",
-     "explicitTargetRadius": 5
     }
    }
   },
@@ -2469,7 +2227,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "speedMultiplier": 1.03,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 700
     },
     "centeringDef": {
      "angle": 70,
@@ -2517,7 +2279,8 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.95,
+     "levelOffset": 20
     },
     "scoreTargets": {
      "targetScore": 70
@@ -2527,22 +2290,6 @@
      "angleLength": {
       "xPercentValue": 0.97
      }
-    }
-   }
-  },
-  {
-   "name": "Hewchy's VAI 45 Ladder",
-   "def": {
-    "overrides": {},
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
-    },
-    "scoreTargets": {
-     "targetScore": 70
-    },
-    "referenceDef": {
-     "scenarioName": "TSK Hewchy's VAI 45",
-     "explicitTargetRadius": 5
     }
    }
   },
@@ -2573,7 +2320,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "speedMultiplier": 1.03,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 700
     },
     "centeringDef": {
      "angle": 45,
@@ -2621,7 +2372,8 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.95,
+     "levelOffset": 20
     },
     "scoreTargets": {
      "targetScore": 70
@@ -2631,22 +2383,6 @@
      "angleLength": {
       "xPercentValue": 0.97
      }
-    }
-   }
-  },
-  {
-   "name": "Hewchy's VAI 70 Ladder",
-   "def": {
-    "overrides": {},
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
-    },
-    "scoreTargets": {
-     "targetScore": 70
-    },
-    "referenceDef": {
-     "scenarioName": "TSK Hewchy's VAI 70",
-     "explicitTargetRadius": 5
     }
    }
   },
@@ -2677,7 +2413,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "speedMultiplier": 1.03,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 700
     },
     "centeringDef": {
      "angle": 20,
@@ -2709,7 +2449,7 @@
      "numTargets": 1,
      "profiles": [
       {
-       "targetRadius": 1.19999981,
+       "targetRadius": 1.2,
        "speed": 97.2,
        "acceleration": 280,
        "pill": {
@@ -2730,7 +2470,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.950000048
+     "targetRadiusMultiplier": 0.95,
+     "levelOffset": 30
+    },
+    "scoreTargets": {
+     "targetScore": 75
     },
     "strafeDef": {
      "bounds": {
@@ -2755,22 +2499,6 @@
    }
   },
   {
-   "name": "ST60 Ladder",
-   "def": {
-    "overrides": {},
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
-    },
-    "scoreTargets": {
-     "targetScore": 75
-    },
-    "referenceDef": {
-     "scenarioName": "TSK ST60",
-     "explicitTargetRadius": 4.5
-    }
-   }
-  },
-  {
    "name": "ST60 Thick",
    "def": {
     "durationSeconds": 30,
@@ -2781,7 +2509,7 @@
      "numTargets": 1,
      "profiles": [
       {
-       "targetRadius": 1.59999943,
+       "targetRadius": 1.6,
        "speed": 97.2,
        "acceleration": 280,
        "pill": {
@@ -2802,7 +2530,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.950000048
+     "targetRadiusMultiplier": 0.95,
+     "levelOffset": 25
+    },
+    "scoreTargets": {
+     "targetScore": 85
     },
     "strafeDef": {
      "bounds": {
@@ -2854,7 +2586,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.95,
+     "levelOffset": 30
+    },
+    "scoreTargets": {
+     "targetScore": 70
     },
     "centeringDef": {
      "wallPoints": [
@@ -2917,7 +2653,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.95,
+     "levelOffset": 30
+    },
+    "scoreTargets": {
+     "targetScore": 70
     },
     "centeringDef": {
      "wallPoints": [
@@ -2938,38 +2678,6 @@
        }
       }
      ]
-    }
-   }
-  },
-  {
-   "name": "SYV Down Close Ladder",
-   "def": {
-    "overrides": {},
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
-    },
-    "scoreTargets": {
-     "targetScore": 70
-    },
-    "referenceDef": {
-     "scenarioName": "TSK SYV Down Close",
-     "explicitTargetRadius": 5
-    }
-   }
-  },
-  {
-   "name": "SYV Ladder",
-   "def": {
-    "overrides": {},
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
-    },
-    "scoreTargets": {
-     "targetScore": 70
-    },
-    "referenceDef": {
-     "scenarioName": "TSK SYV",
-     "explicitTargetRadius": 5
     }
    }
   },
@@ -3012,7 +2720,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.95,
+     "levelOffset": 30
+    },
+    "scoreTargets": {
+     "targetScore": 65
     },
     "strafeDef": {
      "bounds": {
@@ -3034,22 +2746,6 @@
      "leftRightInitialDirection": "DIRECTION_RANDOM",
      "upDownInitialDirection": "DIRECTION_POSITIVE",
      "forwardBackInitialDirection": "DIRECTION_RANDOM"
-    }
-   }
-  },
-  {
-   "name": "SYV Stop Ladder",
-   "def": {
-    "overrides": {},
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
-    },
-    "scoreTargets": {
-     "targetScore": 65
-    },
-    "referenceDef": {
-     "scenarioName": "TSK SYV Stop",
-     "explicitTargetRadius": 4.5
     }
    }
   },
@@ -3085,7 +2781,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.95,
+     "levelOffset": 30
+    },
+    "scoreTargets": {
+     "targetScore": 60
     },
     "strafeDef": {
      "bounds": {
@@ -3107,22 +2807,6 @@
      "leftRightInitialDirection": "DIRECTION_POSITIVE",
      "upDownInitialDirection": "DIRECTION_RANDOM",
      "forwardBackInitialDirection": "DIRECTION_RANDOM"
-    }
-   }
-  },
-  {
-   "name": "SYW Ladder",
-   "def": {
-    "overrides": {},
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
-    },
-    "scoreTargets": {
-     "targetScore": 60
-    },
-    "referenceDef": {
-     "scenarioName": "TSK SYW",
-     "explicitTargetRadius": 4.5
     }
    }
   },
@@ -3168,6 +2852,9 @@
     "levelOverrides": {
      "targetRadiusMultiplier": 0.95
     },
+    "scoreTargets": {
+     "targetScore": 60
+    },
     "bounceDef": {
      "bounceProfiles": [
       {
@@ -3201,22 +2888,6 @@
      },
      "leftRightInitialDirection": "DIRECTION_RANDOM",
      "forwardBackInitialDirection": "DIRECTION_RANDOM"
-    }
-   }
-  },
-  {
-   "name": "VSTP High Ladder",
-   "def": {
-    "overrides": {},
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
-    },
-    "scoreTargets": {
-     "targetScore": 60
-    },
-    "referenceDef": {
-     "scenarioName": "TSK VSTP High",
-     "explicitTargetRadius": 5
     }
    }
   },
@@ -3255,6 +2926,9 @@
     },
     "levelOverrides": {
      "targetRadiusMultiplier": 0.95
+    },
+    "scoreTargets": {
+     "targetScore": 60
     },
     "bounceDef": {
      "bounceProfiles": [
@@ -3304,22 +2978,6 @@
    }
   },
   {
-   "name": "VSTP Soft Ladder",
-   "def": {
-    "overrides": {},
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
-    },
-    "scoreTargets": {
-     "targetScore": 60
-    },
-    "referenceDef": {
-     "scenarioName": "TSK VSTP Soft",
-     "explicitTargetRadius": 5
-    }
-   }
-  },
-  {
    "name": "VSTP Soft Small",
    "def": {
     "overrides": {
@@ -3363,7 +3021,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.95,
+     "levelOffset": 30
+    },
+    "scoreTargets": {
+     "targetScore": 70
     },
     "strafeDef": {
      "bounds": {
@@ -3421,22 +3083,6 @@
      "leftRightInitialDirection": "DIRECTION_POSITIVE",
      "upDownInitialDirection": "DIRECTION_RANDOM",
      "forwardBackInitialDirection": "DIRECTION_RANDOM"
-    }
-   }
-  },
-  {
-   "name": "Varied Centering 90 Trio Ladder",
-   "def": {
-    "overrides": {},
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
-    },
-    "scoreTargets": {
-     "targetScore": 70
-    },
-    "referenceDef": {
-     "scenarioName": "TSK Varied Centering 90 Trio",
-     "explicitTargetRadius": 4.5
     }
    }
   },
@@ -3537,16 +3183,6 @@
  ],
  "playlists": [
   {
-   "name": "360 Turn Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "TSK 360 Turn Ladder",
-     "maxLevel": 50,
-     "numPlaysPerLevel": 1
-    }
-   }
-  },
-  {
    "name": "Benchmark New Main",
    "def": {
     "description": "",
@@ -3616,163 +3252,6 @@
       "numPlays": 5
      }
     ]
-   }
-  },
-  {
-   "name": "Box Tracking Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "TSK Box Tracking Ladder",
-     "maxLevel": 40
-    }
-   }
-  },
-  {
-   "name": "Centering 180 Speed 2 Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "TSK Centering 180 Speed 2 Ladder",
-     "maxLevel": 40
-    }
-   }
-  },
-  {
-   "name": "Centering 180 Speed 3 Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "TSK Centering 180 Speed 3 Ladder",
-     "maxLevel": 40
-    }
-   }
-  },
-  {
-   "name": "Centering 45 Speed 2 Stop Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "TSK Centering 45 Speed 2 Stop Ladder",
-     "maxLevel": 40,
-     "numPlaysPerLevel": 1
-    }
-   }
-  },
-  {
-   "name": "Centering 90 Speed 2 Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "TSK Centering 90 Speed 2 Ladder",
-     "maxLevel": 40
-    }
-   }
-  },
-  {
-   "name": "DVD Tracking Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "TSK DVD Tracking Ladder",
-     "maxLevel": 40
-    }
-   }
-  },
-  {
-   "name": "Hewchy's VAI 110 Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "TSK Hewchy's VAI 110 Ladder",
-     "maxLevel": 40
-    }
-   }
-  },
-  {
-   "name": "Hewchy's VAI 135 Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "TSK Hewchy's VAI 135 Ladder",
-     "maxLevel": 40
-    }
-   }
-  },
-  {
-   "name": "Hewchy's VAI 160 Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "TSK Hewchy's VAI 160 Ladder",
-     "maxLevel": 40
-    }
-   }
-  },
-  {
-   "name": "Hewchy's VAI 20 Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "TSK Hewchy's VAI 20 Ladder",
-     "maxLevel": 40
-    }
-   }
-  },
-  {
-   "name": "Hewchy's VAI 45 Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "TSK Hewchy's VAI 45 Ladder",
-     "maxLevel": 40
-    }
-   }
-  },
-  {
-   "name": "Hewchy's VAI 70 Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "TSK Hewchy's VAI 70 Ladder",
-     "maxLevel": 40
-    }
-   }
-  },
-  {
-   "name": "ST60 Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "TSK ST60 Ladder",
-     "maxLevel": 40,
-     "numPlaysPerLevel": 1
-    }
-   }
-  },
-  {
-   "name": "SYV Down Close Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "TSK SYV Down Close Ladder",
-     "maxLevel": 40
-    }
-   }
-  },
-  {
-   "name": "SYV Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "TSK SYV Ladder",
-     "maxLevel": 40
-    }
-   }
-  },
-  {
-   "name": "SYV Stop Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "TSK SYV Stop Ladder",
-     "maxLevel": 50,
-     "numPlaysPerLevel": 1
-    }
-   }
-  },
-  {
-   "name": "SYW Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "TSK SYW Ladder",
-     "maxLevel": 40,
-     "numPlaysPerLevel": 1
-    }
    }
   },
   {
@@ -4042,904 +3521,6 @@
      {
       "scenario": "TSK VSTP High",
       "numPlays": 5
-     }
-    ]
-   }
-  },
-  {
-   "name": "VSTP High Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "TSK VSTP High Ladder",
-     "maxLevel": 40
-    }
-   }
-  },
-  {
-   "name": "VSTP Soft Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "TSK VSTP Soft Ladder",
-     "maxLevel": 40,
-     "numPlaysPerLevel": 1
-    }
-   }
-  },
-  {
-   "name": "Varied Centering 90 Trio Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "TSK Varied Centering 90 Trio Ladder",
-     "maxLevel": 50,
-     "numPlaysPerLevel": 1
-    }
-   }
-  }
- ],
- "guides": [
-  {
-   "name": "360 Turn",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "TSK 360 Turn Ladder",
-       "TSK 360 Turn Ladder 10cm",
-       "TSK 360 Turn Ladder 15cm",
-       "TSK 360 Turn Ladder 20cm",
-       "TSK 360 Turn Ladder 25cm",
-       "TSK 360 Turn Ladder 30cm",
-       "TSK 360 Turn Ladder 35cm",
-       "TSK 360 Turn Ladder 40cm",
-       "TSK 360 Turn Ladder 45cm",
-       "TSK 360 Turn Ladder 50cm",
-       "TSK 360 Turn Ladder 55cm",
-       "TSK 360 Turn Ladder 60cm",
-       "TSK 360 Turn Ladder 65cm",
-       "TSK 360 Turn Ladder 70cm",
-       "TSK 360 Turn Ladder 75cm",
-       "TSK 360 Turn Ladder 80cm",
-       "TSK 360 Turn Ladder 85cm",
-       "TSK 360 Turn Ladder 90cm",
-       "TSK 360 Turn Ladder 95cm",
-       "TSK 360 Turn Ladder 100cm",
-       "TSK 360 Turn Ladder 105cm",
-       "TSK 360 Turn Ladder 110cm",
-       "TSK 360 Turn Ladder 115cm"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "Box Tracking",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "TSK Box Tracking Ladder",
-       "TSK Box Tracking Ladder 10cm",
-       "TSK Box Tracking Ladder 15cm",
-       "TSK Box Tracking Ladder 20cm",
-       "TSK Box Tracking Ladder 25cm",
-       "TSK Box Tracking Ladder 30cm",
-       "TSK Box Tracking Ladder 35cm",
-       "TSK Box Tracking Ladder 40cm",
-       "TSK Box Tracking Ladder 45cm",
-       "TSK Box Tracking Ladder 50cm",
-       "TSK Box Tracking Ladder 55cm",
-       "TSK Box Tracking Ladder 60cm",
-       "TSK Box Tracking Ladder 65cm",
-       "TSK Box Tracking Ladder 70cm",
-       "TSK Box Tracking Ladder 75cm",
-       "TSK Box Tracking Ladder 80cm",
-       "TSK Box Tracking Ladder 85cm",
-       "TSK Box Tracking Ladder 90cm",
-       "TSK Box Tracking Ladder 95cm",
-       "TSK Box Tracking Ladder 100cm",
-       "TSK Box Tracking Ladder 105cm",
-       "TSK Box Tracking Ladder 110cm",
-       "TSK Box Tracking Ladder 115cm"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "Centering 180 Speed 2",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "TSK Centering 180 Speed 2 Ladder",
-       "TSK Centering 180 Speed 2 Ladder 10cm",
-       "TSK Centering 180 Speed 2 Ladder 15cm",
-       "TSK Centering 180 Speed 2 Ladder 20cm",
-       "TSK Centering 180 Speed 2 Ladder 25cm",
-       "TSK Centering 180 Speed 2 Ladder 30cm",
-       "TSK Centering 180 Speed 2 Ladder 35cm",
-       "TSK Centering 180 Speed 2 Ladder 40cm",
-       "TSK Centering 180 Speed 2 Ladder 45cm",
-       "TSK Centering 180 Speed 2 Ladder 50cm",
-       "TSK Centering 180 Speed 2 Ladder 55cm",
-       "TSK Centering 180 Speed 2 Ladder 60cm",
-       "TSK Centering 180 Speed 2 Ladder 65cm",
-       "TSK Centering 180 Speed 2 Ladder 70cm",
-       "TSK Centering 180 Speed 2 Ladder 75cm",
-       "TSK Centering 180 Speed 2 Ladder 80cm",
-       "TSK Centering 180 Speed 2 Ladder 85cm",
-       "TSK Centering 180 Speed 2 Ladder 90cm",
-       "TSK Centering 180 Speed 2 Ladder 95cm",
-       "TSK Centering 180 Speed 2 Ladder 100cm",
-       "TSK Centering 180 Speed 2 Ladder 105cm",
-       "TSK Centering 180 Speed 2 Ladder 110cm",
-       "TSK Centering 180 Speed 2 Ladder 115cm"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "Centering 180 Speed 3",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "TSK Centering 180 Speed 3 Ladder",
-       "TSK Centering 180 Speed 3 Ladder 10cm",
-       "TSK Centering 180 Speed 3 Ladder 15cm",
-       "TSK Centering 180 Speed 3 Ladder 20cm",
-       "TSK Centering 180 Speed 3 Ladder 25cm",
-       "TSK Centering 180 Speed 3 Ladder 30cm",
-       "TSK Centering 180 Speed 3 Ladder 35cm",
-       "TSK Centering 180 Speed 3 Ladder 40cm",
-       "TSK Centering 180 Speed 3 Ladder 45cm",
-       "TSK Centering 180 Speed 3 Ladder 50cm",
-       "TSK Centering 180 Speed 3 Ladder 55cm",
-       "TSK Centering 180 Speed 3 Ladder 60cm",
-       "TSK Centering 180 Speed 3 Ladder 65cm",
-       "TSK Centering 180 Speed 3 Ladder 70cm",
-       "TSK Centering 180 Speed 3 Ladder 75cm",
-       "TSK Centering 180 Speed 3 Ladder 80cm",
-       "TSK Centering 180 Speed 3 Ladder 85cm",
-       "TSK Centering 180 Speed 3 Ladder 90cm",
-       "TSK Centering 180 Speed 3 Ladder 95cm",
-       "TSK Centering 180 Speed 3 Ladder 100cm",
-       "TSK Centering 180 Speed 3 Ladder 105cm",
-       "TSK Centering 180 Speed 3 Ladder 110cm",
-       "TSK Centering 180 Speed 3 Ladder 115cm"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "Centering 45 Speed 2 Stop",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "TSK Centering 45 Speed 2 Stop Ladder",
-       "TSK Centering 45 Speed 2 Stop Ladder 10cm",
-       "TSK Centering 45 Speed 2 Stop Ladder 15cm",
-       "TSK Centering 45 Speed 2 Stop Ladder 20cm",
-       "TSK Centering 45 Speed 2 Stop Ladder 25cm",
-       "TSK Centering 45 Speed 2 Stop Ladder 30cm",
-       "TSK Centering 45 Speed 2 Stop Ladder 35cm",
-       "TSK Centering 45 Speed 2 Stop Ladder 40cm",
-       "TSK Centering 45 Speed 2 Stop Ladder 45cm",
-       "TSK Centering 45 Speed 2 Stop Ladder 50cm",
-       "TSK Centering 45 Speed 2 Stop Ladder 55cm",
-       "TSK Centering 45 Speed 2 Stop Ladder 60cm",
-       "TSK Centering 45 Speed 2 Stop Ladder 65cm",
-       "TSK Centering 45 Speed 2 Stop Ladder 70cm",
-       "TSK Centering 45 Speed 2 Stop Ladder 75cm",
-       "TSK Centering 45 Speed 2 Stop Ladder 80cm",
-       "TSK Centering 45 Speed 2 Stop Ladder 85cm",
-       "TSK Centering 45 Speed 2 Stop Ladder 90cm",
-       "TSK Centering 45 Speed 2 Stop Ladder 95cm",
-       "TSK Centering 45 Speed 2 Stop Ladder 100cm",
-       "TSK Centering 45 Speed 2 Stop Ladder 105cm",
-       "TSK Centering 45 Speed 2 Stop Ladder 110cm",
-       "TSK Centering 45 Speed 2 Stop Ladder 115cm"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "Centering 90 Speed 2",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "TSK Centering 90 Speed 2 Ladder",
-       "TSK Centering 90 Speed 2 Ladder 10cm",
-       "TSK Centering 90 Speed 2 Ladder 15cm",
-       "TSK Centering 90 Speed 2 Ladder 20cm",
-       "TSK Centering 90 Speed 2 Ladder 25cm",
-       "TSK Centering 90 Speed 2 Ladder 30cm",
-       "TSK Centering 90 Speed 2 Ladder 35cm",
-       "TSK Centering 90 Speed 2 Ladder 40cm",
-       "TSK Centering 90 Speed 2 Ladder 45cm",
-       "TSK Centering 90 Speed 2 Ladder 50cm",
-       "TSK Centering 90 Speed 2 Ladder 55cm",
-       "TSK Centering 90 Speed 2 Ladder 60cm",
-       "TSK Centering 90 Speed 2 Ladder 65cm",
-       "TSK Centering 90 Speed 2 Ladder 70cm",
-       "TSK Centering 90 Speed 2 Ladder 75cm",
-       "TSK Centering 90 Speed 2 Ladder 80cm",
-       "TSK Centering 90 Speed 2 Ladder 85cm",
-       "TSK Centering 90 Speed 2 Ladder 90cm",
-       "TSK Centering 90 Speed 2 Ladder 95cm",
-       "TSK Centering 90 Speed 2 Ladder 100cm",
-       "TSK Centering 90 Speed 2 Ladder 105cm",
-       "TSK Centering 90 Speed 2 Ladder 110cm",
-       "TSK Centering 90 Speed 2 Ladder 115cm"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "DVD Tracking",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "TSK DVD Tracking Ladder",
-       "TSK DVD Tracking Ladder 10cm",
-       "TSK DVD Tracking Ladder 15cm",
-       "TSK DVD Tracking Ladder 20cm",
-       "TSK DVD Tracking Ladder 25cm",
-       "TSK DVD Tracking Ladder 30cm",
-       "TSK DVD Tracking Ladder 35cm",
-       "TSK DVD Tracking Ladder 40cm",
-       "TSK DVD Tracking Ladder 45cm",
-       "TSK DVD Tracking Ladder 50cm",
-       "TSK DVD Tracking Ladder 55cm",
-       "TSK DVD Tracking Ladder 60cm",
-       "TSK DVD Tracking Ladder 65cm",
-       "TSK DVD Tracking Ladder 70cm",
-       "TSK DVD Tracking Ladder 75cm",
-       "TSK DVD Tracking Ladder 80cm",
-       "TSK DVD Tracking Ladder 85cm",
-       "TSK DVD Tracking Ladder 90cm",
-       "TSK DVD Tracking Ladder 95cm",
-       "TSK DVD Tracking Ladder 100cm",
-       "TSK DVD Tracking Ladder 105cm",
-       "TSK DVD Tracking Ladder 110cm",
-       "TSK DVD Tracking Ladder 115cm"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "Hewchy's VAI 110",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "TSK Hewchy's VAI 110 Ladder",
-       "TSK Hewchy's VAI 110 Ladder 10cm",
-       "TSK Hewchy's VAI 110 Ladder 15cm",
-       "TSK Hewchy's VAI 110 Ladder 20cm",
-       "TSK Hewchy's VAI 110 Ladder 25cm",
-       "TSK Hewchy's VAI 110 Ladder 30cm",
-       "TSK Hewchy's VAI 110 Ladder 35cm",
-       "TSK Hewchy's VAI 110 Ladder 40cm",
-       "TSK Hewchy's VAI 110 Ladder 45cm",
-       "TSK Hewchy's VAI 110 Ladder 50cm",
-       "TSK Hewchy's VAI 110 Ladder 55cm",
-       "TSK Hewchy's VAI 110 Ladder 60cm",
-       "TSK Hewchy's VAI 110 Ladder 65cm",
-       "TSK Hewchy's VAI 110 Ladder 70cm",
-       "TSK Hewchy's VAI 110 Ladder 75cm",
-       "TSK Hewchy's VAI 110 Ladder 80cm",
-       "TSK Hewchy's VAI 110 Ladder 85cm",
-       "TSK Hewchy's VAI 110 Ladder 90cm",
-       "TSK Hewchy's VAI 110 Ladder 95cm",
-       "TSK Hewchy's VAI 110 Ladder 100cm",
-       "TSK Hewchy's VAI 110 Ladder 105cm",
-       "TSK Hewchy's VAI 110 Ladder 110cm",
-       "TSK Hewchy's VAI 110 Ladder 115cm"
-      ]
-     },
-     {
-      "text": "\nOther angles",
-      "playlists": [
-       "TSK Hewchy's VAI 110 Ladder",
-       "TSK Hewchy's VAI 135 Ladder",
-       "TSK Hewchy's VAI 160 Ladder",
-       "TSK Hewchy's VAI 20 Ladder",
-       "TSK Hewchy's VAI 45 Ladder",
-       "TSK Hewchy's VAI 70 Ladder"
-      ]
-     },
-     {
-      "text": "\n",
-      "guides": [
-       "TSK Hewchy's VAI 110",
-       "TSK Hewchy's VAI 135",
-       "TSK Hewchy's VAI 160",
-       "TSK Hewchy's VAI 20",
-       "TSK Hewchy's VAI 45",
-       "TSK Hewchy's VAI 70"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "Hewchy's VAI 135",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "TSK Hewchy's VAI 135 Ladder",
-       "TSK Hewchy's VAI 135 Ladder 10cm",
-       "TSK Hewchy's VAI 135 Ladder 15cm",
-       "TSK Hewchy's VAI 135 Ladder 20cm",
-       "TSK Hewchy's VAI 135 Ladder 25cm",
-       "TSK Hewchy's VAI 135 Ladder 30cm",
-       "TSK Hewchy's VAI 135 Ladder 35cm",
-       "TSK Hewchy's VAI 135 Ladder 40cm",
-       "TSK Hewchy's VAI 135 Ladder 45cm",
-       "TSK Hewchy's VAI 135 Ladder 50cm",
-       "TSK Hewchy's VAI 135 Ladder 55cm",
-       "TSK Hewchy's VAI 135 Ladder 60cm",
-       "TSK Hewchy's VAI 135 Ladder 65cm",
-       "TSK Hewchy's VAI 135 Ladder 70cm",
-       "TSK Hewchy's VAI 135 Ladder 75cm",
-       "TSK Hewchy's VAI 135 Ladder 80cm",
-       "TSK Hewchy's VAI 135 Ladder 85cm",
-       "TSK Hewchy's VAI 135 Ladder 90cm",
-       "TSK Hewchy's VAI 135 Ladder 95cm",
-       "TSK Hewchy's VAI 135 Ladder 100cm",
-       "TSK Hewchy's VAI 135 Ladder 105cm",
-       "TSK Hewchy's VAI 135 Ladder 110cm",
-       "TSK Hewchy's VAI 135 Ladder 115cm"
-      ]
-     },
-     {
-      "text": "\nOther angles",
-      "playlists": [
-       "TSK Hewchy's VAI 110 Ladder",
-       "TSK Hewchy's VAI 135 Ladder",
-       "TSK Hewchy's VAI 160 Ladder",
-       "TSK Hewchy's VAI 20 Ladder",
-       "TSK Hewchy's VAI 45 Ladder",
-       "TSK Hewchy's VAI 70 Ladder"
-      ]
-     },
-     {
-      "text": "\n",
-      "guides": [
-       "TSK Hewchy's VAI 110",
-       "TSK Hewchy's VAI 135",
-       "TSK Hewchy's VAI 160",
-       "TSK Hewchy's VAI 20",
-       "TSK Hewchy's VAI 45",
-       "TSK Hewchy's VAI 70"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "Hewchy's VAI 160",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "TSK Hewchy's VAI 160 Ladder",
-       "TSK Hewchy's VAI 160 Ladder 10cm",
-       "TSK Hewchy's VAI 160 Ladder 15cm",
-       "TSK Hewchy's VAI 160 Ladder 20cm",
-       "TSK Hewchy's VAI 160 Ladder 25cm",
-       "TSK Hewchy's VAI 160 Ladder 30cm",
-       "TSK Hewchy's VAI 160 Ladder 35cm",
-       "TSK Hewchy's VAI 160 Ladder 40cm",
-       "TSK Hewchy's VAI 160 Ladder 45cm",
-       "TSK Hewchy's VAI 160 Ladder 50cm",
-       "TSK Hewchy's VAI 160 Ladder 55cm",
-       "TSK Hewchy's VAI 160 Ladder 60cm",
-       "TSK Hewchy's VAI 160 Ladder 65cm",
-       "TSK Hewchy's VAI 160 Ladder 70cm",
-       "TSK Hewchy's VAI 160 Ladder 75cm",
-       "TSK Hewchy's VAI 160 Ladder 80cm",
-       "TSK Hewchy's VAI 160 Ladder 85cm",
-       "TSK Hewchy's VAI 160 Ladder 90cm",
-       "TSK Hewchy's VAI 160 Ladder 95cm",
-       "TSK Hewchy's VAI 160 Ladder 100cm",
-       "TSK Hewchy's VAI 160 Ladder 105cm",
-       "TSK Hewchy's VAI 160 Ladder 110cm",
-       "TSK Hewchy's VAI 160 Ladder 115cm"
-      ]
-     },
-     {
-      "text": "\nOther angles",
-      "playlists": [
-       "TSK Hewchy's VAI 110 Ladder",
-       "TSK Hewchy's VAI 135 Ladder",
-       "TSK Hewchy's VAI 160 Ladder",
-       "TSK Hewchy's VAI 20 Ladder",
-       "TSK Hewchy's VAI 45 Ladder",
-       "TSK Hewchy's VAI 70 Ladder"
-      ]
-     },
-     {
-      "text": "\n",
-      "guides": [
-       "TSK Hewchy's VAI 110",
-       "TSK Hewchy's VAI 135",
-       "TSK Hewchy's VAI 160",
-       "TSK Hewchy's VAI 20",
-       "TSK Hewchy's VAI 45",
-       "TSK Hewchy's VAI 70"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "Hewchy's VAI 20",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "TSK Hewchy's VAI 20 Ladder",
-       "TSK Hewchy's VAI 20 Ladder 10cm",
-       "TSK Hewchy's VAI 20 Ladder 15cm",
-       "TSK Hewchy's VAI 20 Ladder 20cm",
-       "TSK Hewchy's VAI 20 Ladder 25cm",
-       "TSK Hewchy's VAI 20 Ladder 30cm",
-       "TSK Hewchy's VAI 20 Ladder 35cm",
-       "TSK Hewchy's VAI 20 Ladder 40cm",
-       "TSK Hewchy's VAI 20 Ladder 45cm",
-       "TSK Hewchy's VAI 20 Ladder 50cm",
-       "TSK Hewchy's VAI 20 Ladder 55cm",
-       "TSK Hewchy's VAI 20 Ladder 60cm",
-       "TSK Hewchy's VAI 20 Ladder 65cm",
-       "TSK Hewchy's VAI 20 Ladder 70cm",
-       "TSK Hewchy's VAI 20 Ladder 75cm",
-       "TSK Hewchy's VAI 20 Ladder 80cm",
-       "TSK Hewchy's VAI 20 Ladder 85cm",
-       "TSK Hewchy's VAI 20 Ladder 90cm",
-       "TSK Hewchy's VAI 20 Ladder 95cm",
-       "TSK Hewchy's VAI 20 Ladder 100cm",
-       "TSK Hewchy's VAI 20 Ladder 105cm",
-       "TSK Hewchy's VAI 20 Ladder 110cm",
-       "TSK Hewchy's VAI 20 Ladder 115cm"
-      ]
-     },
-     {
-      "text": "\nOther angles",
-      "playlists": [
-       "TSK Hewchy's VAI 110 Ladder",
-       "TSK Hewchy's VAI 135 Ladder",
-       "TSK Hewchy's VAI 160 Ladder",
-       "TSK Hewchy's VAI 20 Ladder",
-       "TSK Hewchy's VAI 45 Ladder",
-       "TSK Hewchy's VAI 70 Ladder"
-      ]
-     },
-     {
-      "text": "\n",
-      "guides": [
-       "TSK Hewchy's VAI 110",
-       "TSK Hewchy's VAI 135",
-       "TSK Hewchy's VAI 160",
-       "TSK Hewchy's VAI 20",
-       "TSK Hewchy's VAI 45",
-       "TSK Hewchy's VAI 70"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "Hewchy's VAI 45",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "TSK Hewchy's VAI 45 Ladder",
-       "TSK Hewchy's VAI 45 Ladder 10cm",
-       "TSK Hewchy's VAI 45 Ladder 15cm",
-       "TSK Hewchy's VAI 45 Ladder 20cm",
-       "TSK Hewchy's VAI 45 Ladder 25cm",
-       "TSK Hewchy's VAI 45 Ladder 30cm",
-       "TSK Hewchy's VAI 45 Ladder 35cm",
-       "TSK Hewchy's VAI 45 Ladder 40cm",
-       "TSK Hewchy's VAI 45 Ladder 45cm",
-       "TSK Hewchy's VAI 45 Ladder 50cm",
-       "TSK Hewchy's VAI 45 Ladder 55cm",
-       "TSK Hewchy's VAI 45 Ladder 60cm",
-       "TSK Hewchy's VAI 45 Ladder 65cm",
-       "TSK Hewchy's VAI 45 Ladder 70cm",
-       "TSK Hewchy's VAI 45 Ladder 75cm",
-       "TSK Hewchy's VAI 45 Ladder 80cm",
-       "TSK Hewchy's VAI 45 Ladder 85cm",
-       "TSK Hewchy's VAI 45 Ladder 90cm",
-       "TSK Hewchy's VAI 45 Ladder 95cm",
-       "TSK Hewchy's VAI 45 Ladder 100cm",
-       "TSK Hewchy's VAI 45 Ladder 105cm",
-       "TSK Hewchy's VAI 45 Ladder 110cm",
-       "TSK Hewchy's VAI 45 Ladder 115cm"
-      ]
-     },
-     {
-      "text": "\nOther angles",
-      "playlists": [
-       "TSK Hewchy's VAI 110 Ladder",
-       "TSK Hewchy's VAI 135 Ladder",
-       "TSK Hewchy's VAI 160 Ladder",
-       "TSK Hewchy's VAI 20 Ladder",
-       "TSK Hewchy's VAI 45 Ladder",
-       "TSK Hewchy's VAI 70 Ladder"
-      ]
-     },
-     {
-      "text": "\n",
-      "guides": [
-       "TSK Hewchy's VAI 110",
-       "TSK Hewchy's VAI 135",
-       "TSK Hewchy's VAI 160",
-       "TSK Hewchy's VAI 20",
-       "TSK Hewchy's VAI 45",
-       "TSK Hewchy's VAI 70"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "Hewchy's VAI 70",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "TSK Hewchy's VAI 70 Ladder",
-       "TSK Hewchy's VAI 70 Ladder 10cm",
-       "TSK Hewchy's VAI 70 Ladder 15cm",
-       "TSK Hewchy's VAI 70 Ladder 20cm",
-       "TSK Hewchy's VAI 70 Ladder 25cm",
-       "TSK Hewchy's VAI 70 Ladder 30cm",
-       "TSK Hewchy's VAI 70 Ladder 35cm",
-       "TSK Hewchy's VAI 70 Ladder 40cm",
-       "TSK Hewchy's VAI 70 Ladder 45cm",
-       "TSK Hewchy's VAI 70 Ladder 50cm",
-       "TSK Hewchy's VAI 70 Ladder 55cm",
-       "TSK Hewchy's VAI 70 Ladder 60cm",
-       "TSK Hewchy's VAI 70 Ladder 65cm",
-       "TSK Hewchy's VAI 70 Ladder 70cm",
-       "TSK Hewchy's VAI 70 Ladder 75cm",
-       "TSK Hewchy's VAI 70 Ladder 80cm",
-       "TSK Hewchy's VAI 70 Ladder 85cm",
-       "TSK Hewchy's VAI 70 Ladder 90cm",
-       "TSK Hewchy's VAI 70 Ladder 95cm",
-       "TSK Hewchy's VAI 70 Ladder 100cm",
-       "TSK Hewchy's VAI 70 Ladder 105cm",
-       "TSK Hewchy's VAI 70 Ladder 110cm",
-       "TSK Hewchy's VAI 70 Ladder 115cm"
-      ]
-     },
-     {
-      "text": "\nOther angles",
-      "playlists": [
-       "TSK Hewchy's VAI 110 Ladder",
-       "TSK Hewchy's VAI 135 Ladder",
-       "TSK Hewchy's VAI 160 Ladder",
-       "TSK Hewchy's VAI 20 Ladder",
-       "TSK Hewchy's VAI 45 Ladder",
-       "TSK Hewchy's VAI 70 Ladder"
-      ]
-     },
-     {
-      "text": "\n",
-      "guides": [
-       "TSK Hewchy's VAI 110",
-       "TSK Hewchy's VAI 135",
-       "TSK Hewchy's VAI 160",
-       "TSK Hewchy's VAI 20",
-       "TSK Hewchy's VAI 45",
-       "TSK Hewchy's VAI 70"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "ST60",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "TSK ST60 Ladder",
-       "TSK ST60 Ladder 10cm",
-       "TSK ST60 Ladder 15cm",
-       "TSK ST60 Ladder 20cm",
-       "TSK ST60 Ladder 25cm",
-       "TSK ST60 Ladder 30cm",
-       "TSK ST60 Ladder 35cm",
-       "TSK ST60 Ladder 40cm",
-       "TSK ST60 Ladder 45cm",
-       "TSK ST60 Ladder 50cm",
-       "TSK ST60 Ladder 55cm",
-       "TSK ST60 Ladder 60cm",
-       "TSK ST60 Ladder 65cm",
-       "TSK ST60 Ladder 70cm",
-       "TSK ST60 Ladder 75cm",
-       "TSK ST60 Ladder 80cm",
-       "TSK ST60 Ladder 85cm",
-       "TSK ST60 Ladder 90cm",
-       "TSK ST60 Ladder 95cm",
-       "TSK ST60 Ladder 100cm",
-       "TSK ST60 Ladder 105cm",
-       "TSK ST60 Ladder 110cm",
-       "TSK ST60 Ladder 115cm"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "SYV",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "TSK SYV Ladder",
-       "TSK SYV Ladder 10cm",
-       "TSK SYV Ladder 15cm",
-       "TSK SYV Ladder 20cm",
-       "TSK SYV Ladder 25cm",
-       "TSK SYV Ladder 30cm",
-       "TSK SYV Ladder 35cm",
-       "TSK SYV Ladder 40cm",
-       "TSK SYV Ladder 45cm",
-       "TSK SYV Ladder 50cm",
-       "TSK SYV Ladder 55cm",
-       "TSK SYV Ladder 60cm",
-       "TSK SYV Ladder 65cm",
-       "TSK SYV Ladder 70cm",
-       "TSK SYV Ladder 75cm",
-       "TSK SYV Ladder 80cm",
-       "TSK SYV Ladder 85cm",
-       "TSK SYV Ladder 90cm",
-       "TSK SYV Ladder 95cm",
-       "TSK SYV Ladder 100cm",
-       "TSK SYV Ladder 105cm",
-       "TSK SYV Ladder 110cm",
-       "TSK SYV Ladder 115cm"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "SYV Down Close",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "TSK SYV Down Close Ladder",
-       "TSK SYV Down Close Ladder 10cm",
-       "TSK SYV Down Close Ladder 15cm",
-       "TSK SYV Down Close Ladder 20cm",
-       "TSK SYV Down Close Ladder 25cm",
-       "TSK SYV Down Close Ladder 30cm",
-       "TSK SYV Down Close Ladder 35cm",
-       "TSK SYV Down Close Ladder 40cm",
-       "TSK SYV Down Close Ladder 45cm",
-       "TSK SYV Down Close Ladder 50cm",
-       "TSK SYV Down Close Ladder 55cm",
-       "TSK SYV Down Close Ladder 60cm",
-       "TSK SYV Down Close Ladder 65cm",
-       "TSK SYV Down Close Ladder 70cm",
-       "TSK SYV Down Close Ladder 75cm",
-       "TSK SYV Down Close Ladder 80cm",
-       "TSK SYV Down Close Ladder 85cm",
-       "TSK SYV Down Close Ladder 90cm",
-       "TSK SYV Down Close Ladder 95cm",
-       "TSK SYV Down Close Ladder 100cm",
-       "TSK SYV Down Close Ladder 105cm",
-       "TSK SYV Down Close Ladder 110cm",
-       "TSK SYV Down Close Ladder 115cm"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "SYV Stop",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "TSK SYV Stop Ladder",
-       "TSK SYV Stop Ladder 10cm",
-       "TSK SYV Stop Ladder 15cm",
-       "TSK SYV Stop Ladder 20cm",
-       "TSK SYV Stop Ladder 25cm",
-       "TSK SYV Stop Ladder 30cm",
-       "TSK SYV Stop Ladder 35cm",
-       "TSK SYV Stop Ladder 40cm",
-       "TSK SYV Stop Ladder 45cm",
-       "TSK SYV Stop Ladder 50cm",
-       "TSK SYV Stop Ladder 55cm",
-       "TSK SYV Stop Ladder 60cm",
-       "TSK SYV Stop Ladder 65cm",
-       "TSK SYV Stop Ladder 70cm",
-       "TSK SYV Stop Ladder 75cm",
-       "TSK SYV Stop Ladder 80cm",
-       "TSK SYV Stop Ladder 85cm",
-       "TSK SYV Stop Ladder 90cm",
-       "TSK SYV Stop Ladder 95cm",
-       "TSK SYV Stop Ladder 100cm",
-       "TSK SYV Stop Ladder 105cm",
-       "TSK SYV Stop Ladder 110cm",
-       "TSK SYV Stop Ladder 115cm"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "SYW",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "TSK SYW Ladder",
-       "TSK SYW Ladder 10cm",
-       "TSK SYW Ladder 15cm",
-       "TSK SYW Ladder 20cm",
-       "TSK SYW Ladder 25cm",
-       "TSK SYW Ladder 30cm",
-       "TSK SYW Ladder 35cm",
-       "TSK SYW Ladder 40cm",
-       "TSK SYW Ladder 45cm",
-       "TSK SYW Ladder 50cm",
-       "TSK SYW Ladder 55cm",
-       "TSK SYW Ladder 60cm",
-       "TSK SYW Ladder 65cm",
-       "TSK SYW Ladder 70cm",
-       "TSK SYW Ladder 75cm",
-       "TSK SYW Ladder 80cm",
-       "TSK SYW Ladder 85cm",
-       "TSK SYW Ladder 90cm",
-       "TSK SYW Ladder 95cm",
-       "TSK SYW Ladder 100cm",
-       "TSK SYW Ladder 105cm",
-       "TSK SYW Ladder 110cm",
-       "TSK SYW Ladder 115cm"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "VSTP High",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "TSK VSTP High Ladder",
-       "TSK VSTP High Ladder 10cm",
-       "TSK VSTP High Ladder 15cm",
-       "TSK VSTP High Ladder 20cm",
-       "TSK VSTP High Ladder 25cm",
-       "TSK VSTP High Ladder 30cm",
-       "TSK VSTP High Ladder 35cm",
-       "TSK VSTP High Ladder 40cm",
-       "TSK VSTP High Ladder 45cm",
-       "TSK VSTP High Ladder 50cm",
-       "TSK VSTP High Ladder 55cm",
-       "TSK VSTP High Ladder 60cm",
-       "TSK VSTP High Ladder 65cm",
-       "TSK VSTP High Ladder 70cm",
-       "TSK VSTP High Ladder 75cm",
-       "TSK VSTP High Ladder 80cm",
-       "TSK VSTP High Ladder 85cm",
-       "TSK VSTP High Ladder 90cm",
-       "TSK VSTP High Ladder 95cm",
-       "TSK VSTP High Ladder 100cm",
-       "TSK VSTP High Ladder 105cm",
-       "TSK VSTP High Ladder 110cm",
-       "TSK VSTP High Ladder 115cm"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "VSTP Soft",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "TSK VSTP Soft Ladder",
-       "TSK VSTP Soft Ladder 10cm",
-       "TSK VSTP Soft Ladder 15cm",
-       "TSK VSTP Soft Ladder 20cm",
-       "TSK VSTP Soft Ladder 25cm",
-       "TSK VSTP Soft Ladder 30cm",
-       "TSK VSTP Soft Ladder 35cm",
-       "TSK VSTP Soft Ladder 40cm",
-       "TSK VSTP Soft Ladder 45cm",
-       "TSK VSTP Soft Ladder 50cm",
-       "TSK VSTP Soft Ladder 55cm",
-       "TSK VSTP Soft Ladder 60cm",
-       "TSK VSTP Soft Ladder 65cm",
-       "TSK VSTP Soft Ladder 70cm",
-       "TSK VSTP Soft Ladder 75cm",
-       "TSK VSTP Soft Ladder 80cm",
-       "TSK VSTP Soft Ladder 85cm",
-       "TSK VSTP Soft Ladder 90cm",
-       "TSK VSTP Soft Ladder 95cm",
-       "TSK VSTP Soft Ladder 100cm",
-       "TSK VSTP Soft Ladder 105cm",
-       "TSK VSTP Soft Ladder 110cm",
-       "TSK VSTP Soft Ladder 115cm"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "Varied Centering 90 Trio",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "TSK Varied Centering 90 Trio Ladder",
-       "TSK Varied Centering 90 Trio Ladder 10cm",
-       "TSK Varied Centering 90 Trio Ladder 15cm",
-       "TSK Varied Centering 90 Trio Ladder 20cm",
-       "TSK Varied Centering 90 Trio Ladder 25cm",
-       "TSK Varied Centering 90 Trio Ladder 30cm",
-       "TSK Varied Centering 90 Trio Ladder 35cm",
-       "TSK Varied Centering 90 Trio Ladder 40cm",
-       "TSK Varied Centering 90 Trio Ladder 45cm",
-       "TSK Varied Centering 90 Trio Ladder 50cm",
-       "TSK Varied Centering 90 Trio Ladder 55cm",
-       "TSK Varied Centering 90 Trio Ladder 60cm",
-       "TSK Varied Centering 90 Trio Ladder 65cm",
-       "TSK Varied Centering 90 Trio Ladder 70cm",
-       "TSK Varied Centering 90 Trio Ladder 75cm",
-       "TSK Varied Centering 90 Trio Ladder 80cm",
-       "TSK Varied Centering 90 Trio Ladder 85cm",
-       "TSK Varied Centering 90 Trio Ladder 90cm",
-       "TSK Varied Centering 90 Trio Ladder 95cm",
-       "TSK Varied Centering 90 Trio Ladder 100cm",
-       "TSK Varied Centering 90 Trio Ladder 105cm",
-       "TSK Varied Centering 90 Trio Ladder 110cm",
-       "TSK Varied Centering 90 Trio Ladder 115cm"
-      ]
      }
     ]
    }

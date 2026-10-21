@@ -29,7 +29,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 120
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -97,9 +101,12 @@
       "width": 155
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 100
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -182,9 +189,12 @@
       "width": 155
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 100
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -295,9 +305,12 @@
       "width": 225
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 80
     },
     "linearDef": {
      "angle": 0,
@@ -389,7 +402,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 100
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -468,7 +485,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 100
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -522,7 +543,8 @@
     "durationSeconds": 60,
     "shotType": {
      "clickSingle": true,
-     "removeClosestOnMiss": true
+     "removeClosestOnMiss": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 2,
@@ -546,7 +568,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 65
     },
     "wallWanderDef": {
      "targetPlacementStrategy": {
@@ -611,8 +637,7 @@
      },
      "profiles": [
       {
-       "info": {},
-       "turnTime": 2.19999981,
+       "turnTime": 2.2,
        "turnTimeJitter": 0.5,
        "turnRate": 300,
        "turnRateJitter": 70
@@ -651,9 +676,12 @@
       "width": 220
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 80
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -753,9 +781,12 @@
       "width": 220
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 75
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -852,8 +883,9 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.965,
-     "speedMultiplier": 1.035
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "levelOffset": 15
     },
     "scoreTargets": {
      "targetScore": 55
@@ -905,8 +937,29 @@
   {
    "name": "AngleStrafe Ladder",
    "def": {
-    "overrides": {
-     "speedMultiplier": 0.78
+    "durationSeconds": 30,
+    "shotType": {
+     "trackingInvincible": true
+    },
+    "targetDef": {
+     "numTargets": 1,
+     "profiles": [
+      {
+       "targetRadius": 5,
+       "speed": 50.7
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 111,
+      "width": 150
+     }
     },
     "levelOverrides": {
      "targetRadiusMultiplier": 0.98,
@@ -915,9 +968,47 @@
     "scoreTargets": {
      "targetScore": 55
     },
-    "referenceDef": {
-     "scenarioName": "AF AngleStrafe",
-     "explicitTargetRadius": 5
+    "angleStrafeDef": {
+     "bounds": {
+      "width": {
+       "xPercentValue": 0.9
+      },
+      "height": {
+       "yPercentValue": 0.9
+      }
+     },
+     "profiles": [
+      {
+       "info": {
+        "weight": 3
+       },
+       "distance": {
+        "xPercentValue": 0.36
+       },
+       "distanceJitter": {
+        "xPercentValue": 0.115
+       },
+       "angle": 0,
+       "angleJitter": 17,
+       "directionChangePercent": 0.2,
+       "centerBias": 0.2
+      },
+      {
+       "info": {
+        "description": "Longer",
+        "weight": 1
+       },
+       "distance": {
+        "xPercentValue": 0.58
+       },
+       "distanceJitter": {
+        "xPercentValue": 0.06
+       },
+       "angle": 0,
+       "angleJitter": 11,
+       "directionChangePercent": 0.4
+      }
+     ]
     }
    }
   },
@@ -948,7 +1039,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 10
+    },
+    "scoreTargets": {
+     "targetScore": 180
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -971,10 +1066,11 @@
   {
    "name": "BarrelClick",
    "def": {
-    "durationSeconds": 60,
+    "durationSeconds": 30,
     "shotType": {
      "clickSingle": true,
-     "removeClosestOnMiss": true
+     "removeClosestOnMiss": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 4,
@@ -983,17 +1079,14 @@
        "info": {
         "description": "Large Fast"
        },
-       "targetRadius": 2.99999976,
-       "targetRadiusJitter": 0,
-       "speed": 60,
-       "speedJitter": 0
+       "targetRadius": 3,
+       "speed": 60
       },
       {
        "info": {
         "description": "Small Slow"
        },
-       "targetRadius": 2.49999976,
-       "targetRadiusJitter": 0,
+       "targetRadius": 2.5,
        "speed": 50,
        "speedJitter": 3
       }
@@ -1016,10 +1109,13 @@
       "radius": 75
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.97,
-     "speedMultiplier": 1.03
+     "targetRadiusMultiplier": 0.968,
+     "speedMultiplier": 1.005,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 110
     },
     "barrelDef": {
      "targetPlacementStrategy": {
@@ -1079,9 +1175,14 @@
       "radius": 75
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "speedMultiplier": 1.05
+     "targetRadiusMultiplier": 0.96,
+     "speedMultiplier": 1.02,
+     "growthTimeMultiplier": 0.98,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 120
     },
     "barrelDef": {
      "targetPlacementStrategy": {
@@ -1157,9 +1258,13 @@
       "radius": 75
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.96,
+     "speedMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 65
     },
     "barrelDef": {
      "targetPlacementStrategy": {
@@ -1468,7 +1573,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 75
     },
     "centeringDef": {
      "wallPoints": [
@@ -1525,7 +1634,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 75
     },
     "centeringDef": {
      "wallPoints": [
@@ -1938,9 +2051,104 @@
       "width": 170
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 165
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "info": {
+         "weight": 2
+        },
+        "depth": {
+         "value": 0
+        },
+        "depthJitter": {
+         "value": 0
+        },
+        "ellipse": {
+         "xDiameter": {
+          "xPercentValue": 0.6
+         },
+         "yDiameter": {
+          "yPercentValue": 0.32
+         }
+        }
+       },
+       {
+        "info": {
+         "weight": 1
+        },
+        "depth": {
+         "value": 0
+        },
+        "depthJitter": {
+         "value": 0
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.65
+         },
+         "yLength": {
+          "yPercentValue": 0.55
+         }
+        }
+       }
+      ],
+      "minDistance": {
+       "value": 7
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "ClusterPulse",
+   "def": {
+    "durationSeconds": 40,
+    "shotType": {
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 17,
+     "profiles": [
+      {
+       "targetRadius": 1,
+       "targetRadiusJitter": 0.2,
+       "speedJitter": 0,
+       "targetRadiusGrowthTimeSeconds": 2,
+       "targetRadiusGrowthSize": 4,
+       "targetRadiusGrowthFinalSizeTimeSeconds": 0.5,
+       "targetRadiusGrowthAccelerationFactor": 0.4,
+       "targetRadiusGrowthInitialDelaySeconds": 1.3,
+       "targetRadiusGrowthInitialDelaySecondsJitter": 1.3
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 150,
+      "width": 170
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "growthTimeMultiplier": 0.985,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 170
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -2022,7 +2230,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 100
     },
     "strafeDef": {
      "targetPlacementStrategy": {
@@ -2262,10 +2474,13 @@
       "width": 150
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96,
-     "speedMultiplier": 1.02
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.02,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 85
     },
     "linearDef": {
      "angle": 0,
@@ -2449,9 +2664,12 @@
       "width": 170
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.97,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 240
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -2955,7 +3173,7 @@
     "durationSeconds": 40,
     "shotType": {
      "clickSingle": true,
-     "ghostClosestOnMiss": 0.5,
+     "removeClosestOnMiss": true,
      "reload": {
       "maxShots": 3,
       "numToReloadOnHit": 3,
@@ -2986,7 +3204,10 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.98,
+     "speedMultiplier": 1.01,
+     "accelerationMultiplier": 1.01,
+     "levelOffset": 20
     },
     "scoreTargets": {
      "targetScore": 80
@@ -3371,7 +3592,9 @@
       "widthDegrees": 115
      }
     },
-    "levelOverrides": {},
+    "levelOverrides": {
+     "speedMultiplier": 1.04
+    },
     "sineDef": {
      "height": {
       "yPercentValue": 0.42
@@ -4689,11 +4912,12 @@
       "width": 190
      }
     },
-    "overrides": {},
     "levelOverrides": {
      "targetRadiusMultiplier": 0.96,
-     "speedMultiplier": 1.04,
-     "accelerationMultiplier": 1.02
+     "levelOffset": 15
+    },
+    "scoreTargets": {
+     "targetScore": 75
     },
     "strafeDef": {
      "bounds": {
@@ -4766,11 +4990,12 @@
       "width": 190
      }
     },
-    "overrides": {},
     "levelOverrides": {
      "targetRadiusMultiplier": 0.96,
-     "speedMultiplier": 1.04,
-     "accelerationMultiplier": 1.02
+     "levelOffset": 15
+    },
+    "scoreTargets": {
+     "targetScore": 75
     },
     "strafeDef": {
      "bounds": {
@@ -4828,21 +5053,6 @@
      "leftRightInitialDirection": "DIRECTION_POSITIVE",
      "upDownInitialDirection": "DIRECTION_RANDOM",
      "forwardBackInitialDirection": "DIRECTION_RANDOM"
-    }
-   }
-  },
-  {
-   "name": "SmoothSwerve 3d Precision Ladder",
-   "def": {
-    "overrides": {
-     "targetRadiusMultiplier": 0.96
-    },
-    "scoreTargets": {
-     "targetScore": 75
-    },
-    "referenceDef": {
-     "scenarioName": "AF SmoothSwerve 3d",
-     "explicitTargetRadius": 6
     }
    }
   },
@@ -4912,11 +5122,12 @@
       "widthDegrees": 115
      }
     },
-    "overrides": {},
     "levelOverrides": {
      "targetRadiusMultiplier": 0.96,
-     "speedMultiplier": 1.04,
-     "accelerationMultiplier": 1.02
+     "levelOffset": 15
+    },
+    "scoreTargets": {
+     "targetScore": 75
     },
     "strafeDef": {
      "bounds": {
@@ -4987,7 +5198,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 200
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -5170,9 +5385,12 @@
       "width": 170
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 130
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -5268,9 +5486,12 @@
       "sideAngleDegrees": 14
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 150
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -5352,9 +5573,13 @@
       "width": 170
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "growthTimeMultiplier": 0.95
+     "targetRadiusMultiplier": 0.99,
+     "growthTimeMultiplier": 0.98,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 140
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -6000,9 +6225,12 @@
       "width": 170
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 100
     },
     "wallWanderDef": {
      "targetPlacementStrategy": {
@@ -6120,7 +6348,6 @@
      "numTargets": 1,
      "profiles": [
       {
-       "info": {},
        "targetRadius": 2.5,
        "speed": 35
       }
@@ -6137,9 +6364,12 @@
       "width": 170
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 65
     },
     "wallWanderDef": {
      "profiles": [
@@ -6147,8 +6377,8 @@
        "info": {
         "weight": 2
        },
-       "turnTime": 2.69999981,
-       "turnTimeJitter": 0.499999911,
+       "turnTime": 2.7,
+       "turnTimeJitter": 0.5,
        "turnRate": 200,
        "turnRateJitter": 60
       },
@@ -6156,7 +6386,7 @@
        "info": {
         "weight": 1
        },
-       "turnTime": 0.999999762,
+       "turnTime": 1,
        "turnRate": 80,
        "turnRateJitter": 10
       }
@@ -6196,9 +6426,13 @@
       "width": 100
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.96,
+     "speedMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 130
     },
     "linearDef": {
      "angle": 90,
@@ -6270,10 +6504,12 @@
       "width": 100
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.97,
-     "speedMultiplier": 1.02
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 130
     },
     "linearDef": {
      "angle": 90,
@@ -6315,7 +6551,7 @@
   {
    "name": "Wide Angle Tracking",
    "def": {
-    "durationSeconds": 60,
+    "durationSeconds": 40,
     "shotType": {
      "trackingInvincible": true
     },
@@ -6339,9 +6575,12 @@
       "width": 325
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.97
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 75
     },
     "waypointDef": {
      "targetPlacementStrategy": {
@@ -6501,7 +6740,11 @@
      }
     },
     "levelOverrides": {
-     "growthTimeMultiplier": 0.95
+     "targetRadiusMultiplier": 0.97,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 110
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -6532,232 +6775,6 @@
   }
  ],
  "playlists": [
-  {
-   "name": "1w3ts Ladder",
-   "def": {
-    "description": "",
-    "levels": {
-     "baseScenario": "AF 1w3ts Ladder",
-     "maxLevel": 40,
-     "numPlaysPerLevel": 1
-    }
-   }
-  },
-  {
-   "name": "AlternateClick Vertical Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "AF AlternateClick Vertical Ladder",
-     "maxLevel": 30
-    }
-   }
-  },
-  {
-   "name": "AlternateClick VerticalTall Ladder ",
-   "def": {
-    "levels": {
-     "baseScenario": "AF AlternateClick VerticalTall Ladder",
-     "maxLevel": 30
-    }
-   }
-  },
-  {
-   "name": "AngleStrafe Ladder",
-   "def": {
-    "description": "",
-    "levels": {
-     "baseScenario": "AF AngleStrafe Ladder",
-     "maxLevel": 40,
-     "numPlaysPerLevel": 1
-    }
-   }
-  },
-  {
-   "name": "Bounce Overhead Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "AF Bounce Overhead Ladder",
-     "maxLevel": 40,
-     "numPlaysPerLevel": 1
-    }
-   }
-  },
-  {
-   "name": "Circle Clockwise",
-   "def": {
-    "description": "",
-    "items": [
-     {
-      "scenario": "AF Circle Clockwise",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Clockwise 10cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Clockwise 15cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Clockwise 20cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Clockwise 25cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Clockwise 30cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Clockwise 35cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Clockwise 40cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Clockwise 45cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Clockwise 50cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Clockwise 55cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Clockwise 60cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Clockwise 65cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Clockwise 70cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Clockwise 75cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Clockwise 80cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Clockwise 85cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Clockwise 90cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Clockwise 95cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Clockwise 100cm",
-      "numPlays": 1
-     }
-    ]
-   }
-  },
-  {
-   "name": "Circle Counter Clockwise",
-   "def": {
-    "description": "",
-    "items": [
-     {
-      "scenario": "AF Circle Counter Clockwise",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Counter Clockwise 10cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Counter Clockwise 15cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Counter Clockwise 20cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Counter Clockwise 25cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Counter Clockwise 30cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Counter Clockwise 35cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Counter Clockwise 40cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Counter Clockwise 45cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Counter Clockwise 50cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Counter Clockwise 55cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Counter Clockwise 60cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Counter Clockwise 65cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Counter Clockwise 70cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Counter Clockwise 75cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Counter Clockwise 80cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Counter Clockwise 85cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Counter Clockwise 90cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Counter Clockwise 95cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF Circle Counter Clockwise 100cm",
-      "numPlays": 1
-     }
-    ]
-   }
-  },
   {
    "name": "Clicking",
    "def": {
@@ -6809,6 +6826,10 @@
      {
       "scenario": "AF WidePulse",
       "numPlays": 1
+     },
+     {
+      "scenario": "AF ClusterPulse",
+      "numPlays": 1
      }
     ]
    }
@@ -6851,6 +6872,22 @@
      },
      {
       "scenario": "AF CassidyClick",
+      "numPlays": 1
+     },
+     {
+      "scenario": "AF DriftClick",
+      "numPlays": 1
+     },
+     {
+      "scenario": "AF SkeetClick",
+      "numPlays": 1
+     },
+     {
+      "scenario": "AF AlternateClick Wander",
+      "numPlays": 1
+     },
+     {
+      "scenario": "AF AlternateClick MoveCenter",
       "numPlays": 1
      }
     ]
@@ -6969,17 +7006,6 @@
    }
   },
   {
-   "name": "MixedStrafe Ladder",
-   "def": {
-    "description": "",
-    "levels": {
-     "baseScenario": "AF MixedStrafe Ladder",
-     "maxLevel": 40,
-     "numPlaysPerLevel": 1
-    }
-   }
-  },
-  {
    "name": "OmniFlick",
    "def": {
     "description": "Practice flicks at increasingly far distances. Targets are placed around the outside edges of the wall.",
@@ -7009,93 +7035,6 @@
       "numPlays": 1
      }
     ]
-   }
-  },
-  {
-   "name": "Popcorn Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "AF Popcorn Ladder",
-     "maxLevel": 40,
-     "numPlaysPerLevel": 1
-    }
-   }
-  },
-  {
-   "name": "SmoothStrafe Ladder",
-   "def": {
-    "description": "",
-    "levels": {
-     "baseScenario": "AF SmoothStrafe Ladder",
-     "maxLevel": 40,
-     "numPlaysPerLevel": 1
-    }
-   }
-  },
-  {
-   "name": "SmoothSwerve 3d Precision Ladder",
-   "def": {
-    "description": "",
-    "levels": {
-     "baseScenario": "AF SmoothSwerve 3d Precision Ladder",
-     "maxLevel": 30,
-     "numPlaysPerLevel": 1
-    }
-   }
-  },
-  {
-   "name": "SmoothSwerve Ladder",
-   "def": {
-    "description": "",
-    "levels": {
-     "baseScenario": "AF SmoothSwerve Ladder",
-     "maxLevel": 45,
-     "numPlaysPerLevel": 1
-    }
-   }
-  },
-  {
-   "name": "SmoothSwerve Precision Ladder",
-   "def": {
-    "description": "",
-    "levels": {
-     "baseScenario": "AF SmoothSwerve Precision Ladder",
-     "maxLevel": 45,
-     "numPlaysPerLevel": 1
-    }
-   }
-  },
-  {
-   "name": "Static Speed Ladder",
-   "def": {
-    "description": "",
-    "levels": {
-     "baseScenario": "AF Static Speed Ladder",
-     "maxLevel": 40,
-     "numPlaysPerLevel": 1
-    }
-   }
-  },
-  {
-   "name": "Static3 Ghost Ladder",
-   "def": {
-    "description": "",
-    "levels": {
-     "baseScenario": "AF Static3 Ghost Ladder",
-     "maxLevel": 40,
-     "numPlaysPerLevel": 1
-    }
-   }
-  },
-  {
-   "name": "Static3 Ladder",
-   "def": {
-    "description": "",
-    "levels": {
-     "baseScenario": "AF Static3 Ladder",
-     "maxLevel": 40,
-     "numPlaysPerLevel": 1
-    }
    }
   },
   {
@@ -7160,402 +7099,6 @@
      {
       "scenario": "AF SkyTs Wide Shrink",
       "numPlays": 1
-     }
-    ]
-   }
-  },
-  {
-   "name": "UfoTrack1 Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "AF UfoTrack1 Ladder",
-     "maxLevel": 40,
-     "numPlaysPerLevel": 1
-    }
-   }
-  },
-  {
-   "name": "UfoTrack2 Ladder",
-   "def": {
-    "levels": {
-     "baseScenario": "AF UfoTrack2 Ladder",
-     "maxLevel": 40,
-     "numPlaysPerLevel": 1
-    }
-   }
-  },
-  {
-   "name": "WallArc",
-   "def": {
-    "items": [
-     {
-      "scenario": "AF WallArc",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc 10cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc 15cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc 20cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc 25cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc 30cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc 35cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc 40cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc 45cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc 50cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc 55cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc 60cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc 65cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc 70cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc 75cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc 80cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc 85cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc 90cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc 95cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc 100cm",
-      "numPlays": 1
-     }
-    ]
-   }
-  },
-  {
-   "name": "WallArc Overhead",
-   "def": {
-    "items": [
-     {
-      "scenario": "AF WallArc Overhead",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc Overhead 10cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc Overhead 15cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc Overhead 20cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc Overhead 25cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc Overhead 30cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc Overhead 35cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc Overhead 40cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc Overhead 45cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc Overhead 50cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc Overhead 55cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc Overhead 60cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc Overhead 65cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc Overhead 70cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc Overhead 75cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc Overhead 80cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc Overhead 85cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc Overhead 90cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc Overhead 95cm",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WallArc Overhead 100cm",
-      "numPlays": 1
-     }
-    ]
-   }
-  }
- ],
- "guides": [
-  {
-   "name": "Bounce Overhead",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "AF Bounce Overhead Ladder",
-       "AF Bounce Overhead Ladder 10cm",
-       "AF Bounce Overhead Ladder 15cm",
-       "AF Bounce Overhead Ladder 20cm",
-       "AF Bounce Overhead Ladder 25cm",
-       "AF Bounce Overhead Ladder 30cm",
-       "AF Bounce Overhead Ladder 35cm",
-       "AF Bounce Overhead Ladder 40cm",
-       "AF Bounce Overhead Ladder 45cm",
-       "AF Bounce Overhead Ladder 50cm",
-       "AF Bounce Overhead Ladder 55cm",
-       "AF Bounce Overhead Ladder 60cm",
-       "AF Bounce Overhead Ladder 65cm",
-       "AF Bounce Overhead Ladder 70cm",
-       "AF Bounce Overhead Ladder 75cm",
-       "AF Bounce Overhead Ladder 80cm",
-       "AF Bounce Overhead Ladder 85cm"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "Popcorn",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "AF Popcorn Ladder",
-       "AF Popcorn Ladder 15cm",
-       "AF Popcorn Ladder 20cm",
-       "AF Popcorn Ladder 25cm",
-       "AF Popcorn Ladder 30cm",
-       "AF Popcorn Ladder 35cm",
-       "AF Popcorn Ladder 40cm",
-       "AF Popcorn Ladder 45cm",
-       "AF Popcorn Ladder 50cm",
-       "AF Popcorn Ladder 55cm",
-       "AF Popcorn Ladder 60cm",
-       "AF Popcorn Ladder 65cm",
-       "AF Popcorn Ladder 70cm"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "SmoothStrafe",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "AF SmoothStrafe Ladder",
-       "AF SmoothStrafe Ladder 10cm",
-       "AF SmoothStrafe Ladder 15cm",
-       "AF SmoothStrafe Ladder 20cm",
-       "AF SmoothStrafe Ladder 25cm",
-       "AF SmoothStrafe Ladder 30cm",
-       "AF SmoothStrafe Ladder 35cm",
-       "AF SmoothStrafe Ladder 40cm",
-       "AF SmoothStrafe Ladder 45cm",
-       "AF SmoothStrafe Ladder 50cm",
-       "AF SmoothStrafe Ladder 55cm",
-       "AF SmoothStrafe Ladder 60cm"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "SmoothSwerve",
-   "def": {
-    "sections": [
-     {
-      "text": "Standard (size decreases, speed increases)",
-      "playlists": [
-       "AF SmoothSwerve Ladder",
-       "AF SmoothSwerve Ladder 15cm",
-       "AF SmoothSwerve Ladder 20cm",
-       "AF SmoothSwerve Ladder 25cm",
-       "AF SmoothSwerve Ladder 30cm",
-       "AF SmoothSwerve Ladder 35cm",
-       "AF SmoothSwerve Ladder 40cm",
-       "AF SmoothSwerve Ladder 45cm",
-       "AF SmoothSwerve Ladder 50cm",
-       "AF SmoothSwerve Ladder 55cm",
-       "AF SmoothSwerve Ladder 60cm",
-       "AF SmoothSwerve Ladder 65cm",
-       "AF SmoothSwerve Ladder 70cm"
-      ]
-     },
-     {
-      "text": "\nVariations",
-      "guides": [
-       "AF SmoothSwerve 80fov"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "SmoothSwerve Precision",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "AF SmoothSwerve Precision Ladder",
-       "AF SmoothSwerve Precision Ladder 15cm",
-       "AF SmoothSwerve Precision Ladder 20cm",
-       "AF SmoothSwerve Precision Ladder 25cm",
-       "AF SmoothSwerve Precision Ladder 30cm",
-       "AF SmoothSwerve Precision Ladder 35cm",
-       "AF SmoothSwerve Precision Ladder 40cm",
-       "AF SmoothSwerve Precision Ladder 45cm",
-       "AF SmoothSwerve Precision Ladder 50cm",
-       "AF SmoothSwerve Precision Ladder 55cm",
-       "AF SmoothSwerve Precision Ladder 60cm",
-       "AF SmoothSwerve Precision Ladder 65cm",
-       "AF SmoothSwerve Precision Ladder 70cm"
-      ]
-     },
-     {
-      "text": "\nVariations",
-      "guides": [
-       "AF SmoothSwerve Precision 80fov",
-       "AF SmoothSwerve Precision 10%Faster",
-       "AF SmoothSwerve Precision -30%Taller"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "UfoTrack1",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "AF UfoTrack1 Ladder",
-       "AF UfoTrack1 Ladder 10cm",
-       "AF UfoTrack1 Ladder 15cm",
-       "AF UfoTrack1 Ladder 20cm",
-       "AF UfoTrack1 Ladder 25cm",
-       "AF UfoTrack1 Ladder 30cm",
-       "AF UfoTrack1 Ladder 35cm",
-       "AF UfoTrack1 Ladder 40cm",
-       "AF UfoTrack1 Ladder 45cm",
-       "AF UfoTrack1 Ladder 50cm",
-       "AF UfoTrack1 Ladder 55cm",
-       "AF UfoTrack1 Ladder 60cm",
-       "AF UfoTrack1 Ladder 65cm",
-       "AF UfoTrack1 Ladder 70cm",
-       "AF UfoTrack1 Ladder 75cm",
-       "AF UfoTrack1 Ladder 80cm",
-       "AF UfoTrack1 Ladder 85cm"
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "name": "UfoTrack2",
-   "def": {
-    "sections": [
-     {
-      "text": "",
-      "playlists": [
-       "AF UfoTrack2 Ladder",
-       "AF UfoTrack2 Ladder 10cm",
-       "AF UfoTrack2 Ladder 15cm",
-       "AF UfoTrack2 Ladder 20cm",
-       "AF UfoTrack2 Ladder 25cm",
-       "AF UfoTrack2 Ladder 30cm",
-       "AF UfoTrack2 Ladder 35cm",
-       "AF UfoTrack2 Ladder 40cm",
-       "AF UfoTrack2 Ladder 45cm",
-       "AF UfoTrack2 Ladder 50cm",
-       "AF UfoTrack2 Ladder 55cm",
-       "AF UfoTrack2 Ladder 60cm",
-       "AF UfoTrack2 Ladder 65cm",
-       "AF UfoTrack2 Ladder 70cm",
-       "AF UfoTrack2 Ladder 75cm",
-       "AF UfoTrack2 Ladder 80cm",
-       "AF UfoTrack2 Ladder 85cm"
-      ]
      }
     ]
    }
