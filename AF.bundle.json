@@ -4184,7 +4184,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 70
     },
     "linearDef": {
      "angle": 0,
@@ -4248,7 +4252,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 70
     },
     "linearDef": {
      "angle": 0,
@@ -4311,7 +4319,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.95
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 65
     },
     "linearDef": {
      "angle": 0,
@@ -7084,7 +7096,23 @@
       "numPlays": 1
      },
      {
+      "scenario": "AF DriftClick",
+      "numPlays": 1
+     },
+     {
       "scenario": "AF LinearClick",
+      "numPlays": 1
+     },
+     {
+      "scenario": "AF CassidyClick",
+      "numPlays": 1
+     },
+     {
+      "scenario": "AF WaterfallPulse",
+      "numPlays": 1
+     },
+     {
+      "scenario": "AF AlternateClick MoveCenter",
       "numPlays": 1
      },
      {
@@ -7096,14 +7124,6 @@
       "numPlays": 1
      },
      {
-      "scenario": "AF WaterfallClick",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF WaterfallPulse",
-      "numPlays": 1
-     },
-     {
       "scenario": "AF WanderClick",
       "numPlays": 1
      },
@@ -7112,11 +7132,7 @@
       "numPlays": 1
      },
      {
-      "scenario": "AF CassidyClick",
-      "numPlays": 1
-     },
-     {
-      "scenario": "AF DriftClick",
+      "scenario": "AF WaterfallClick",
       "numPlays": 1
      },
      {
@@ -7128,7 +7144,11 @@
       "numPlays": 1
      },
      {
-      "scenario": "AF AlternateClick MoveCenter",
+      "scenario": "AF LinearClick Barrel",
+      "numPlays": 1
+     },
+     {
+      "scenario": "AF SkeetClick Falling",
       "numPlays": 1
      }
     ]
