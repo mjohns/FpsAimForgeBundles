@@ -677,11 +677,8 @@
      "numTargets": 1,
      "profiles": [
       {
-       "info": {},
        "targetRadius": 2.5,
-       "targetRadiusJitter": 0,
        "speed": 109,
-       "speedJitter": 0,
        "acceleration": 330
       }
      ]
@@ -702,7 +699,7 @@
     "strafeDef": {
      "bounds": {
       "width": {
-       "xPercentValue": 0.560000062
+       "xPercentValue": 0.560000122
       },
       "height": {
        "yPercentValue": 0.82
@@ -717,25 +714,29 @@
         "weight": 5
        },
        "time": 1.1,
-       "timeJitter": 0.200000018
+       "timeJitter": 0.2
       },
       {
        "info": {
         "description": "Shifty Strafe",
         "weight": 2
        },
-       "time": 0.699999928,
+       "time": 0.7,
        "timeJitter": 0.1
       },
       {
        "info": {
         "description": "Blink",
-        "weight": 1,
-        "minSelectionGap": 2
+        "weight": 3,
+        "minSelectionGap": 1
        },
-       "time": 0.2,
-       "timeJitter": 0.03,
-       "speedMultiplier": 8.84999561,
+       "distance": {
+        "xPercentValue": 0.21
+       },
+       "distanceJitter": {
+        "xPercentValue": 0.03
+       },
+       "speedMultiplier": 8.85,
        "accelerationMultiplier": 100
       }
      ],
@@ -782,6 +783,138 @@
      ],
      "leftRightInitialDirection": "DIRECTION_NEGATIVE",
      "upDownInitialDirection": "DIRECTION_POSITIVE",
+     "forwardBackInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "Controlswitch Intermediate",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "trackingKill": true,
+     "healthSeconds": 0.6
+    },
+    "targetDef": {
+     "numTargets": 5,
+     "profiles": [
+      {
+       "targetRadius": 3.5,
+       "speed": 54,
+       "acceleration": 105
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+     },
+     "cylinderRoom": {
+      "height": 130,
+      "radius": 220,
+      "sideAngleDegrees": 51,
+      "widthDegrees": 150
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 55
+    },
+    "strafeDef": {
+     "bounds": {
+      "width": {
+       "xPercentValue": 0.86
+      },
+      "height": {
+       "yPercentValue": 0.81
+      },
+      "depth": {
+       "depthPercentValue": 0.4
+      }
+     },
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.9
+         },
+         "yLength": {
+          "yPercentValue": 0.8
+         }
+        }
+       }
+      ]
+     },
+     "leftRightProfiles": [
+      {
+       "info": {
+        "description": "short",
+        "weight": 4
+       },
+       "distance": {
+        "xPercentValue": 0.14
+       },
+       "distanceJitter": {
+        "xPercentValue": 0.03
+       },
+       "speedMultiplier": 1.16,
+       "accelerationMultiplier": 1.08,
+       "startSpeedPercent": 0.42
+      },
+      {
+       "info": {
+        "description": "long",
+        "weight": 1
+       },
+       "distance": {
+        "xPercentValue": 0.28
+       },
+       "distanceJitter": {
+        "xPercentValue": 0.07
+       },
+       "speedMultiplier": 1.15,
+       "startSpeedPercent": 0.4
+      }
+     ],
+     "forwardBackProfiles": [
+      {
+       "time": 1.2,
+       "timeJitter": 0.45
+      }
+     ],
+     "upDownProfiles": [
+      {
+       "info": {
+        "description": "Slow Vertical",
+        "weight": 1
+       },
+       "distance": {
+        "yPercentValue": 0.23
+       },
+       "distanceJitter": {
+        "yPercentValue": 0.075
+       },
+       "speedMultiplier": 0.38,
+       "accelerationMultiplier": 0.27
+      },
+      {
+       "info": {
+        "description": "no vert",
+        "weight": 1
+       },
+       "time": 1,
+       "timeJitter": 0.2,
+       "speedMultiplier": 0.01
+      }
+     ],
+     "leftRightInitialDirection": "DIRECTION_RANDOM",
+     "upDownInitialDirection": "DIRECTION_RANDOM",
      "forwardBackInitialDirection": "DIRECTION_RANDOM"
     }
    }
@@ -1030,6 +1163,151 @@
      },
      "leftRightInitialDirection": "DIRECTION_IN",
      "upDownInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "FuglaaXYZ TS Intermediate",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "trackingKill": true,
+     "healthSeconds": 0.3
+    },
+    "targetDef": {
+     "numTargets": 3,
+     "profiles": [
+      {
+       "targetRadius": 2.7,
+       "speed": 46,
+       "acceleration": 345
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+     },
+     "cylinderRoom": {
+      "height": 90,
+      "radius": 170,
+      "sideAngleDegrees": 40.5,
+      "widthDegrees": 90
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 48
+    },
+    "strafeDef": {
+     "bounds": {
+      "width": {
+       "xPercentValue": 0.64
+      },
+      "height": {
+       "yPercentValue": 0.74
+      },
+      "depth": {
+       "depthPercentValue": 0.59
+      }
+     },
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "info": {},
+        "depth": {
+         "value": 47
+        },
+        "depthJitter": {
+         "value": 34
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.649999857
+         },
+         "yLength": {
+          "yPercentValue": 0.559999943
+         }
+        }
+       }
+      ],
+      "minDistance": {
+       "value": 65
+      }
+     },
+     "leftRightProfiles": [
+      {
+       "info": {
+        "weight": 1
+       },
+       "distance": {
+        "xPercentValue": 0.22
+       },
+       "distanceJitter": {
+        "xPercentValue": 0.06
+       }
+      },
+      {
+       "info": {
+        "description": "fast",
+        "weight": 1,
+        "minSelectionGap": 1
+       },
+       "distance": {
+        "xPercentValue": 0.18
+       },
+       "distanceJitter": {
+        "xPercentValue": 0.03
+       },
+       "speedMultiplier": 5,
+       "accelerationMultiplier": 10
+      }
+     ],
+     "forwardBackProfiles": [
+      {
+       "time": 1.2,
+       "timeJitter": 0.45
+      }
+     ],
+     "upDownProfiles": [
+      {
+       "info": {
+        "description": "Slow Vertical",
+        "weight": 4
+       },
+       "distance": {
+        "yPercentValue": 0.37
+       },
+       "distanceJitter": {
+        "yPercentValue": 0.115
+       },
+       "speedMultiplier": 0.65,
+       "accelerationMultiplier": 0.3
+      },
+      {
+       "info": {
+        "description": "fast",
+        "weight": 2,
+        "minSelectionGap": 3
+       },
+       "distance": {
+        "yPercentValue": 0.14
+       },
+       "distanceJitter": {
+        "yPercentValue": 0.03
+       },
+       "speedMultiplier": 2.65,
+       "accelerationMultiplier": 1.79
+      }
+     ],
+     "leftRightInitialDirection": "DIRECTION_RANDOM",
+     "upDownInitialDirection": "DIRECTION_RANDOM",
+     "forwardBackInitialDirection": "DIRECTION_RANDOM"
     }
    }
   },
@@ -3201,6 +3479,241 @@
    }
   },
   {
+   "name": "VT Aether Intermediate S5 Bot 1",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "trackingInvincible": true
+    },
+    "targetDef": {
+     "numTargets": 1,
+     "profiles": [
+      {
+       "targetRadius": 8,
+       "speed": 222,
+       "acceleration": 3000,
+       "pill": {
+        "height": 11
+       }
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+     },
+     "cylinderRoom": {
+      "height": 165,
+      "radius": 200,
+      "sideAngleDegrees": 63,
+      "widthDegrees": 155
+     }
+    },
+    "strafeDef": {
+     "bounds": {
+      "width": {
+       "xPercentValue": 0.85
+      },
+      "height": {
+       "yPercentValue": 0.85
+      }
+     },
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "depth": {
+         "depthPercentValue": 0.28
+        },
+        "depthJitter": {
+         "depthPercentValue": 0
+        },
+        "point": {
+         "x": {
+          "xPercentValue": 0
+         },
+         "y": {
+          "yPercentValue": 0
+         }
+        }
+       }
+      ]
+     },
+     "leftRightProfiles": [
+      {
+       "centerBias": 0.1,
+       "distance": {
+        "xPercentValue": 0.21
+       },
+       "distanceJitter": {
+        "xPercentValue": 0.08
+       },
+       "accelerationMultiplier": 1.14,
+       "startSpeedPercent": 0.4
+      }
+     ],
+     "upDownProfiles": [
+      {
+       "centerBias": 0.2,
+       "distance": {
+        "yPercentValue": 0.46
+       },
+       "distanceJitter": {
+        "yPercentValue": 0.15
+       },
+       "speedMultiplier": 0.5,
+       "accelerationMultiplier": 0.08,
+       "startSpeedPercent": 0.32
+      }
+     ],
+     "leftRightInitialDirection": "DIRECTION_NEGATIVE",
+     "upDownInitialDirection": "DIRECTION_POSITIVE",
+     "forwardBackInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "VT Aether Intermediate S5 Bot 1 Hard",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 0.9,
+     "speedMultiplier": 1.07,
+     "accelerationMultiplier": 1.07
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Aether Intermediate S5 Bot 1"
+    }
+   }
+  },
+  {
+   "name": "VT Aether Intermediate S5 Bot 1 Reactive Focus",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.4,
+     "speedMultiplier": 1.3,
+     "accelerationMultiplier": 0.8
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Aether Intermediate S5 Bot 1"
+    }
+   }
+  },
+  {
+   "name": "VT Aether Intermediate S5 Bot 3",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "trackingInvincible": true
+    },
+    "targetDef": {
+     "numTargets": 1,
+     "profiles": [
+      {
+       "targetRadius": 7,
+       "speed": 145,
+       "acceleration": 1000,
+       "pill": {
+        "height": 10
+       }
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+     },
+     "cylinderRoom": {
+      "height": 147,
+      "radius": 200,
+      "sideAngleDegrees": 63,
+      "widthDegrees": 145
+     }
+    },
+    "strafeDef": {
+     "bounds": {
+      "width": {
+       "xPercentValue": 0.85
+      },
+      "height": {
+       "yPercentValue": 0.85
+      }
+     },
+     "leftRightProfiles": [
+      {
+       "info": {
+        "weight": 3
+       },
+       "distance": {
+        "xPercentValue": 0.2
+       },
+       "distanceJitter": {
+        "xPercentValue": 0.075
+       }
+      },
+      {
+       "info": {
+        "description": "shifty",
+        "weight": 2,
+        "minSelectionGap": 1
+       },
+       "distance": {
+        "xPercentValue": 0.07
+       },
+       "distanceJitter": {
+        "xPercentValue": 0.03
+       }
+      }
+     ],
+     "upDownProfiles": [
+      {
+       "centerBias": 0.2,
+       "distance": {
+        "yPercentValue": 0.34
+       },
+       "distanceJitter": {
+        "yPercentValue": 0.21
+       },
+       "speedMultiplier": 0.5,
+       "accelerationMultiplier": 0.12,
+       "startSpeedPercent": 0.32
+      }
+     ],
+     "leftRightInitialDirection": "DIRECTION_NEGATIVE",
+     "upDownInitialDirection": "DIRECTION_POSITIVE",
+     "forwardBackInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "VT Aether Intermediate S5 Bot 3 Hard",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 0.9,
+     "speedMultiplier": 1.07,
+     "accelerationMultiplier": 1.07
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Aether Intermediate S5 Bot 3"
+    }
+   }
+  },
+  {
+   "name": "VT Aether Intermediate S5 Bot 3 Reactive Focus",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.4,
+     "speedMultiplier": 1.3,
+     "accelerationMultiplier": 0.8
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Aether Intermediate S5 Bot 3"
+    }
+   }
+  },
+  {
    "name": "VT Angleswitch Micro Valorant Intermediate",
    "def": {
     "durationSeconds": 60,
@@ -3649,6 +4162,197 @@
    }
   },
   {
+   "name": "VT ControlTS Intermediate S5",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "trackingKill": true,
+     "healthSeconds": 0.6
+    },
+    "targetDef": {
+     "numTargets": 4,
+     "profiles": [
+      {
+       "targetRadius": 3.5,
+       "speed": 54,
+       "acceleration": 105
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -255,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 175,
+      "width": 292
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 50
+    },
+    "strafeDef": {
+     "bounds": {
+      "width": {
+       "xPercentValue": 0.86
+      },
+      "height": {
+       "yPercentValue": 0.81
+      },
+      "depth": {
+       "depthPercentValue": 0.31
+      }
+     },
+     "relativeBounds": {
+      "height": {
+       "yPercentValue": 0.5
+      }
+     },
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "xOffset": {
+         "xPercentValue": 0
+        },
+        "yOffset": {
+         "yPercentValue": 0.23
+        },
+        "depth": {
+         "value": 8
+        },
+        "depthJitter": {
+         "value": 8
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.8
+         },
+         "yLength": {
+          "yPercentValue": 0.4
+         }
+        }
+       }
+      ]
+     },
+     "leftRightProfiles": [
+      {
+       "info": {
+        "description": "short",
+        "weight": 4
+       },
+       "distance": {
+        "xPercentValue": 0.14
+       },
+       "distanceJitter": {
+        "xPercentValue": 0.03
+       },
+       "speedMultiplier": 1.16,
+       "accelerationMultiplier": 1.08,
+       "startSpeedPercent": 0.42
+      },
+      {
+       "info": {
+        "description": "long",
+        "weight": 1
+       },
+       "distance": {
+        "xPercentValue": 0.28
+       },
+       "distanceJitter": {
+        "xPercentValue": 0.07
+       },
+       "speedMultiplier": 1.15,
+       "startSpeedPercent": 0.4
+      }
+     ],
+     "forwardBackProfiles": [
+      {
+       "time": 1.2,
+       "timeJitter": 0.45
+      }
+     ],
+     "upDownProfiles": [
+      {
+       "info": {
+        "description": "Slow Vertical",
+        "weight": 1
+       },
+       "distance": {
+        "yPercentValue": 0.23
+       },
+       "distanceJitter": {
+        "yPercentValue": 0.075
+       },
+       "speedMultiplier": 0.38,
+       "accelerationMultiplier": 0.27
+      },
+      {
+       "info": {
+        "description": "no vert",
+        "weight": 1
+       },
+       "time": 1,
+       "timeJitter": 0.2,
+       "speedMultiplier": 0.01
+      }
+     ],
+     "leftRightInitialDirection": "DIRECTION_RANDOM",
+     "upDownInitialDirection": "DIRECTION_RANDOM",
+     "forwardBackInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "VT ControlTS Intermediate S5 Hard",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 0.88,
+     "speedMultiplier": 1.1,
+     "accelerationMultiplier": 1.1
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT ControlTS Intermediate S5"
+    }
+   }
+  },
+  {
+   "name": "VT ControlTS Intermediate S5 Smooth",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 0.9
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT ControlTS Intermediate S5",
+     "shotType": {
+      "trackingKill": true,
+      "healthSeconds": 0.85,
+      "healthRegenRate": 1.5
+     }
+    }
+   }
+  },
+  {
+   "name": "VT ControlTS Intermediate S5 Speed",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.5
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT ControlTS Intermediate S5",
+     "shotType": {
+      "trackingKill": true,
+      "healthSeconds": 0.45
+     }
+    }
+   }
+  },
+  {
    "name": "VT Controlsphere Intermediate S5",
    "def": {
     "durationSeconds": 60,
@@ -3659,11 +4363,8 @@
      "numTargets": 1,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 2.69999981,
-       "targetRadiusJitter": 0,
+       "targetRadius": 2.7,
        "speed": 120,
-       "speedJitter": 0,
        "acceleration": 330
       }
      ]
@@ -3684,7 +4385,7 @@
     "strafeDef": {
      "bounds": {
       "width": {
-       "xPercentValue": 0.560000062
+       "xPercentValue": 0.560000122
       },
       "height": {
        "yPercentValue": 0.82
@@ -3699,14 +4400,14 @@
         "weight": 4
        },
        "time": 1.1,
-       "timeJitter": 0.200000018
+       "timeJitter": 0.2
       },
       {
        "info": {
         "description": "Shifty Strafe",
         "weight": 1
        },
-       "time": 0.699999928,
+       "time": 0.7,
        "timeJitter": 0.1
       }
      ],
@@ -3724,10 +4425,11 @@
        "info": {
         "weight": 6
        },
-       "time": 3.3999989,
+       "time": 3.4,
        "timeJitter": 0.4,
-       "speedMultiplier": 0.100000009,
-       "accelerationMultiplier": 0.199999779
+       "centerBias": 0.1,
+       "speedMultiplier": 0.1,
+       "accelerationMultiplier": 0.2
       },
       {
        "info": {
@@ -3735,20 +4437,22 @@
         "weight": 1,
         "minSelectionGap": 4
        },
-       "time": 2.79999948,
+       "time": 2.8,
        "timeJitter": 0.5,
-       "speedMultiplier": 0.499999881,
-       "accelerationMultiplier": 0.199999988
+       "centerBias": 0.4,
+       "speedMultiplier": 0.5,
+       "accelerationMultiplier": 0.2
       },
       {
        "info": {
         "description": "Mid",
         "weight": 3
        },
-       "time": 2.30000019,
-       "timeJitter": 0.200000018,
+       "time": 2.3,
+       "timeJitter": 0.2,
+       "centerBias": 0.1,
        "speedMultiplier": 0.08,
-       "accelerationMultiplier": 0.199999839
+       "accelerationMultiplier": 0.2
       }
      ],
      "leftRightInitialDirection": "DIRECTION_NEGATIVE",
@@ -3760,327 +4464,39 @@
   {
    "name": "VT Controlsphere Intermediate S5 Hard",
    "def": {
-    "durationSeconds": 60,
-    "shotType": {
-     "trackingInvincible": true
+    "overrides": {
+     "targetRadiusMultiplier": 0.88,
+     "speedMultiplier": 1.1,
+     "accelerationMultiplier": 1.08
     },
-    "targetDef": {
-     "numTargets": 1,
-     "profiles": [
-      {
-       "info": {},
-       "targetRadius": 2.40299988,
-       "targetRadiusJitter": 0,
-       "speed": 128.4,
-       "speedJitter": 0,
-       "acceleration": 336.6
-      }
-     ]
-    },
-    "room": {
-     "cameraPosition": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-     },
-     "cylinderRoom": {
-      "height": 130,
-      "radius": 150,
-      "sideAngleDegrees": 39,
-      "widthDegrees": 108.000008
-     }
-    },
-    "strafeDef": {
-     "bounds": {
-      "width": {
-       "xPercentValue": 0.560000062
-      },
-      "height": {
-       "yPercentValue": 0.82
-      },
-      "depth": {
-       "depthPercentValue": 0.2
-      }
-     },
-     "leftRightProfiles": [
-      {
-       "info": {
-        "weight": 4
-       },
-       "time": 1.1,
-       "timeJitter": 0.200000018
-      },
-      {
-       "info": {
-        "description": "Shifty Strafe",
-        "weight": 1
-       },
-       "time": 0.699999928,
-       "timeJitter": 0.1
-      }
-     ],
-     "forwardBackProfiles": [
-      {
-       "info": {},
-       "time": 2.89999938,
-       "timeJitter": 0.5,
-       "speedMultiplier": 0.350000024,
-       "accelerationMultiplier": 0.499999881
-      }
-     ],
-     "upDownProfiles": [
-      {
-       "info": {
-        "weight": 6
-       },
-       "time": 3.3999989,
-       "timeJitter": 0.4,
-       "speedMultiplier": 0.100000009,
-       "accelerationMultiplier": 0.199999779
-      },
-      {
-       "info": {
-        "description": "Big up/down swing",
-        "weight": 1,
-        "minSelectionGap": 4
-       },
-       "time": 2.79999948,
-       "timeJitter": 0.5,
-       "speedMultiplier": 0.499999881,
-       "accelerationMultiplier": 0.199999988
-      },
-      {
-       "info": {
-        "description": "Mid",
-        "weight": 3
-       },
-       "time": 2.30000019,
-       "timeJitter": 0.200000018,
-       "speedMultiplier": 0.08,
-       "accelerationMultiplier": 0.199999839
-      }
-     ],
-     "leftRightInitialDirection": "DIRECTION_NEGATIVE",
-     "upDownInitialDirection": "DIRECTION_POSITIVE",
-     "forwardBackInitialDirection": "DIRECTION_RANDOM"
+    "referenceDef": {
+     "scenarioName": "VDIM VT Controlsphere Intermediate S5"
     }
    }
   },
   {
    "name": "VT Controlsphere Intermediate S5 Precision Focus",
    "def": {
-    "durationSeconds": 60,
-    "shotType": {
-     "trackingInvincible": true
+    "overrides": {
+     "targetRadiusMultiplier": 0.75,
+     "speedMultiplier": 0.65,
+     "accelerationMultiplier": 0.65
     },
-    "targetDef": {
-     "numTargets": 1,
-     "profiles": [
-      {
-       "info": {},
-       "targetRadius": 2.02500057,
-       "targetRadiusJitter": 0,
-       "speed": 74.4000397,
-       "speedJitter": 0,
-       "acceleration": 217.80011
-      }
-     ]
-    },
-    "room": {
-     "cameraPosition": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-     },
-     "cylinderRoom": {
-      "height": 130,
-      "radius": 150,
-      "sideAngleDegrees": 39,
-      "widthDegrees": 108.000008
-     }
-    },
-    "strafeDef": {
-     "bounds": {
-      "width": {
-       "xPercentValue": 0.560000062
-      },
-      "height": {
-       "yPercentValue": 0.82
-      },
-      "depth": {
-       "depthPercentValue": 0.2
-      }
-     },
-     "leftRightProfiles": [
-      {
-       "info": {
-        "weight": 4
-       },
-       "time": 1.1,
-       "timeJitter": 0.200000018
-      },
-      {
-       "info": {
-        "description": "Shifty Strafe",
-        "weight": 1
-       },
-       "time": 0.699999928,
-       "timeJitter": 0.1
-      }
-     ],
-     "forwardBackProfiles": [
-      {
-       "info": {},
-       "time": 2.89999938,
-       "timeJitter": 0.5,
-       "speedMultiplier": 0.350000024,
-       "accelerationMultiplier": 0.499999881
-      }
-     ],
-     "upDownProfiles": [
-      {
-       "info": {
-        "weight": 6
-       },
-       "time": 3.3999989,
-       "timeJitter": 0.4,
-       "speedMultiplier": 0.100000009,
-       "accelerationMultiplier": 0.199999779
-      },
-      {
-       "info": {
-        "description": "Big up/down swing",
-        "weight": 1,
-        "minSelectionGap": 4
-       },
-       "time": 2.79999948,
-       "timeJitter": 0.5,
-       "speedMultiplier": 0.499999881,
-       "accelerationMultiplier": 0.199999988
-      },
-      {
-       "info": {
-        "description": "Mid",
-        "weight": 3
-       },
-       "time": 2.30000019,
-       "timeJitter": 0.200000018,
-       "speedMultiplier": 0.08,
-       "accelerationMultiplier": 0.199999839
-      }
-     ],
-     "leftRightInitialDirection": "DIRECTION_NEGATIVE",
-     "upDownInitialDirection": "DIRECTION_POSITIVE",
-     "forwardBackInitialDirection": "DIRECTION_RANDOM"
+    "referenceDef": {
+     "scenarioName": "VDIM VT Controlsphere Intermediate S5"
     }
    }
   },
   {
    "name": "VT Controlsphere Intermediate S5 Reactive Focus",
    "def": {
-    "durationSeconds": 60,
-    "shotType": {
-     "trackingInvincible": true
+    "overrides": {
+     "targetRadiusMultiplier": 1.4,
+     "speedMultiplier": 1.3,
+     "accelerationMultiplier": 1.07
     },
-    "targetDef": {
-     "numTargets": 1,
-     "profiles": [
-      {
-       "info": {},
-       "targetRadius": 4.48199797,
-       "targetRadiusJitter": 0,
-       "speed": 180,
-       "speedJitter": 0,
-       "acceleration": 518.099792
-      }
-     ]
-    },
-    "room": {
-     "cameraPosition": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-     },
-     "cylinderRoom": {
-      "height": 130,
-      "radius": 150,
-      "sideAngleDegrees": 39,
-      "widthDegrees": 108.000008
-     }
-    },
-    "strafeDef": {
-     "bounds": {
-      "width": {
-       "xPercentValue": 0.560000062
-      },
-      "height": {
-       "yPercentValue": 0.82
-      },
-      "depth": {
-       "depthPercentValue": 0.2
-      }
-     },
-     "leftRightProfiles": [
-      {
-       "info": {
-        "weight": 4
-       },
-       "time": 1.1,
-       "timeJitter": 0.200000018
-      },
-      {
-       "info": {
-        "description": "Shifty Strafe",
-        "weight": 1
-       },
-       "time": 0.699999928,
-       "timeJitter": 0.1
-      }
-     ],
-     "forwardBackProfiles": [
-      {
-       "info": {},
-       "time": 2.89999938,
-       "timeJitter": 0.5,
-       "speedMultiplier": 0.350000024,
-       "accelerationMultiplier": 0.499999881
-      }
-     ],
-     "upDownProfiles": [
-      {
-       "info": {
-        "weight": 6
-       },
-       "time": 3.3999989,
-       "timeJitter": 0.4,
-       "speedMultiplier": 0.100000009,
-       "accelerationMultiplier": 0.199999779
-      },
-      {
-       "info": {
-        "description": "Big up/down swing",
-        "weight": 1,
-        "minSelectionGap": 4
-       },
-       "time": 2.79999948,
-       "timeJitter": 0.5,
-       "speedMultiplier": 0.499999881,
-       "accelerationMultiplier": 0.199999988
-      },
-      {
-       "info": {
-        "description": "Mid",
-        "weight": 3
-       },
-       "time": 2.30000019,
-       "timeJitter": 0.200000018,
-       "speedMultiplier": 0.08,
-       "accelerationMultiplier": 0.199999839
-      }
-     ],
-     "leftRightInitialDirection": "DIRECTION_NEGATIVE",
-     "upDownInitialDirection": "DIRECTION_POSITIVE",
-     "forwardBackInitialDirection": "DIRECTION_RANDOM"
+    "referenceDef": {
+     "scenarioName": "VDIM VT Controlsphere Intermediate S5"
     }
    }
   },
@@ -4683,6 +5099,191 @@
        "value": 15
       }
      }
+    }
+   }
+  },
+  {
+   "name": "VT DriftTS Intermediate S5",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "trackingKill": true,
+     "healthSeconds": 0.45
+    },
+    "targetDef": {
+     "numTargets": 4,
+     "profiles": [
+      {
+       "targetRadius": 3.65,
+       "speed": 62,
+       "acceleration": 185
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -184,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 148,
+      "width": 357
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 60
+    },
+    "strafeDef": {
+     "bounds": {
+      "width": {
+       "xPercentValue": 0.85
+      },
+      "height": {
+       "yPercentValue": 0.81
+      },
+      "depth": {
+       "depthPercentValue": 0.24
+      }
+     },
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "depth": {
+         "value": 47
+        },
+        "depthJitter": {
+         "value": 34
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.649999797
+         },
+         "yLength": {
+          "yPercentValue": 0.559999883
+         }
+        }
+       }
+      ]
+     },
+     "leftRightProfiles": [
+      {
+       "info": {
+        "description": "short",
+        "weight": 4
+       },
+       "distance": {
+        "xPercentValue": 0.14
+       },
+       "distanceJitter": {
+        "xPercentValue": 0.03
+       },
+       "speedMultiplier": 1.16,
+       "accelerationMultiplier": 1.08,
+       "startSpeedPercent": 0.5
+      },
+      {
+       "info": {
+        "description": "long",
+        "weight": 1
+       },
+       "distance": {
+        "xPercentValue": 0.28
+       },
+       "distanceJitter": {
+        "xPercentValue": 0.07
+       },
+       "speedMultiplier": 1.15,
+       "startSpeedPercent": 0.5
+      }
+     ],
+     "forwardBackProfiles": [
+      {
+       "time": 1.2,
+       "timeJitter": 0.45
+      }
+     ],
+     "upDownProfiles": [
+      {
+       "info": {
+        "description": "Slow Vertical",
+        "weight": 1
+       },
+       "distance": {
+        "yPercentValue": 0.23
+       },
+       "distanceJitter": {
+        "yPercentValue": 0.075
+       },
+       "speedMultiplier": 0.38,
+       "accelerationMultiplier": 0.27
+      },
+      {
+       "info": {
+        "description": "no vert",
+        "weight": 1
+       },
+       "time": 1,
+       "timeJitter": 0.2,
+       "speedMultiplier": 0.01
+      }
+     ],
+     "leftRightInitialDirection": "DIRECTION_RANDOM",
+     "upDownInitialDirection": "DIRECTION_RANDOM",
+     "forwardBackInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "VT DriftTS Intermediate S5 Hard",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 0.88,
+     "speedMultiplier": 1.1,
+     "accelerationMultiplier": 1.05
+    },
+    "scoreTargets": {
+     "targetScore": 55
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT DriftTS Intermediate S5"
+    }
+   }
+  },
+  {
+   "name": "VT DriftTS Intermediate S5 Smooth",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 0.94
+    },
+    "scoreTargets": {
+     "targetScore": 47
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT DriftTS Intermediate S5",
+     "shotType": {
+      "trackingKill": true,
+      "healthSeconds": 0.5,
+      "healthRegenRate": 1.5
+     }
+    }
+   }
+  },
+  {
+   "name": "VT DriftTS Intermediate S5 Speed",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.5
+    },
+    "scoreTargets": {
+     "targetScore": 70
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT DriftTS Intermediate S5"
     }
    }
   },
@@ -9116,6 +9717,9 @@
       "width": 250
      }
     },
+    "scoreTargets": {
+     "targetScore": 75
+    },
     "strafeDef": {
      "bounds": {
       "height": {
@@ -9130,7 +9734,7 @@
        "info": {
         "weight": 4
        },
-       "time": 1.60000014,
+       "time": 1.6,
        "timeJitter": 0.5
       },
       {
@@ -9138,7 +9742,7 @@
         "description": "Shorter",
         "weight": 1
        },
-       "time": 0.799999952,
+       "time": 0.8,
        "timeJitter": 0.1
       }
      ],
@@ -12385,6 +12989,46 @@
      {
       "scenario": "VDIM ToonsTS Intermediate",
       "numPlays": 3
+     },
+     {
+      "scenario": "VDIM FuglaaXYZ TS Intermediate",
+      "numPlays": 1
+     },
+     {
+      "scenario": "VDIM VT DriftTS Intermediate S5 Speed",
+      "numPlays": 1
+     },
+     {
+      "scenario": "VDIM VT DriftTS Intermediate S5 Smooth",
+      "numPlays": 1
+     },
+     {
+      "scenario": "VDIM VT DriftTS Intermediate S5 Hard",
+      "numPlays": 1
+     },
+     {
+      "scenario": "VDIM VT DriftTS Intermediate S5",
+      "numPlays": 1
+     },
+     {
+      "scenario": "VDIM Controlswitch Intermediate",
+      "numPlays": 1
+     },
+     {
+      "scenario": "VDIM VT ControlTS Intermediate S5 Speed",
+      "numPlays": 1
+     },
+     {
+      "scenario": "VDIM VT ControlTS Intermediate S5 Smooth",
+      "numPlays": 1
+     },
+     {
+      "scenario": "VDIM VT ControlTS Intermediate S5 Hard",
+      "numPlays": 1
+     },
+     {
+      "scenario": "VDIM VT ControlTS Intermediate S5",
+      "numPlays": 1
      }
     ]
    }
@@ -12591,6 +13235,50 @@
      {
       "scenario": "VDIM VT Ground Intermediate S5 Bot 3",
       "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Controlsphere Blink Intermediate",
+      "numPlays": 1
+     },
+     {
+      "scenario": "VDIM VT Controlsphere Intermediate S5 Precision Focus",
+      "numPlays": 1
+     },
+     {
+      "scenario": "VDIM VT Controlsphere Intermediate S5 Reactive Focus",
+      "numPlays": 1
+     },
+     {
+      "scenario": "VDIM VT Controlsphere Intermediate S5 Hard",
+      "numPlays": 1
+     },
+     {
+      "scenario": "VDIM VT Controlsphere Intermediate S5",
+      "numPlays": 1
+     },
+     {
+      "scenario": "VDIM VT Aether Intermediate S5 Bot 1 Reactive Focus",
+      "numPlays": 1
+     },
+     {
+      "scenario": "VDIM VT Aether Intermediate S5 Bot 3 Reactive Focus",
+      "numPlays": 1
+     },
+     {
+      "scenario": "VDIM VT Aether Intermediate S5 Bot 1 Hard",
+      "numPlays": 1
+     },
+     {
+      "scenario": "VDIM VT Aether Intermediate S5 Bot 3 Hard",
+      "numPlays": 1
+     },
+     {
+      "scenario": "VDIM VT Aether Intermediate S5 Bot 1",
+      "numPlays": 1
+     },
+     {
+      "scenario": "VDIM VT Aether Intermediate S5 Bot 3",
+      "numPlays": 1
      }
     ]
    }
