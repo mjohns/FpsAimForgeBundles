@@ -396,17 +396,15 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 2,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 2.20000029,
-       "targetRadiusJitter": 0,
-       "speed": 7,
-       "speedJitter": 0
+       "targetRadius": 2.2,
+       "speed": 7
       }
      ]
     },
@@ -420,6 +418,13 @@
       "height": 120,
       "width": 130
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 90
     },
     "wallWanderDef": {
      "targetPlacementStrategy": {
@@ -448,8 +453,7 @@
      },
      "profiles": [
       {
-       "info": {},
-       "turnTime": 2.19999981,
+       "turnTime": 2.2,
        "turnTimeJitter": 0.6,
        "turnRate": 300,
        "turnRateJitter": 80
@@ -945,10 +949,7 @@
      "numTargets": 4,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 2.19999981,
-       "targetRadiusJitter": 1.49011612e-08,
-       "speed": 21,
+       "targetRadius": 2.2,
        "speedJitter": 0
       }
      ]
@@ -964,11 +965,13 @@
       "width": 250
      }
     },
+    "scoreTargets": {
+     "targetScore": 90
+    },
     "staticDef": {
      "targetPlacementStrategy": {
       "regions": [
        {
-        "info": {},
         "depth": {
          "value": 42
         },
@@ -977,10 +980,10 @@
         },
         "rectangle": {
          "xLength": {
-          "xPercentValue": 0.869999826
+          "xPercentValue": 0.869999766
          },
          "yLength": {
-          "yPercentValue": 0.679999828
+          "yPercentValue": 0.679999769
          }
         }
        }
@@ -1344,19 +1347,16 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 14,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 3.09999895,
-       "targetRadiusJitter": 0,
+       "targetRadius": 3.1,
        "speed": 135,
-       "speedJitter": 0,
-       "acceleration": 121,
-       "accelerationJitter": 0
+       "acceleration": 121
       }
      ]
     },
@@ -1372,8 +1372,13 @@
       "widthDegrees": 720
      }
     },
-    "overrides": {},
-    "levelOverrides": {},
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 60
+    },
     "bounceDef": {
      "bounds": {
       "depth": {
@@ -1391,7 +1396,6 @@
        "heightJitter": {
         "yPercentValue": 0.05
        },
-       "delaySecondsJitter": 0,
        "onlyDelayOnFloor": true
       }
      ],
@@ -1539,10 +1543,7 @@
      "numTargets": 4,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 1.39999986,
-       "targetRadiusJitter": 1.49011612e-08,
-       "speed": 21,
+       "targetRadius": 1.4,
        "speedJitter": 0
       }
      ]
@@ -1558,11 +1559,17 @@
       "width": 210
      }
     },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 95
+    },
     "staticDef": {
      "targetPlacementStrategy": {
       "regions": [
        {
-        "info": {},
         "depth": {
          "value": 77
         },
@@ -1571,10 +1578,10 @@
         },
         "rectangle": {
          "xLength": {
-          "xPercentValue": 0.799999833
+          "xPercentValue": 0.799999774
          },
          "yLength": {
-          "yPercentValue": 0.789999843
+          "yPercentValue": 0.789999783
          }
         }
        }
@@ -2337,17 +2344,15 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 6,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 1.80000043,
-       "targetRadiusJitter": 0,
+       "targetRadius": 1.8,
        "speed": 52,
-       "speedJitter": 0,
        "acceleration": 131
       }
      ]
@@ -2364,6 +2369,13 @@
       "sideAngleDegrees": 64,
       "widthDegrees": 162
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 55
     },
     "strafeDef": {
      "bounds": {
@@ -2403,7 +2415,7 @@
        "info": {
         "weight": 1
        },
-       "time": 3.09999895,
+       "time": 3.1,
        "timeJitter": 0.6
       },
       {
@@ -2411,7 +2423,7 @@
         "description": "Shorter",
         "weight": 1
        },
-       "time": 1.50000012,
+       "time": 1.5,
        "timeJitter": 0.1
       }
      ],
@@ -2443,7 +2455,8 @@
        "timeJitter": 0.4,
        "speedMultiplier": 0.01
       }
-     ]
+     ],
+     "leftRightInitialDirection": "DIRECTION_RANDOM"
     }
    }
   },
@@ -2459,10 +2472,7 @@
      "numTargets": 4,
      "profiles": [
       {
-       "info": {},
        "targetRadius": 2,
-       "targetRadiusJitter": 1.49011612e-08,
-       "speed": 21,
        "speedJitter": 0
       }
      ]
@@ -2478,11 +2488,17 @@
       "width": 210
      }
     },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 95
+    },
     "staticDef": {
      "targetPlacementStrategy": {
       "regions": [
        {
-        "info": {},
         "depth": {
          "value": 80
         },
@@ -2491,10 +2507,10 @@
         },
         "rectangle": {
          "xLength": {
-          "xPercentValue": 0.869999826
+          "xPercentValue": 0.869999766
          },
          "yLength": {
-          "yPercentValue": 0.789999843
+          "yPercentValue": 0.789999783
          }
         }
        }
@@ -2511,17 +2527,15 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 2,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 2.59999967,
-       "targetRadiusJitter": 0,
+       "targetRadius": 2.6,
        "speed": 52,
-       "speedJitter": 0,
        "acceleration": 183
       }
      ]
@@ -2536,6 +2550,14 @@
       "height": 110,
       "width": 120
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 60
     },
     "angleStrafeDef": {
      "bounds": {
@@ -2572,7 +2594,6 @@
      },
      "profiles": [
       {
-       "info": {},
        "distance": {
         "xPercentValue": 0.38
        },
@@ -2592,17 +2613,15 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 4,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 4.99999762,
-       "targetRadiusJitter": 0,
+       "targetRadius": 5,
        "speed": 91,
-       "speedJitter": 0,
        "acceleration": 266
       }
      ]
@@ -2619,6 +2638,13 @@
       "sideAngleDegrees": 24,
       "widthDegrees": 90
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 110
     },
     "strafeDef": {
      "bounds": {
@@ -2655,8 +2681,7 @@
      },
      "leftRightProfiles": [
       {
-       "info": {},
-       "time": 2.29999971,
+       "time": 2.3,
        "timeJitter": 0.5
       }
      ],
@@ -2689,7 +2714,8 @@
        "timeJitter": 0.5,
        "speedMultiplier": 0
       }
-     ]
+     ],
+     "leftRightInitialDirection": "DIRECTION_RANDOM"
     }
    }
   },
@@ -2978,11 +3004,8 @@
      "numTargets": 2,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 2.10000038,
-       "targetRadiusJitter": 0,
-       "speed": 26,
-       "speedJitter": 0
+       "targetRadius": 2.1,
+       "speed": 26
       }
      ]
     },
@@ -2996,6 +3019,13 @@
       "height": 130,
       "width": 180
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 65
     },
     "wallWanderDef": {
      "targetPlacementStrategy": {
@@ -3024,8 +3054,7 @@
      },
      "profiles": [
       {
-       "info": {},
-       "turnTime": 2.19999981,
+       "turnTime": 2.2,
        "turnTimeJitter": 0.6,
        "turnRate": 300,
        "turnRateJitter": 80
@@ -3987,17 +4016,15 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 4,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 2.99999905,
-       "targetRadiusJitter": 0,
+       "targetRadius": 3,
        "speed": 137,
-       "speedJitter": 0,
        "acceleration": 121
       }
      ]
@@ -4015,6 +4042,13 @@
       "widthDegrees": 144
      }
     },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 50
+    },
     "bounceDef": {
      "bounds": {
       "depth": {
@@ -4027,12 +4061,11 @@
         "description": "Bounce"
        },
        "height": {
-        "yPercentValue": 0.539999962
+        "yPercentValue": 0.54
        },
        "heightJitter": {
         "yPercentValue": 0.16
        },
-       "delaySecondsJitter": 0,
        "onlyDelayOnFloor": true
       }
      ],
@@ -4578,17 +4611,15 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 9,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 1.89999986,
-       "targetRadiusJitter": 0,
+       "targetRadius": 1.9,
        "speed": 128,
-       "speedJitter": 0,
        "acceleration": 136
       }
      ]
@@ -4604,6 +4635,15 @@
       "radius": 200,
       "widthDegrees": 720
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "accelerationMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 30
     },
     "bounceDef": {
      "bounds": {
@@ -4622,7 +4662,6 @@
        "heightJitter": {
         "yPercentValue": 0.15
        },
-       "delaySecondsJitter": 0,
        "onlyDelayOnFloor": true
       }
      ],
@@ -4796,7 +4835,13 @@
       "width": 210
      }
     },
-    "levelOverrides": {},
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 118
+    },
     "staticDef": {
      "targetPlacementStrategy": {
       "regions": [
@@ -4859,11 +4904,9 @@
      "numTargets": 5,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 2.19999981,
+       "targetRadius": 2.2,
        "targetRadiusJitter": 0.25,
-       "speed": 5,
-       "speedJitter": 0
+       "speed": 5
       }
      ]
     },
@@ -4877,6 +4920,13 @@
       "height": 110,
       "width": 210
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 105
     },
     "wallWanderDef": {
      "targetPlacementStrategy": {
@@ -4927,7 +4977,6 @@
      },
      "profiles": [
       {
-       "info": {},
        "turnTime": 2,
        "turnTimeJitter": 0.2,
        "turnRate": 300,
@@ -4949,8 +4998,7 @@
      "numTargets": 5,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 1.95800006,
+       "targetRadius": 1.958,
        "targetRadiusJitter": 0.25
       }
      ]
@@ -4965,6 +5013,13 @@
       "height": 110,
       "width": 210
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 110
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -4981,10 +5036,10 @@
         },
         "rectangle": {
          "xLength": {
-          "xPercentValue": 0.789999843
+          "xPercentValue": 0.789999783
          },
          "yLength": {
-          "yPercentValue": 0.679999828
+          "yPercentValue": 0.679999769
          }
         }
        },
@@ -5001,7 +5056,7 @@
         },
         "ellipse": {
          "xDiameter": {
-          "xPercentValue": 0.739999831
+          "xPercentValue": 0.739999771
          },
          "yDiameter": {
           "yPercentValue": 0.5
@@ -5029,8 +5084,7 @@
      "numTargets": 5,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 2.19999981,
+       "targetRadius": 2.2,
        "targetRadiusJitter": 0.25
       }
      ]
@@ -5045,6 +5099,13 @@
       "height": 110,
       "width": 210
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 112
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -5061,10 +5122,10 @@
         },
         "rectangle": {
          "xLength": {
-          "xPercentValue": 0.789999843
+          "xPercentValue": 0.789999783
          },
          "yLength": {
-          "yPercentValue": 0.679999828
+          "yPercentValue": 0.679999769
          }
         }
        },
@@ -5081,7 +5142,7 @@
         },
         "ellipse": {
          "xDiameter": {
-          "xPercentValue": 0.739999831
+          "xPercentValue": 0.739999771
          },
          "yDiameter": {
           "yPercentValue": 0.5
@@ -5108,8 +5169,7 @@
      "numTargets": 5,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 3.14599872,
+       "targetRadius": 3.146,
        "targetRadiusJitter": 0.25
       }
      ]
@@ -5124,6 +5184,13 @@
       "height": 110,
       "width": 210
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 128
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -5140,10 +5207,10 @@
         },
         "rectangle": {
          "xLength": {
-          "xPercentValue": 0.789999843
+          "xPercentValue": 0.789999783
          },
          "yLength": {
-          "yPercentValue": 0.679999828
+          "yPercentValue": 0.679999769
          }
         }
        },
@@ -5160,7 +5227,7 @@
         },
         "ellipse": {
          "xDiameter": {
-          "xPercentValue": 0.739999831
+          "xPercentValue": 0.739999771
          },
          "yDiameter": {
           "yPercentValue": 0.5
@@ -6436,17 +6503,14 @@
        "info": {
         "description": "Large Fast"
        },
-       "targetRadius": 2.99999976,
-       "targetRadiusJitter": 0,
-       "speed": 56,
-       "speedJitter": 0
+       "targetRadius": 3,
+       "speed": 56
       },
       {
        "info": {
         "description": "Small Slow"
        },
-       "targetRadius": 2.59999967,
-       "targetRadiusJitter": 0,
+       "targetRadius": 2.6,
        "speed": 48,
        "speedJitter": 3
       }
@@ -6468,6 +6532,14 @@
      "barrelRoom": {
       "radius": 85
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 105
     },
     "barrelDef": {
      "targetPlacementStrategy": {
@@ -6497,7 +6569,8 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 4,
@@ -6507,7 +6580,7 @@
         "description": "Large Fast",
         "weight": 5
        },
-       "targetRadius": 3.19999957,
+       "targetRadius": 3.2,
        "targetRadiusJitter": 0.1,
        "speed": 58,
        "speedJitter": 2
@@ -6527,7 +6600,7 @@
         "description": "Medium",
         "weight": 3
        },
-       "targetRadius": 2.69999933,
+       "targetRadius": 2.7,
        "targetRadiusJitter": 0.1,
        "speed": 44,
        "speedJitter": 2
@@ -6543,6 +6616,13 @@
      "barrelRoom": {
       "radius": 85
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01
+    },
+    "scoreTargets": {
+     "targetScore": 115
     },
     "barrelDef": {
      "targetPlacementStrategy": {
@@ -6572,7 +6652,8 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 2,
@@ -6582,7 +6663,7 @@
         "description": "Large Fast",
         "weight": 5
        },
-       "targetRadius": 3.19999957,
+       "targetRadius": 3.2,
        "targetRadiusJitter": 0.1,
        "speed": 58,
        "speedJitter": 2
@@ -6602,7 +6683,7 @@
         "description": "Medium",
         "weight": 3
        },
-       "targetRadius": 2.69999933,
+       "targetRadius": 2.7,
        "targetRadiusJitter": 0.1,
        "speed": 44,
        "speedJitter": 2
@@ -6618,6 +6699,14 @@
      "barrelRoom": {
       "radius": 85
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 108
     },
     "barrelDef": {
      "targetPlacementStrategy": {
@@ -6647,7 +6736,8 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 10,
@@ -6657,7 +6747,7 @@
         "description": "Large Fast",
         "weight": 5
        },
-       "targetRadius": 3.19999957,
+       "targetRadius": 3.2,
        "targetRadiusJitter": 0.1,
        "speed": 58,
        "speedJitter": 2
@@ -6677,7 +6767,7 @@
         "description": "Medium",
         "weight": 3
        },
-       "targetRadius": 2.69999933,
+       "targetRadius": 2.7,
        "targetRadiusJitter": 0.1,
        "speed": 44,
        "speedJitter": 2
@@ -6693,6 +6783,14 @@
      "barrelRoom": {
       "radius": 85
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 120
     },
     "barrelDef": {
      "targetPlacementStrategy": {
@@ -6722,7 +6820,8 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 4,
@@ -6732,9 +6831,9 @@
         "description": "Large Fast",
         "weight": 5
        },
-       "targetRadius": 2.87999964,
+       "targetRadius": 2.88,
        "targetRadiusJitter": 0.1,
-       "speed": 63.8000031,
+       "speed": 63.8,
        "speedJitter": 2
       },
       {
@@ -6744,7 +6843,7 @@
        },
        "targetRadius": 1.98,
        "targetRadiusJitter": 0.05,
-       "speed": 34.1000023,
+       "speed": 34.1,
        "speedJitter": 2
       },
       {
@@ -6752,7 +6851,7 @@
         "description": "Medium",
         "weight": 3
        },
-       "targetRadius": 2.42999935,
+       "targetRadius": 2.43,
        "targetRadiusJitter": 0.1,
        "speed": 48.4,
        "speedJitter": 2
@@ -6768,6 +6867,14 @@
      "barrelRoom": {
       "radius": 85
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 108
     },
     "barrelDef": {
      "targetPlacementStrategy": {
@@ -8926,7 +9033,8 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 4,
@@ -8949,10 +9057,13 @@
       "width": 260
      }
     },
-    "overrides": {},
     "levelOverrides": {
      "targetRadiusMultiplier": 0.98,
-     "speedMultiplier": 1.02
+     "speedMultiplier": 1.02,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 100
     },
     "strafeDef": {
      "bounds": {
@@ -9026,8 +9137,11 @@
    "name": "VT Pasu Intermediate S5 Hard",
    "def": {
     "overrides": {
-     "targetRadiusMultiplier": 0.830000162,
+     "targetRadiusMultiplier": 0.83,
      "speedMultiplier": 1.05
+    },
+    "scoreTargets": {
+     "targetScore": 85
     },
     "referenceDef": {
      "scenarioName": "VDIM VT Pasu Intermediate S5"
@@ -9037,12 +9151,15 @@
   {
    "name": "VT Pasu Intermediate S5 Multi",
    "def": {
-    "overrides": {},
+    "scoreTargets": {
+     "targetScore": 150
+    },
     "referenceDef": {
      "scenarioName": "VDIM VT Pasu Intermediate S5",
      "shotType": {
       "clickMulti": true,
-      "healthClicks": 3
+      "healthClicks": 3,
+      "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
      }
     }
    }
@@ -9054,6 +9171,9 @@
      "targetRadiusMultiplier": 1.5,
      "speedMultiplier": 0.91
     },
+    "scoreTargets": {
+     "targetScore": 120
+    },
     "referenceDef": {
      "scenarioName": "VDIM VT Pasu Intermediate S5"
     }
@@ -9062,7 +9182,9 @@
   {
    "name": "VT PasuTs Intermediate S5",
    "def": {
-    "overrides": {},
+    "scoreTargets": {
+     "targetScore": 50
+    },
     "referenceDef": {
      "scenarioName": "VDIM VT Pasu Intermediate S5",
      "shotType": {
@@ -9438,7 +9560,15 @@
       "widthDegrees": 108.000008
      }
     },
-    "levelOverrides": {},
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "accelerationMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 90
+    },
     "bounceDef": {
      "bounceProfiles": [
       {
@@ -9498,6 +9628,9 @@
     "overrides": {
      "targetRadiusMultiplier": 0.8
     },
+    "scoreTargets": {
+     "targetScore": 80
+    },
     "referenceDef": {
      "scenarioName": "VDIM VT Popcorn Intermediate S5"
     }
@@ -9506,7 +9639,9 @@
   {
    "name": "VT Popcorn Intermediate S5 Multi",
    "def": {
-    "overrides": {},
+    "scoreTargets": {
+     "targetScore": 95
+    },
     "referenceDef": {
      "scenarioName": "VDIM VT Popcorn Intermediate S5",
      "shotType": {
@@ -9522,6 +9657,9 @@
    "def": {
     "overrides": {
      "targetRadiusMultiplier": 1.5
+    },
+    "scoreTargets": {
+     "targetScore": 120
     },
     "referenceDef": {
      "scenarioName": "VDIM VT Popcorn Intermediate S5"
@@ -9540,11 +9678,8 @@
      "numTargets": 5,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 2.59999943,
-       "targetRadiusJitter": 0,
+       "targetRadius": 2.6,
        "speed": 128,
-       "speedJitter": 0,
        "acceleration": 91
       }
      ]
@@ -9562,8 +9697,16 @@
       "widthDegrees": 108.000008
      }
     },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "accelerationMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 65
+    },
     "bounceDef": {
-     "bounds": {},
      "bounceProfiles": [
       {
        "info": {
@@ -9573,7 +9716,7 @@
         "yPercentValue": 0.5
        },
        "heightJitter": {
-        "yPercentValue": 0.0200000294
+        "yPercentValue": 0.02
        },
        "delaySeconds": 0.25,
        "delaySecondsJitter": 0.05,
@@ -9650,7 +9793,12 @@
       "widthDegrees": 144
      }
     },
-    "levelOverrides": {},
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96
+    },
+    "scoreTargets": {
+     "targetScore": 60
+    },
     "bounceDef": {
      "bounds": {
       "depth": {
@@ -10675,11 +10823,8 @@
      "numTargets": 4,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 7.39999533,
-       "targetRadiusJitter": 0,
+       "targetRadius": 7.4,
        "speed": 11,
-       "speedJitter": 0,
        "acceleration": 326
       }
      ]
@@ -10696,6 +10841,13 @@
       "sideAngleDegrees": 25,
       "widthDegrees": 108.000008
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 145
     },
     "strafeDef": {
      "bounds": {
@@ -10732,9 +10884,7 @@
      },
      "leftRightProfiles": [
       {
-       "info": {},
-       "time": 4.49999809,
-       "timeJitter": 0
+       "time": 4.5
       }
      ],
      "forwardBackProfiles": [
@@ -10770,11 +10920,8 @@
      "numTargets": 3,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 7.39999533,
-       "targetRadiusJitter": 0,
+       "targetRadius": 7.4,
        "speed": 11,
-       "speedJitter": 0,
        "acceleration": 326
       }
      ]
@@ -10789,6 +10936,13 @@
       "height": 130,
       "width": 180
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 150
     },
     "strafeDef": {
      "bounds": {
@@ -10825,9 +10979,7 @@
      },
      "leftRightProfiles": [
       {
-       "info": {},
-       "time": 4.49999809,
-       "timeJitter": 0
+       "time": 4.5
       }
      ],
      "forwardBackProfiles": [
@@ -11279,11 +11431,8 @@
      "numTargets": 4,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 3.89999819,
-       "targetRadiusJitter": 1.49011612e-08,
-       "speed": 42,
-       "speedJitter": 0
+       "targetRadius": 3.9,
+       "speed": 42
       }
      ]
     },
@@ -11298,9 +11447,15 @@
       "width": 310
      }
     },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 120
+    },
     "linearDef": {
      "angle": 0,
-     "angleJitter": 0,
      "targetPlacementStrategy": {
       "regions": [
        {
@@ -11662,17 +11817,15 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 4,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 3.49999905,
-       "targetRadiusJitter": 0,
-       "speed": 27,
-       "speedJitter": 0
+       "targetRadius": 3.5,
+       "speed": 27
       }
      ]
     },
@@ -11686,6 +11839,14 @@
       "height": 150,
       "width": 190
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 95
     },
     "wallWanderDef": {
      "targetPlacementStrategy": {
@@ -11714,8 +11875,7 @@
      },
      "profiles": [
       {
-       "info": {},
-       "turnTime": 2.19999981,
+       "turnTime": 2.2,
        "turnTimeJitter": 0.6,
        "turnRate": 300,
        "turnRateJitter": 80
@@ -11948,15 +12108,14 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 1,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 2.20000029,
-       "targetRadiusJitter": 0
+       "targetRadius": 2.2
       }
      ]
     },
@@ -11971,11 +12130,17 @@
       "width": 160
      }
     },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 85
+    },
     "staticDef": {
      "targetPlacementStrategy": {
       "regions": [
        {
-        "info": {},
         "depth": {
          "value": 155
         },
@@ -11984,10 +12149,10 @@
         },
         "rectangle": {
          "xLength": {
-          "xPercentValue": 0.799999833
+          "xPercentValue": 0.799999774
          },
          "yLength": {
-          "yPercentValue": 0.799999833
+          "yPercentValue": 0.799999774
          }
         }
        }
@@ -12134,11 +12299,8 @@
      "numTargets": 5,
      "profiles": [
       {
-       "info": {},
        "targetRadius": 3,
-       "targetRadiusJitter": 0,
-       "speed": 17,
-       "speedJitter": 0
+       "speed": 17
       }
      ]
     },
@@ -12155,9 +12317,15 @@
       "widthDegrees": 108.000008
      }
     },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 108
+    },
     "linearDef": {
      "angle": 0,
-     "angleJitter": 0,
      "targetPlacementStrategy": {
       "regions": [
        {
@@ -12192,17 +12360,15 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 5,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 2.89999938,
-       "targetRadiusJitter": 0,
+       "targetRadius": 2.9,
        "speed": 60,
-       "speedJitter": 0,
        "acceleration": 91
       }
      ]
@@ -12219,6 +12385,15 @@
       "sideAngleDegrees": 69,
       "widthDegrees": 180
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "accelerationMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 75
     },
     "strafeDef": {
      "bounds": {
@@ -12255,8 +12430,7 @@
      },
      "leftRightProfiles": [
       {
-       "info": {},
-       "time": 2.99999905,
+       "time": 3,
        "timeJitter": 0.6
       }
      ],
@@ -12289,7 +12463,8 @@
        "timeJitter": 0.5,
        "speedMultiplier": 0
       }
-     ]
+     ],
+     "leftRightInitialDirection": "DIRECTION_RANDOM"
     }
    }
   },
@@ -12298,17 +12473,15 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 4,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 2.59999967,
-       "targetRadiusJitter": 0,
+       "targetRadius": 2.6,
        "speed": 58,
-       "speedJitter": 0,
        "acceleration": 213
       }
      ]
@@ -12323,6 +12496,13 @@
       "height": 120,
       "width": 230
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 75
     },
     "angleStrafeDef": {
      "bounds": {
@@ -12384,8 +12564,7 @@
        "distanceJitter": {
         "xPercentValue": 0.08
        },
-       "angle": 0,
-       "angleJitter": 0
+       "angle": 0
       },
       {
        "info": {
@@ -12399,7 +12578,6 @@
         "xPercentValue": 0.05
        },
        "angle": 20,
-       "angleJitter": 0,
        "directionChangePercent": 0.5
       },
       {
@@ -12413,8 +12591,7 @@
        "distanceJitter": {
         "xPercentValue": 0.05
        },
-       "angle": -20,
-       "angleJitter": 0
+       "angle": 0
       }
      ]
     }
@@ -12766,11 +12943,8 @@
      "numTargets": 3,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 1.79999983,
-       "targetRadiusJitter": 0,
-       "speed": 6,
-       "speedJitter": 0
+       "targetRadius": 1.8,
+       "speed": 6
       }
      ]
     },
@@ -12785,9 +12959,16 @@
       "width": 210
      }
     },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 130
+    },
     "linearDef": {
      "angle": 0,
-     "angleJitter": 0,
      "targetPlacementStrategy": {
       "regions": [
        {
