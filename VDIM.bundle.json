@@ -5,7 +5,8 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 2,
@@ -28,7 +29,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 65
     },
     "wallWanderDef": {
      "targetPlacementStrategy": {
@@ -70,7 +75,8 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 2,
@@ -92,7 +98,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 105
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -160,7 +170,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 130
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -728,13 +742,13 @@
        "info": {
         "description": "Blink",
         "weight": 3,
-        "minSelectionGap": 1
+        "minSelectionGap": 2
        },
        "distance": {
-        "xPercentValue": 0.21
+        "xPercentValue": 0.16
        },
        "distanceJitter": {
-        "xPercentValue": 0.03
+        "xPercentValue": 0.04
        },
        "speedMultiplier": 8.85,
        "accelerationMultiplier": 100
@@ -983,7 +997,8 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 6,
@@ -1008,7 +1023,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 90
     },
     "linearDef": {
      "angle": 0,
@@ -1046,7 +1065,8 @@
     "durationSeconds": 60,
     "shotType": {
      "clickMulti": true,
-     "healthClicks": 3
+     "healthClicks": 3,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 6,
@@ -1071,7 +1091,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 160
     },
     "linearDef": {
      "angle": 0,
@@ -1134,7 +1158,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 83
     },
     "linearDef": {
      "angle": 0,
@@ -1445,7 +1473,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 105
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -1786,7 +1818,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 250
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -1814,7 +1850,8 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 1,
@@ -1839,7 +1876,11 @@
     },
     "levelOverrides": {
      "targetRadiusMultiplier": 0.97,
-     "removeTargetAfterSecondsMultiplier": 0.99
+     "removeTargetAfterSecondsMultiplier": 0.99,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 60
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -2999,7 +3040,8 @@
     "durationSeconds": 60,
     "shotType": {
      "clickSingle": true,
-     "removeClosestOnMiss": true
+     "removeClosestOnMiss": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 2,
@@ -3022,7 +3064,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 90
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -3096,7 +3142,8 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 2,
@@ -3119,7 +3166,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 80
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -3194,7 +3245,8 @@
     "durationSeconds": 60,
     "shotType": {
      "clickSingle": true,
-     "removeClosestOnMiss": true
+     "removeClosestOnMiss": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 2,
@@ -3217,7 +3269,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 90
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -3291,7 +3347,8 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 3,
@@ -3313,7 +3370,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 125
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -3369,7 +3430,8 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 12,
@@ -3391,9 +3453,12 @@
       "width": 200
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 145
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -3450,6 +3515,9 @@
     "overrides": {
      "targetRadiusMultiplier": 0.8
     },
+    "scoreTargets": {
+     "targetScore": 115
+    },
     "referenceDef": {
      "scenarioName": "VDIM VT 1w3ts Intermediate S5"
     }
@@ -3458,7 +3526,9 @@
   {
    "name": "VT 1w3ts Intermediate S5 Pokeball",
    "def": {
-    "overrides": {},
+    "scoreTargets": {
+     "targetScore": 123
+    },
     "referenceDef": {
      "scenarioName": "VDIM VT 1w3ts Intermediate S5",
      "shotType": {
@@ -3472,6 +3542,9 @@
    "def": {
     "overrides": {
      "targetRadiusMultiplier": 1.5
+    },
+    "scoreTargets": {
+     "targetScore": 145
     },
     "referenceDef": {
      "scenarioName": "VDIM VT 1w3ts Intermediate S5"
@@ -5732,7 +5805,8 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 5,
@@ -5768,7 +5842,11 @@
     },
     "levelOverrides": {
      "targetRadiusMultiplier": 0.97,
-     "speedMultiplier": 1.02
+     "speedMultiplier": 1.02,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 90
     },
     "linearDef": {
      "angle": 0,
@@ -5804,7 +5882,9 @@
   {
    "name": "VT Floating Heads Intermediate S5 3 Targets",
    "def": {
-    "overrides": {},
+    "scoreTargets": {
+     "targetScore": 83
+    },
     "referenceDef": {
      "scenarioName": "VDIM VT Floating Heads Intermediate S5",
      "numTargets": 3
@@ -5814,7 +5894,9 @@
   {
    "name": "VT Floating Heads Intermediate S5 Clusters",
    "def": {
-    "overrides": {},
+    "scoreTargets": {
+     "targetScore": 100
+    },
     "referenceDef": {
      "scenarioName": "VDIM VT Floating Heads Intermediate S5",
      "numTargets": 14
@@ -5826,6 +5908,9 @@
    "def": {
     "overrides": {
      "targetRadiusMultiplier": 0.9
+    },
+    "scoreTargets": {
+     "targetScore": 82
     },
     "referenceDef": {
      "scenarioName": "VDIM VT Floating Heads Intermediate S5"
@@ -5874,7 +5959,11 @@
     },
     "levelOverrides": {
      "targetRadiusMultiplier": 0.97,
-     "speedMultiplier": 1.02
+     "speedMultiplier": 1.02,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 100
     },
     "linearDef": {
      "angle": 0,
@@ -9607,7 +9696,8 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 4,
@@ -9632,10 +9722,13 @@
       "width": 190
      }
     },
-    "overrides": {},
     "levelOverrides": {
      "targetRadiusMultiplier": 0.98,
-     "growthTimeMultiplier": 0.98
+     "growthTimeMultiplier": 0.98,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 150
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -10110,7 +10203,8 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 2,
@@ -10133,7 +10227,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 90
     },
     "linearDef": {
      "angle": 0,
@@ -10921,7 +11019,8 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 4,
@@ -10946,7 +11045,11 @@
     },
     "levelOverrides": {
      "targetRadiusMultiplier": 0.98,
-     "growthTimeMultiplier": 0.98
+     "growthTimeMultiplier": 0.98,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 130
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -11262,7 +11365,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 150
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -11316,7 +11423,9 @@
   {
    "name": "VT ww5t Intermediate S5 Clusters",
    "def": {
-    "overrides": {},
+    "scoreTargets": {
+     "targetScore": 160
+    },
     "referenceDef": {
      "scenarioName": "VDIM VT ww5t Intermediate S5",
      "numTargets": 12
@@ -11329,6 +11438,9 @@
     "overrides": {
      "targetRadiusMultiplier": 0.8
     },
+    "scoreTargets": {
+     "targetScore": 135
+    },
     "referenceDef": {
      "scenarioName": "VDIM VT ww5t Intermediate S5"
     }
@@ -11337,7 +11449,9 @@
   {
    "name": "VT ww5t Intermediate S5 Pokeball",
    "def": {
-    "overrides": {},
+    "scoreTargets": {
+     "targetScore": 140
+    },
     "referenceDef": {
      "scenarioName": "VDIM VT ww5t Intermediate S5",
      "shotType": {
@@ -11351,7 +11465,8 @@
    "def": {
     "durationSeconds": 60,
     "shotType": {
-     "clickSingle": true
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
      "numTargets": 5,
@@ -11375,7 +11490,11 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 160
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -11877,6 +11996,129 @@
        "value": 44
       }
      }
+    }
+   }
+  },
+  {
+   "name": "domiSwitch",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "trackingKill": true,
+     "healthSeconds": 0.6,
+     "healthRegenRate": 1.6
+    },
+    "targetDef": {
+     "numTargets": 4,
+     "profiles": [
+      {
+       "targetRadius": 1.65,
+       "speed": 39,
+       "acceleration": 135
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+     },
+     "cylinderRoom": {
+      "height": 90,
+      "radius": 170,
+      "sideAngleDegrees": 40.5,
+      "widthDegrees": 106
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 28
+    },
+    "strafeDef": {
+     "bounds": {
+      "width": {
+       "xPercentValue": 0.87
+      },
+      "height": {
+       "yPercentValue": 0.74
+      },
+      "depth": {
+       "depthPercentValue": 0.42
+      }
+     },
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "depth": {
+         "value": 47
+        },
+        "depthJitter": {
+         "value": 34
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.759999752
+         },
+         "yLength": {
+          "yPercentValue": 0.559999883
+         }
+        }
+       }
+      ]
+     },
+     "leftRightProfiles": [
+      {
+       "info": {
+        "weight": 1
+       },
+       "distance": {
+        "xPercentValue": 0.17
+       },
+       "distanceJitter": {
+        "xPercentValue": 0.05
+       }
+      },
+      {
+       "info": {
+        "description": "short",
+        "weight": 2
+       },
+       "distance": {
+        "xPercentValue": 0.07
+       },
+       "distanceJitter": {
+        "xPercentValue": 0.03
+       }
+      }
+     ],
+     "forwardBackProfiles": [
+      {
+       "time": 1.2,
+       "timeJitter": 0.45
+      }
+     ],
+     "upDownProfiles": [
+      {
+       "info": {
+        "description": "Slow Vertical"
+       },
+       "distance": {
+        "yPercentValue": 0.34
+       },
+       "distanceJitter": {
+        "yPercentValue": 0.115
+       },
+       "speedMultiplier": 0.37,
+       "accelerationMultiplier": 0.3
+      }
+     ],
+     "leftRightInitialDirection": "DIRECTION_RANDOM",
+     "upDownInitialDirection": "DIRECTION_RANDOM",
+     "forwardBackInitialDirection": "DIRECTION_RANDOM"
     }
    }
   },
@@ -12710,115 +12952,115 @@
     "items": [
      {
       "scenario": "VDIM Tamspeed 2bpes",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM cAt purrClick Normal",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM psalmTS angelic click 30% larger",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM ToonsClick Intermediate",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM remClick - F",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM VT PasuTs Intermediate S5",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT Pasu Intermediate S5 Speed",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT Pasu Intermediate S5 Multi",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT Pasu Intermediate S5 Hard",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT Pasu Intermediate S5",
-      "numPlays": 1
+      "numPlays": 4
      },
      {
       "scenario": "VDIM Leapcorn Pure",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM VT Bounceshot Intermediate 20% smaller",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM VT Curveshot Intermediate",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM VT Poptrack Intermediate",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT Popswitch Intermediate",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT Popcorn Intermediate S5 Speed",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT Popcorn Intermediate S5 Multi",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT Popcorn Intermediate S5 Hard",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT Popcorn Intermediate S5",
-      "numPlays": 1
+      "numPlays": 4
      },
      {
       "scenario": "VDIM VPP AdjustSwitch Intermediate",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM Star Clicking Intermediate",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM dev1T Static Click",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM CG Adjust Click Micro 2T",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM VT Frogswitch Intermediate S5",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT Frogtagon Intermediate S5 2 Targets",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT Frogtagon Intermediate S5 Clusters",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT Frogtagon Intermediate S5 Hard",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT Frogtagon Intermediate S5",
-      "numPlays": 1
+      "numPlays": 4
      }
     ]
    }
@@ -12992,43 +13234,55 @@
      },
      {
       "scenario": "VDIM FuglaaXYZ TS Intermediate",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT DriftTS Intermediate S5 Speed",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT DriftTS Intermediate S5 Smooth",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT DriftTS Intermediate S5 Hard",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT DriftTS Intermediate S5",
-      "numPlays": 1
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM tamTargetSwitch Smooth Intermediate",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM tamTargetSwitch Control Intermediate",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM domiSwitch",
+      "numPlays": 3
      },
      {
       "scenario": "VDIM Controlswitch Intermediate",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT ControlTS Intermediate S5 Speed",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT ControlTS Intermediate S5 Smooth",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT ControlTS Intermediate S5 Hard",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT ControlTS Intermediate S5",
-      "numPlays": 1
+      "numPlays": 4
      }
     ]
    }
@@ -13095,27 +13349,27 @@
      },
      {
       "scenario": "VDIM VT PGT Intermediate S5 Bot 1 Precision",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM VT PGT Intermediate S5 Bot 2 Precision",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM VT PGT Intermediate S5 Bot 3 Precision",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM VT PGT Intermediate S5 Bot 1 Reactive",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM VT PGT Intermediate S5 Bot 2 Reactive",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM VT PGT Intermediate S5 Bot 3 Reactive",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM VT PGT Intermediate S5 Bot 1",
@@ -13202,83 +13456,83 @@
      },
      {
       "scenario": "VDIM VT Ground Intermediate S5 Bot 1 Precision Focus",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM VT Ground Intermediate S5 Bot 2 Precision Focus",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM VT Ground Intermediate S5 Bot 3 Precision Focus",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM VT Ground Intermediate S5 Bot 1 Reactive Focus",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM VT Ground Intermediate S5 Bot 2 Reactive Focus",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM VT Ground Intermediate S5 Bot 3 Reactive Focus",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM VT Ground Intermediate S5 Bot 1",
-      "numPlays": 2
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT Ground Intermediate S5 Bot 2",
-      "numPlays": 2
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT Ground Intermediate S5 Bot 3",
-      "numPlays": 2
+      "numPlays": 3
      },
      {
       "scenario": "VDIM Controlsphere Blink Intermediate",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM VT Controlsphere Intermediate S5 Precision Focus",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT Controlsphere Intermediate S5 Reactive Focus",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT Controlsphere Intermediate S5 Hard",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT Controlsphere Intermediate S5",
-      "numPlays": 1
+      "numPlays": 4
      },
      {
       "scenario": "VDIM VT Aether Intermediate S5 Bot 1 Reactive Focus",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM VT Aether Intermediate S5 Bot 3 Reactive Focus",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM VT Aether Intermediate S5 Bot 1 Hard",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM VT Aether Intermediate S5 Bot 3 Hard",
-      "numPlays": 1
+      "numPlays": 2
      },
      {
       "scenario": "VDIM VT Aether Intermediate S5 Bot 1",
-      "numPlays": 1
+      "numPlays": 3
      },
      {
       "scenario": "VDIM VT Aether Intermediate S5 Bot 3",
-      "numPlays": 1
+      "numPlays": 3
      }
     ]
    }
