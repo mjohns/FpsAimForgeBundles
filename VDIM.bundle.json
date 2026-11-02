@@ -12425,6 +12425,40 @@
     ]
    }
   }
+ ],
+ "guides": [
+  {
+   "name": "Intermediate S5",
+   "def": {
+    "sections": [
+     {
+      "text": "",
+      "playlists": [
+       "VDIM Intermediate S5 - Clicking I",
+       "VDIM Intermediate S5 - Clicking II",
+       "VDIM Intermediate S5 - Switching I",
+       "VDIM Intermediate S5 - Switching II",
+       "VDIM Intermediate S5 - Tracking I",
+       "VDIM Intermediate S5 - Tracking II"
+      ]
+     },
+     {
+      "text": "\nChange duration",
+      "guides": [
+       "VDIM Intermediate S5 40s",
+       "VDIM Intermediate S5 30s"
+      ]
+     },
+     {
+      "text": "\nChange difficulty",
+      "guides": [
+       "VDIM Intermediate S5 L1",
+       "VDIM Intermediate S5 L-1"
+      ]
+     }
+    ]
+   }
+  }
  ]
 }
 
