@@ -735,6 +735,13 @@
       "widthDegrees": 144
      }
     },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 46
+    },
     "strafeDef": {
      "bounds": {
       "width": {
@@ -985,6 +992,10 @@
       "height": 120,
       "width": 250
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
     },
     "scoreTargets": {
      "targetScore": 90
@@ -1725,14 +1736,11 @@
      "numTargets": 1,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 3.59999895,
-       "targetRadiusJitter": 0,
+       "targetRadius": 3.6,
        "speed": 117,
-       "speedJitter": 0,
        "acceleration": 450,
        "pill": {
-        "height": 21.4000053
+        "height": 21.4000092
        }
       }
      ]
@@ -1749,6 +1757,15 @@
       "sideAngleDegrees": 60,
       "widthDegrees": 144
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "accelerationMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 55
     },
     "strafeDef": {
      "bounds": {
@@ -1800,7 +1817,7 @@
         "description": "Longer",
         "weight": 2
        },
-       "time": 0.699999928,
+       "time": 0.7,
        "timeJitter": 0.2
       }
      ],
@@ -2882,14 +2899,11 @@
      "numTargets": 1,
      "profiles": [
       {
-       "info": {},
        "targetRadius": 2.6,
-       "targetRadiusJitter": 0,
        "speed": 121,
-       "speedJitter": 0,
        "acceleration": 480,
        "pill": {
-        "height": 21.4000053
+        "height": 21.4000092
        }
       }
      ]
@@ -2906,6 +2920,15 @@
       "sideAngleDegrees": 60,
       "widthDegrees": 144
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "accelerationMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 40
     },
     "strafeDef": {
      "bounds": {
@@ -2954,7 +2977,7 @@
         "description": "Longer",
         "weight": 2
        },
-       "time": 0.699999928,
+       "time": 0.7,
        "timeJitter": 0.2
       },
       {
@@ -2963,9 +2986,9 @@
         "weight": 7,
         "minSelectionGap": 2
        },
-       "time": 0.399999917,
-       "timeJitter": 0.100000016,
-       "speedMultiplier": 0
+       "time": 0.4,
+       "timeJitter": 0.1,
+       "speedMultiplier": 0.01
       }
      ],
      "leftRightInitialDirection": "DIRECTION_NEGATIVE",
@@ -3759,9 +3782,9 @@
    "name": "VT Aether Intermediate S5 Bot 1 Reactive Focus",
    "def": {
     "overrides": {
-     "targetRadiusMultiplier": 1.4,
+     "targetRadiusMultiplier": 1.5,
      "speedMultiplier": 1.3,
-     "accelerationMultiplier": 0.8
+     "accelerationMultiplier": 1.3
     },
     "scoreTargets": {
      "targetScore": 55
@@ -3890,7 +3913,7 @@
     "overrides": {
      "targetRadiusMultiplier": 1.4,
      "speedMultiplier": 1.3,
-     "accelerationMultiplier": 0.8
+     "accelerationMultiplier": 1.3
     },
     "scoreTargets": {
      "targetScore": 65
@@ -4218,11 +4241,8 @@
      "numTargets": 1,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 3.49999952,
-       "targetRadiusJitter": 0,
+       "targetRadius": 3.5,
        "speed": 153.47,
-       "speedJitter": 0,
        "acceleration": 1020,
        "pill": {
         "height": 30
@@ -4242,6 +4262,15 @@
       "sideAngleDegrees": 46,
       "widthDegrees": 162
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "accelerationMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 65
     },
     "angleStrafeDef": {
      "bounds": {
@@ -4261,8 +4290,7 @@
        "distanceJitter": {
         "xPercentValue": 0.1
        },
-       "angle": 0,
-       "angleJitter": 0
+       "angle": 0
       },
       {
        "info": {
@@ -4275,8 +4303,7 @@
        "distanceJitter": {
         "xPercentValue": 0.08
        },
-       "angle": 0,
-       "angleJitter": 0
+       "angle": 0
       }
      ]
     }
@@ -4293,11 +4320,8 @@
      "numTargets": 1,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 5.49999762,
-       "targetRadiusJitter": 0,
+       "targetRadius": 5.5,
        "speed": 149,
-       "speedJitter": 0,
        "acceleration": 1020,
        "pill": {
         "height": 30
@@ -4318,6 +4342,15 @@
       "widthDegrees": 162
      }
     },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "accelerationMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 65
+    },
     "angleStrafeDef": {
      "bounds": {
       "width": {
@@ -4336,8 +4369,7 @@
        "distanceJitter": {
         "xPercentValue": 0.1
        },
-       "angle": 0,
-       "angleJitter": 0
+       "angle": 0
       },
       {
        "info": {
@@ -4350,8 +4382,7 @@
        "distanceJitter": {
         "xPercentValue": 0.08
        },
-       "angle": 0,
-       "angleJitter": 0
+       "angle": 0
       }
      ]
     }
@@ -6767,7 +6798,8 @@
     },
     "levelOverrides": {
      "targetRadiusMultiplier": 0.97,
-     "speedMultiplier": 1.01
+     "speedMultiplier": 1.01,
+     "levelOffset": 20
     },
     "scoreTargets": {
      "targetScore": 115
@@ -7058,14 +7090,11 @@
      "numTargets": 1,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 4.49999809,
-       "targetRadiusJitter": 0,
+       "targetRadius": 4.5,
        "speed": 169,
-       "speedJitter": 0,
        "acceleration": 1095,
        "pill": {
-        "height": 20.6000023
+        "height": 20.6
        }
       }
      ]
@@ -7083,7 +7112,15 @@
       "widthDegrees": 144
      }
     },
-    "overrides": {},
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "accelerationMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 48
+    },
     "angleStrafeDef": {
      "bounds": {
       "width": {
@@ -7124,13 +7161,12 @@
         "weight": 5
        },
        "distance": {
-        "xPercentValue": 0.197600067
+        "xPercentValue": 0.197600096
        },
        "distanceJitter": {
         "xPercentValue": 0.04
        },
-       "angle": 0,
-       "angleJitter": 0
+       "angle": 0
       },
       {
        "info": {
@@ -7138,13 +7174,12 @@
         "weight": 5
        },
        "distance": {
-        "xPercentValue": 0.332800061
+        "xPercentValue": 0.33280009
        },
        "distanceJitter": {
         "xPercentValue": 0.05
        },
-       "angle": 0,
-       "angleJitter": 0
+       "angle": 0
       },
       {
        "info": {
@@ -7153,15 +7188,14 @@
         "minSelectionGap": 3
        },
        "distance": {
-        "xPercentValue": 0.263200074
+        "xPercentValue": 0.263200104
        },
        "distanceJitter": {
         "xPercentValue": 0.03
        },
        "angle": 0,
-       "angleJitter": 0,
-       "speedMultiplier": 10.7500029,
-       "accelerationMultiplier": 3.29999781
+       "speedMultiplier": 11.05,
+       "accelerationMultiplier": 4.15
       }
      ]
     }
@@ -7170,238 +7204,34 @@
   {
    "name": "VT Ground Intermediate S5 Bot 1 Precision Focus",
    "def": {
-    "durationSeconds": 60,
-    "shotType": {
-     "trackingInvincible": true
+    "overrides": {
+     "targetRadiusMultiplier": 0.5,
+     "speedMultiplier": 0.6,
+     "accelerationMultiplier": 0.6,
+     "timeScaleMultiplier": 1.5
     },
-    "targetDef": {
-     "numTargets": 1,
-     "profiles": [
-      {
-       "info": {},
-       "targetRadius": 2.70000052,
-       "targetRadiusJitter": 0,
-       "speed": 131.820038,
-       "speedJitter": 0,
-       "acceleration": 919.800171,
-       "pill": {
-        "height": 20.6000023
-       }
-      }
-     ]
+    "scoreTargets": {
+     "targetScore": 55
     },
-    "room": {
-     "cameraPosition": {
-      "x": 0,
-      "y": 0,
-      "z": -29
-     },
-     "cylinderRoom": {
-      "height": 100,
-      "radius": 200,
-      "sideAngleDegrees": 60,
-      "widthDegrees": 144
-     }
-    },
-    "angleStrafeDef": {
-     "bounds": {
-      "width": {
-       "xPercentValue": 0.8
-      }
-     },
-     "targetPlacementStrategy": {
-      "regions": [
-       {
-        "info": {},
-        "xOffset": {
-         "xPercentValue": 0
-        },
-        "yOffset": {
-         "yPercentValue": -0.36
-        },
-        "depth": {
-         "value": 54
-        },
-        "depthJitter": {
-         "value": 0
-        },
-        "rectangle": {
-         "xLength": {
-          "value": 1
-         },
-         "yLength": {
-          "value": 1
-         }
-        }
-       }
-      ]
-     },
-     "profiles": [
-      {
-       "info": {
-        "description": "Shorter",
-        "weight": 5
-       },
-       "distance": {
-        "xPercentValue": 0.197600052
-       },
-       "distanceJitter": {
-        "xPercentValue": 0.04
-       },
-       "angle": 0,
-       "angleJitter": 0
-      },
-      {
-       "info": {
-        "description": "Mid",
-        "weight": 5
-       },
-       "distance": {
-        "xPercentValue": 0.332800061
-       },
-       "distanceJitter": {
-        "xPercentValue": 0.05
-       },
-       "angle": 0,
-       "angleJitter": 0
-      },
-      {
-       "info": {
-        "description": "Teleport",
-        "weight": 3,
-        "minSelectionGap": 3
-       },
-       "distance": {
-        "xPercentValue": 0.343200028
-       },
-       "distanceJitter": {
-        "xPercentValue": 0.09
-       },
-       "angle": 0,
-       "angleJitter": 0,
-       "speedMultiplier": 10.7500029,
-       "accelerationMultiplier": 3.29999781
-      }
-     ]
+    "referenceDef": {
+     "scenarioName": "VDIM VT Ground Intermediate S5 Bot 1"
     }
    }
   },
   {
    "name": "VT Ground Intermediate S5 Bot 1 Reactive Focus",
    "def": {
-    "durationSeconds": 60,
-    "shotType": {
-     "trackingInvincible": true
+    "overrides": {
+     "targetRadiusMultiplier": 1.4,
+     "speedMultiplier": 1.35,
+     "accelerationMultiplier": 1.35,
+     "timeScaleMultiplier": 0.9
     },
-    "targetDef": {
-     "numTargets": 1,
-     "profiles": [
-      {
-       "info": {},
-       "targetRadius": 5.9399972,
-       "targetRadiusJitter": 0,
-       "speed": 229.839981,
-       "speedJitter": 0,
-       "acceleration": 2113.35,
-       "pill": {
-        "height": 20.6000023
-       }
-      }
-     ]
+    "scoreTargets": {
+     "targetScore": 52
     },
-    "room": {
-     "cameraPosition": {
-      "x": 0,
-      "y": 0,
-      "z": -29
-     },
-     "cylinderRoom": {
-      "height": 100,
-      "radius": 200,
-      "sideAngleDegrees": 60,
-      "widthDegrees": 144
-     }
-    },
-    "angleStrafeDef": {
-     "bounds": {
-      "width": {
-       "xPercentValue": 0.8
-      }
-     },
-     "targetPlacementStrategy": {
-      "regions": [
-       {
-        "info": {},
-        "xOffset": {
-         "xPercentValue": 0
-        },
-        "yOffset": {
-         "yPercentValue": -0.36
-        },
-        "depth": {
-         "value": 54
-        },
-        "depthJitter": {
-         "value": 0
-        },
-        "rectangle": {
-         "xLength": {
-          "value": 1
-         },
-         "yLength": {
-          "value": 1
-         }
-        }
-       }
-      ]
-     },
-     "profiles": [
-      {
-       "info": {
-        "description": "Shorter",
-        "weight": 5
-       },
-       "distance": {
-        "xPercentValue": 0.197600052
-       },
-       "distanceJitter": {
-        "xPercentValue": 0.04
-       },
-       "angle": 0,
-       "angleJitter": 0
-      },
-      {
-       "info": {
-        "description": "Mid",
-        "weight": 5
-       },
-       "distance": {
-        "xPercentValue": 0.332800061
-       },
-       "distanceJitter": {
-        "xPercentValue": 0.05
-       },
-       "angle": 0,
-       "angleJitter": 0
-      },
-      {
-       "info": {
-        "description": "Teleport",
-        "weight": 3,
-        "minSelectionGap": 3
-       },
-       "distance": {
-        "xPercentValue": 0.343200028
-       },
-       "distanceJitter": {
-        "xPercentValue": 0.09
-       },
-       "angle": 0,
-       "angleJitter": 0,
-       "speedMultiplier": 10.7500029,
-       "accelerationMultiplier": 3.29999781
-      }
-     ]
+    "referenceDef": {
+     "scenarioName": "VDIM VT Ground Intermediate S5 Bot 1"
     }
    }
   },
@@ -7416,14 +7246,11 @@
      "numTargets": 1,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 4.49999809,
-       "targetRadiusJitter": 0,
+       "targetRadius": 4.5,
        "speed": 169,
-       "speedJitter": 0,
        "acceleration": 1095,
        "pill": {
-        "height": 20.6000023
+        "height": 20.6
        }
       }
      ]
@@ -7440,6 +7267,15 @@
       "sideAngleDegrees": 60,
       "widthDegrees": 144
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "accelerationMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 58
     },
     "angleStrafeDef": {
      "bounds": {
@@ -7481,13 +7317,12 @@
         "weight": 6
        },
        "distance": {
-        "xPercentValue": 0.166400045
+        "xPercentValue": 0.166400105
        },
        "distanceJitter": {
         "xPercentValue": 0.04
        },
-       "angle": 0,
-       "angleJitter": 0
+       "angle": 0
       },
       {
        "info": {
@@ -7495,13 +7330,12 @@
         "weight": 3
        },
        "distance": {
-        "xPercentValue": 0.332800061
+        "xPercentValue": 0.33280009
        },
        "distanceJitter": {
         "xPercentValue": 0.05
        },
-       "angle": 0,
-       "angleJitter": 0
+       "angle": 0
       },
       {
        "info": {
@@ -7509,13 +7343,12 @@
         "weight": 2
        },
        "distance": {
-        "xPercentValue": 0.114399992
+        "xPercentValue": 0.1144
        },
        "distanceJitter": {
         "xPercentValue": 0.03
        },
-       "angle": 0,
-       "angleJitter": 0
+       "angle": 0
       }
      ]
     }
@@ -7524,232 +7357,34 @@
   {
    "name": "VT Ground Intermediate S5 Bot 2 Precision Focus",
    "def": {
-    "durationSeconds": 60,
-    "shotType": {
-     "trackingInvincible": true
+    "overrides": {
+     "targetRadiusMultiplier": 0.5,
+     "speedMultiplier": 0.6,
+     "accelerationMultiplier": 0.6,
+     "timeScaleMultiplier": 1.5
     },
-    "targetDef": {
-     "numTargets": 1,
-     "profiles": [
-      {
-       "info": {},
-       "targetRadius": 2.70000052,
-       "targetRadiusJitter": 0,
-       "speed": 131.820038,
-       "speedJitter": 0,
-       "acceleration": 919.800171,
-       "pill": {
-        "height": 20.6000023
-       }
-      }
-     ]
+    "scoreTargets": {
+     "targetScore": 55
     },
-    "room": {
-     "cameraPosition": {
-      "x": 0,
-      "y": 0,
-      "z": -29
-     },
-     "cylinderRoom": {
-      "height": 100,
-      "radius": 200,
-      "sideAngleDegrees": 60,
-      "widthDegrees": 144
-     }
-    },
-    "angleStrafeDef": {
-     "bounds": {
-      "width": {
-       "xPercentValue": 0.8
-      }
-     },
-     "targetPlacementStrategy": {
-      "regions": [
-       {
-        "info": {},
-        "xOffset": {
-         "xPercentValue": 0
-        },
-        "yOffset": {
-         "yPercentValue": -0.36
-        },
-        "depth": {
-         "value": 54
-        },
-        "depthJitter": {
-         "value": 0
-        },
-        "rectangle": {
-         "xLength": {
-          "value": 1
-         },
-         "yLength": {
-          "value": 1
-         }
-        }
-       }
-      ]
-     },
-     "profiles": [
-      {
-       "info": {
-        "description": "Shorter",
-        "weight": 6
-       },
-       "distance": {
-        "xPercentValue": 0.166400045
-       },
-       "distanceJitter": {
-        "xPercentValue": 0.04
-       },
-       "angle": 0,
-       "angleJitter": 0
-      },
-      {
-       "info": {
-        "description": "Mid",
-        "weight": 3
-       },
-       "distance": {
-        "xPercentValue": 0.332800061
-       },
-       "distanceJitter": {
-        "xPercentValue": 0.05
-       },
-       "angle": 0,
-       "angleJitter": 0
-      },
-      {
-       "info": {
-        "description": "Real Short",
-        "weight": 2
-       },
-       "distance": {
-        "xPercentValue": 0.114399992
-       },
-       "distanceJitter": {
-        "xPercentValue": 0.03
-       },
-       "angle": 0,
-       "angleJitter": 0
-      }
-     ]
+    "referenceDef": {
+     "scenarioName": "VDIM VT Ground Intermediate S5 Bot 2"
     }
    }
   },
   {
    "name": "VT Ground Intermediate S5 Bot 2 Reactive Focus",
    "def": {
-    "durationSeconds": 60,
-    "shotType": {
-     "trackingInvincible": true
+    "overrides": {
+     "targetRadiusMultiplier": 1.4,
+     "speedMultiplier": 1.35,
+     "accelerationMultiplier": 1.35,
+     "timeScaleMultiplier": 0.9
     },
-    "targetDef": {
-     "numTargets": 1,
-     "profiles": [
-      {
-       "info": {},
-       "targetRadius": 5.9399972,
-       "targetRadiusJitter": 0,
-       "speed": 229.839981,
-       "speedJitter": 0,
-       "acceleration": 2113.35,
-       "pill": {
-        "height": 20.6000023
-       }
-      }
-     ]
+    "scoreTargets": {
+     "targetScore": 55
     },
-    "room": {
-     "cameraPosition": {
-      "x": 0,
-      "y": 0,
-      "z": -29
-     },
-     "cylinderRoom": {
-      "height": 100,
-      "radius": 200,
-      "sideAngleDegrees": 60,
-      "widthDegrees": 144
-     }
-    },
-    "angleStrafeDef": {
-     "bounds": {
-      "width": {
-       "xPercentValue": 0.8
-      }
-     },
-     "targetPlacementStrategy": {
-      "regions": [
-       {
-        "info": {},
-        "xOffset": {
-         "xPercentValue": 0
-        },
-        "yOffset": {
-         "yPercentValue": -0.36
-        },
-        "depth": {
-         "value": 54
-        },
-        "depthJitter": {
-         "value": 0
-        },
-        "rectangle": {
-         "xLength": {
-          "value": 1
-         },
-         "yLength": {
-          "value": 1
-         }
-        }
-       }
-      ]
-     },
-     "profiles": [
-      {
-       "info": {
-        "description": "Shorter",
-        "weight": 6
-       },
-       "distance": {
-        "xPercentValue": 0.166400045
-       },
-       "distanceJitter": {
-        "xPercentValue": 0.04
-       },
-       "angle": 0,
-       "angleJitter": 0
-      },
-      {
-       "info": {
-        "description": "Mid",
-        "weight": 3
-       },
-       "distance": {
-        "xPercentValue": 0.332800061
-       },
-       "distanceJitter": {
-        "xPercentValue": 0.05
-       },
-       "angle": 0,
-       "angleJitter": 0
-      },
-      {
-       "info": {
-        "description": "Real Short",
-        "weight": 2
-       },
-       "distance": {
-        "xPercentValue": 0.114399992
-       },
-       "distanceJitter": {
-        "xPercentValue": 0.03
-       },
-       "angle": 0,
-       "angleJitter": 0
-      }
-     ]
+    "referenceDef": {
+     "scenarioName": "VDIM VT Ground Intermediate S5 Bot 2"
     }
    }
   },
@@ -7764,14 +7399,11 @@
      "numTargets": 1,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 3.59999895,
-       "targetRadiusJitter": 0,
+       "targetRadius": 3.6,
        "speed": 127.92,
-       "speedJitter": 0,
        "acceleration": 588,
        "pill": {
-        "height": 21.4000053
+        "height": 21.4000092
        }
       }
      ]
@@ -7788,6 +7420,15 @@
       "sideAngleDegrees": 60,
       "widthDegrees": 144
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "accelerationMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 55
     },
     "strafeDef": {
      "bounds": {
@@ -7831,7 +7472,7 @@
         "description": "Shorter",
         "weight": 5
        },
-       "time": 0.800000072,
+       "time": 0.8,
        "timeJitter": 0.3
       },
       {
@@ -7840,7 +7481,7 @@
         "weight": 2
        },
        "time": 1.2,
-       "timeJitter": 0.100000016
+       "timeJitter": 0.1
       }
      ],
      "forwardBackProfiles": [
@@ -7861,210 +7502,34 @@
   {
    "name": "VT Ground Intermediate S5 Bot 3 Precision Focus",
    "def": {
-    "durationSeconds": 60,
-    "shotType": {
-     "trackingInvincible": true
+    "overrides": {
+     "targetRadiusMultiplier": 0.5,
+     "speedMultiplier": 0.6,
+     "accelerationMultiplier": 0.6,
+     "timeScaleMultiplier": 1.5
     },
-    "targetDef": {
-     "numTargets": 1,
-     "profiles": [
-      {
-       "info": {},
-       "targetRadius": 2.1600008,
-       "targetRadiusJitter": 0,
-       "speed": 99.777626,
-       "speedJitter": 0,
-       "acceleration": 493.920105,
-       "pill": {
-        "height": 21.4000053
-       }
-      }
-     ]
+    "scoreTargets": {
+     "targetScore": 55
     },
-    "room": {
-     "cameraPosition": {
-      "x": 0,
-      "y": 0,
-      "z": -29
-     },
-     "cylinderRoom": {
-      "height": 100,
-      "radius": 200,
-      "sideAngleDegrees": 60,
-      "widthDegrees": 144
-     }
-    },
-    "strafeDef": {
-     "bounds": {
-      "width": {
-       "xPercentValue": 0.85
-      },
-      "depth": {
-       "depthPercentValue": 0.320000082
-      }
-     },
-     "targetPlacementStrategy": {
-      "regions": [
-       {
-        "info": {},
-        "xOffset": {
-         "xPercentValue": 0
-        },
-        "yOffset": {
-         "yPercentValue": -0.37
-        },
-        "depth": {
-         "value": 16
-        },
-        "depthJitter": {
-         "value": 0
-        },
-        "rectangle": {
-         "xLength": {
-          "value": 1
-         },
-         "yLength": {
-          "value": 1
-         }
-        }
-       }
-      ]
-     },
-     "leftRightProfiles": [
-      {
-       "info": {
-        "description": "Shorter",
-        "weight": 5
-       },
-       "time": 0.800000072,
-       "timeJitter": 0.3
-      },
-      {
-       "info": {
-        "description": "Longer",
-        "weight": 2
-       },
-       "time": 1.2,
-       "timeJitter": 0.100000016
-      }
-     ],
-     "forwardBackProfiles": [
-      {
-       "info": {},
-       "time": 1.2,
-       "timeJitter": 0.2,
-       "speedMultiplier": 0.249999836,
-       "accelerationMultiplier": 0.199999839
-      }
-     ],
-     "leftRightInitialDirection": "DIRECTION_NEGATIVE",
-     "upDownInitialDirection": "DIRECTION_POSITIVE",
-     "forwardBackInitialDirection": "DIRECTION_RANDOM"
+    "referenceDef": {
+     "scenarioName": "VDIM VT Ground Intermediate S5 Bot 3"
     }
    }
   },
   {
    "name": "VT Ground Intermediate S5 Bot 3 Reactive Focus",
    "def": {
-    "durationSeconds": 60,
-    "shotType": {
-     "trackingInvincible": true
+    "overrides": {
+     "targetRadiusMultiplier": 1.4,
+     "speedMultiplier": 1.35,
+     "accelerationMultiplier": 1.35,
+     "timeScaleMultiplier": 0.9
     },
-    "targetDef": {
-     "numTargets": 1,
-     "profiles": [
-      {
-       "info": {},
-       "targetRadius": 4.75199842,
-       "targetRadiusJitter": 0,
-       "speed": 173.971191,
-       "speedJitter": 0,
-       "acceleration": 1134.84009,
-       "pill": {
-        "height": 21.4000053
-       }
-      }
-     ]
+    "scoreTargets": {
+     "targetScore": 58
     },
-    "room": {
-     "cameraPosition": {
-      "x": 0,
-      "y": 0,
-      "z": -29
-     },
-     "cylinderRoom": {
-      "height": 100,
-      "radius": 200,
-      "sideAngleDegrees": 60,
-      "widthDegrees": 144
-     }
-    },
-    "strafeDef": {
-     "bounds": {
-      "width": {
-       "xPercentValue": 0.85
-      },
-      "depth": {
-       "depthPercentValue": 0.320000082
-      }
-     },
-     "targetPlacementStrategy": {
-      "regions": [
-       {
-        "info": {},
-        "xOffset": {
-         "xPercentValue": 0
-        },
-        "yOffset": {
-         "yPercentValue": -0.37
-        },
-        "depth": {
-         "value": 16
-        },
-        "depthJitter": {
-         "value": 0
-        },
-        "rectangle": {
-         "xLength": {
-          "value": 1
-         },
-         "yLength": {
-          "value": 1
-         }
-        }
-       }
-      ]
-     },
-     "leftRightProfiles": [
-      {
-       "info": {
-        "description": "Shorter",
-        "weight": 5
-       },
-       "time": 0.800000072,
-       "timeJitter": 0.3
-      },
-      {
-       "info": {
-        "description": "Longer",
-        "weight": 2
-       },
-       "time": 1.2,
-       "timeJitter": 0.100000016
-      }
-     ],
-     "forwardBackProfiles": [
-      {
-       "info": {},
-       "time": 1.2,
-       "timeJitter": 0.2,
-       "speedMultiplier": 0.249999836,
-       "accelerationMultiplier": 0.199999839
-      }
-     ],
-     "leftRightInitialDirection": "DIRECTION_NEGATIVE",
-     "upDownInitialDirection": "DIRECTION_POSITIVE",
-     "forwardBackInitialDirection": "DIRECTION_RANDOM"
+    "referenceDef": {
+     "scenarioName": "VDIM VT Ground Intermediate S5 Bot 3"
     }
    }
   },
@@ -8079,13 +7544,10 @@
      "numTargets": 1,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 2.89999962,
-       "targetRadiusJitter": 0,
+       "targetRadius": 2.9,
        "speed": 128,
-       "speedJitter": 0,
        "pill": {
-        "height": 21.4000053
+        "height": 21.4000092
        }
       }
      ]
@@ -8102,6 +7564,15 @@
       "sideAngleDegrees": 60,
       "widthDegrees": 144
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "accelerationMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 47
     },
     "angleStrafeDef": {
      "bounds": {
@@ -8143,13 +7614,12 @@
         "weight": 3
        },
        "distance": {
-        "xPercentValue": 0.160000056
+        "xPercentValue": 0.160000101
        },
        "distanceJitter": {
         "xPercentValue": 0.03
        },
-       "angle": 0,
-       "angleJitter": 0
+       "angle": 0
       },
       {
        "info": {
@@ -8162,8 +7632,7 @@
        "distanceJitter": {
         "xPercentValue": 0.03
        },
-       "angle": 0,
-       "angleJitter": 0
+       "angle": 0
       }
      ]
     }
@@ -8180,11 +7649,8 @@
      "numTargets": 1,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 2.20000076,
-       "targetRadiusJitter": 0,
+       "targetRadius": 2.2,
        "speed": 124,
-       "speedJitter": 0,
        "pill": {
         "height": 15
        }
@@ -8204,6 +7670,15 @@
       "widthDegrees": 126
      }
     },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "accelerationMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 50
+    },
     "angleStrafeDef": {
      "bounds": {
       "width": {
@@ -8212,15 +7687,13 @@
      },
      "profiles": [
       {
-       "info": {},
        "distance": {
-        "xPercentValue": 0.420000076
+        "xPercentValue": 0.420000106
        },
        "distanceJitter": {
-        "xPercentValue": 0.110000059
+        "xPercentValue": 0.110000096
        },
-       "angle": 0,
-       "angleJitter": 0
+       "angle": 0
       }
      ]
     }
@@ -8237,11 +7710,8 @@
      "numTargets": 1,
      "profiles": [
       {
-       "info": {},
-       "targetRadius": 3.89999914,
-       "targetRadiusJitter": 0,
+       "targetRadius": 3.9,
        "speed": 107,
-       "speedJitter": 0,
        "pill": {
         "height": 15
        }
@@ -8260,6 +7730,15 @@
       "sideAngleDegrees": 46,
       "widthDegrees": 126
      }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "accelerationMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 43
     },
     "angleStrafeDef": {
      "bounds": {
@@ -8279,8 +7758,7 @@
        "distanceJitter": {
         "xPercentValue": 0.03
        },
-       "angle": 0,
-       "angleJitter": 0
+       "angle": 0
       },
       {
        "info": {
@@ -8293,8 +7771,7 @@
        "distanceJitter": {
         "xPercentValue": 0.03
        },
-       "angle": 0,
-       "angleJitter": 0
+       "angle": 0
       }
      ]
     }
@@ -8435,7 +7912,7 @@
      "targetRadiusMultiplier": 1.4,
      "speedMultiplier": 1.35,
      "accelerationMultiplier": 1.35,
-     "growthTimeMultiplier": 0.9
+     "timeScaleMultiplier": 0.9
     },
     "referenceDef": {
      "scenarioName": "VDIM VT PGT Intermediate S5 Bot 1"
@@ -8483,7 +7960,8 @@
     "levelOverrides": {
      "targetRadiusMultiplier": 0.97,
      "speedMultiplier": 1.01,
-     "accelerationMultiplier": 1.01
+     "accelerationMultiplier": 1.01,
+     "levelOffset": 20
     },
     "scoreTargets": {
      "targetScore": 70
@@ -8579,7 +8057,7 @@
      "targetRadiusMultiplier": 1.4,
      "speedMultiplier": 1.35,
      "accelerationMultiplier": 1.35,
-     "growthTimeMultiplier": 0.9
+     "timeScaleMultiplier": 0.9
     },
     "referenceDef": {
      "scenarioName": "VDIM VT PGT Intermediate S5 Bot 2"
@@ -8697,7 +8175,7 @@
      "targetRadiusMultiplier": 1.4,
      "speedMultiplier": 1.35,
      "accelerationMultiplier": 1.35,
-     "growthTimeMultiplier": 0.9
+     "timeScaleMultiplier": 0.9
     },
     "referenceDef": {
      "scenarioName": "VDIM VT PGT Intermediate S5 Bot 3"
@@ -9486,7 +8964,8 @@
      }
     },
     "levelOverrides": {
-     "targetRadiusMultiplier": 0.96
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
     },
     "scoreTargets": {
      "targetScore": 60
@@ -10481,7 +9960,8 @@
     "levelOverrides": {
      "targetRadiusMultiplier": 0.97,
      "speedMultiplier": 1.01,
-     "accelerationMultiplier": 1.01
+     "accelerationMultiplier": 1.01,
+     "levelOffset": 20
     },
     "scoreTargets": {
      "targetScore": 60
