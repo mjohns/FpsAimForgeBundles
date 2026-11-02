@@ -71,6 +71,20 @@
    }
   },
   {
+   "name": "1w2ts Pasu Perfected Goated Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.3
+    },
+    "scoreTargets": {
+     "targetScore": 60
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM 1w2ts Pasu Perfected Goated"
+    }
+   }
+  },
+  {
    "name": "1w2ts Perfected",
    "def": {
     "durationSeconds": 60,
@@ -138,6 +152,88 @@
        "value": 20
       }
      }
+    }
+   }
+  },
+  {
+   "name": "1w2ts Perfected (1)",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 2,
+     "profiles": [
+      {
+       "targetRadius": 1.18
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 190,
+      "width": 220
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 105
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "info": {
+         "weight": 2
+        },
+        "ellipse": {
+         "xDiameter": {
+          "xPercentValue": 0.6
+         },
+         "yDiameter": {
+          "yPercentValue": 0.32
+         }
+        }
+       },
+       {
+        "info": {
+         "weight": 1
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.65
+         },
+         "yLength": {
+          "yPercentValue": 0.55
+         }
+        }
+       }
+      ],
+      "minDistance": {
+       "value": 20
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "1w2ts Perfected Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.38
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM 1w2ts Perfected"
     }
    }
   },
@@ -222,6 +318,17 @@
        "value": 20
       }
      }
+    }
+   }
+  },
+  {
+   "name": "Aimerz+ Week #5 - Static Switching Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.4
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM Aimerz+ Week #5 - Static Switching"
     }
    }
   },
@@ -1163,6 +1270,34 @@
    }
   },
   {
+   "name": "Floating Heads Timing Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.42,
+     "speedMultiplier": 0.93
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM Floating Heads Timing Intermediate"
+    }
+   }
+  },
+  {
+   "name": "Floating Heads Timing Novice 3-Click",
+   "def": {
+    "scoreTargets": {
+     "targetScore": 135
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM Floating Heads Timing Novice",
+     "shotType": {
+      "clickMulti": true,
+      "healthClicks": 3,
+      "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+     }
+    }
+   }
+  },
+  {
    "name": "Floatswitch Intermediate",
    "def": {
     "durationSeconds": 60,
@@ -1226,6 +1361,18 @@
      },
      "leftRightInitialDirection": "DIRECTION_IN",
      "upDownInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "Floatswitch Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.4,
+     "speedMultiplier": 0.93
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM Floatswitch Intermediate"
     }
    }
   },
@@ -1478,6 +1625,17 @@
      },
      "leftRightInitialDirection": "DIRECTION_RANDOM",
      "forwardBackInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "Pokeball Frenzy Auto Wide Wall 4 Targets",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.4
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM Pokeball Frenzy Auto Wide Wall 4 Targets Small"
     }
    }
   },
@@ -1891,6 +2049,193 @@
       ],
       "minDistance": {
        "value": 4
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "RawMouseControl Reload (1)",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "reload": {
+      "maxShots": 3,
+      "numToReloadOnHit": 3,
+      "reloadTime": 0.5
+     },
+     "accuracyPenalty": "ACCURACY_PENALTY_NONE"
+    },
+    "targetDef": {
+     "numTargets": 3,
+     "profiles": [
+      {
+       "targetRadius": 1.3
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 130,
+      "width": 150
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 250
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "ellipse": {
+         "xDiameter": {
+          "xPercentValue": 0.09
+         },
+         "yDiameter": {
+          "yPercentValue": 0.09
+         }
+        }
+       }
+      ],
+      "minDistance": {
+       "value": 4
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "RawMouseControl Reload Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.3
+    },
+    "scoreTargets": {
+     "targetScore": 230
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM RawMouseControl Reload"
+    }
+   }
+  },
+  {
+   "name": "Reflex Flick - Easy",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 1,
+     "profiles": [
+      {
+       "targetRadius": 4.3
+      }
+     ],
+     "newTargetDelaySeconds": 0.3,
+     "removeTargetAfterSeconds": 0.7
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 200,
+      "width": 200
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "removeTargetAfterSecondsMultiplier": 0.99,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 60
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "info": {
+         "weight": 1
+        },
+        "depth": {
+         "value": 0
+        },
+        "depthJitter": {
+         "value": 0
+        },
+        "ellipse": {
+         "xDiameter": {
+          "xPercentValue": 0.6
+         },
+         "yDiameter": {
+          "yPercentValue": 0.32
+         }
+        }
+       },
+       {
+        "info": {
+         "description": "Outside Rect",
+         "weight": 2
+        },
+        "depth": {
+         "value": 0
+        },
+        "depthJitter": {
+         "value": 0
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.85
+         },
+         "yLength": {
+          "yPercentValue": 0.85
+         },
+         "innerXLength": {
+          "xPercentValue": 0.55
+         },
+         "innerYLength": {
+          "yPercentValue": 0.55
+         }
+        }
+       },
+       {
+        "info": {
+         "description": "Mid Circle",
+         "weight": 2
+        },
+        "depth": {
+         "value": 0
+        },
+        "depthJitter": {
+         "value": 0
+        },
+        "circle": {
+         "diameter": {
+          "yPercentValue": 0.7
+         },
+         "innerDiameter": {
+          "yPercentValue": 0.55
+         }
+        }
+       }
+      ],
+      "minDistance": {
+       "value": 20
       }
      }
     }
@@ -3142,6 +3487,20 @@
    }
   },
   {
+   "name": "VT 1w2ts Horizontal",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.5
+    },
+    "scoreTargets": {
+     "targetScore": 85
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT 1w2ts Horizontal Small"
+    }
+   }
+  },
+  {
    "name": "VT 1w2ts Horizontal Small",
    "def": {
     "durationSeconds": 60,
@@ -3245,6 +3604,20 @@
    }
   },
   {
+   "name": "VT 1w2ts Horizontal Wide",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.5
+    },
+    "scoreTargets": {
+     "targetScore": 75
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT 1w2ts Horizontal Wide Small"
+    }
+   }
+  },
+  {
    "name": "VT 1w2ts Horizontal Wide Small",
    "def": {
     "durationSeconds": 60,
@@ -3343,6 +3716,20 @@
        "value": 20
       }
      }
+    }
+   }
+  },
+  {
+   "name": "VT 1w2ts Vertical",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.5
+    },
+    "scoreTargets": {
+     "targetScore": 85
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT 1w2ts Vertical Small"
     }
    }
   },
@@ -3655,6 +4042,218 @@
     },
     "referenceDef": {
      "scenarioName": "VDIM VT 1w3ts Intermediate S5"
+    }
+   }
+  },
+  {
+   "name": "VT 1w4ts Novice S4",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 4,
+     "profiles": [
+      {
+       "targetRadius": 2.04
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 180,
+      "width": 200
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 125
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "info": {
+         "weight": 2
+        },
+        "depth": {
+         "value": 0
+        },
+        "depthJitter": {
+         "value": 0
+        },
+        "ellipse": {
+         "xDiameter": {
+          "xPercentValue": 0.7
+         },
+         "yDiameter": {
+          "yPercentValue": 0.41
+         }
+        }
+       },
+       {
+        "info": {
+         "weight": 1
+        },
+        "depth": {
+         "value": 0
+        },
+        "depthJitter": {
+         "value": 0
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.71
+         },
+         "yLength": {
+          "yPercentValue": 0.649999917
+         }
+        }
+       }
+      ],
+      "minDistance": {
+       "value": 20
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "VT 1w4ts Novice S5 Clusters",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 12,
+     "profiles": [
+      {
+       "targetRadius": 2.05,
+       "speedJitter": 0
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 180,
+      "width": 200
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 140
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "info": {
+         "weight": 2
+        },
+        "depth": {
+         "value": 0
+        },
+        "depthJitter": {
+         "value": 0
+        },
+        "ellipse": {
+         "xDiameter": {
+          "xPercentValue": 0.7
+         },
+         "yDiameter": {
+          "yPercentValue": 0.41
+         }
+        }
+       },
+       {
+        "info": {
+         "weight": 1
+        },
+        "depth": {
+         "value": 0
+        },
+        "depthJitter": {
+         "value": 0
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.71
+         },
+         "yLength": {
+          "yPercentValue": 0.649999917
+         }
+        }
+       }
+      ],
+      "minDistance": {
+       "value": 9
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "VT 1w4ts Novice S5 Hard",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 0.8
+    },
+    "scoreTargets": {
+     "targetScore": 108
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT 1w4ts Novice S4"
+    }
+   }
+  },
+  {
+   "name": "VT 1w4ts Novice S5 Pokeball Small",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 0.9
+    },
+    "scoreTargets": {
+     "targetScore": 115
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT 1w4ts Novice S4",
+     "shotType": {
+      "poke": true
+     }
+    }
+   }
+  },
+  {
+   "name": "VT 1w4ts Novice S5 Speed",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.5
+    },
+    "scoreTargets": {
+     "targetScore": 135
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT 1w4ts Novice S4"
     }
    }
   },
@@ -6144,6 +6743,56 @@
    }
   },
   {
+   "name": "VT Floating Heads Novice S5",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.42,
+     "speedMultiplier": 0.94
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Floating Heads Intermediate S5"
+    }
+   }
+  },
+  {
+   "name": "VT Floating Heads Novice S5 3 Targets",
+   "def": {
+    "scoreTargets": {
+     "targetScore": 83
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Floating Heads Novice S5",
+     "numTargets": 3
+    }
+   }
+  },
+  {
+   "name": "VT Floating Heads Novice S5 Clusters",
+   "def": {
+    "scoreTargets": {
+     "targetScore": 100
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Floating Heads Novice S5",
+     "numTargets": 14
+    }
+   }
+  },
+  {
+   "name": "VT Floating Heads Novice S5 Hard",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 0.9
+    },
+    "scoreTargets": {
+     "targetScore": 82
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Floating Heads Novice S5"
+    }
+   }
+  },
+  {
    "name": "VT Floatpoke Intermediate S5",
    "def": {
     "durationSeconds": 60,
@@ -6219,6 +6868,18 @@
      },
      "leftRightInitialDirection": "DIRECTION_IN",
      "upDownInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "VT Floatpoke Novice S5",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.4,
+     "speedMultiplier": 0.93
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Floatpoke Intermediate S5"
     }
    }
   },
@@ -9099,6 +9760,94 @@
    }
   },
   {
+   "name": "VT Quadpulse Novice",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 4,
+     "profiles": [
+      {
+       "targetRadius": 1.3,
+       "speedJitter": 0,
+       "targetRadiusGrowthTimeSeconds": 2.2,
+       "targetRadiusGrowthSize": 5.7,
+       "targetRadiusGrowthFinalSizeTimeSeconds": 0.25
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 180,
+      "width": 190
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.98,
+     "growthTimeMultiplier": 0.98,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 150
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "info": {
+         "weight": 2
+        },
+        "depth": {
+         "value": 0
+        },
+        "depthJitter": {
+         "value": 0
+        },
+        "ellipse": {
+         "xDiameter": {
+          "xPercentValue": 0.7
+         },
+         "yDiameter": {
+          "yPercentValue": 0.32
+         }
+        }
+       },
+       {
+        "info": {
+         "weight": 1
+        },
+        "depth": {
+         "value": 0
+        },
+        "depthJitter": {
+         "value": 0
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.8
+         },
+         "yLength": {
+          "yPercentValue": 0.699999928
+         }
+        }
+       }
+      ],
+      "minDistance": {
+       "value": 20
+      }
+     }
+    }
+   }
+  },
+  {
    "name": "VT Raw Control Intermediate S5",
    "def": {
     "durationSeconds": 60,
@@ -9321,6 +10070,18 @@
      },
      "leftRightInitialDirection": "DIRECTION_IN",
      "upDownInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "VT Skyshot Valorant Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.4,
+     "speedMultiplier": 0.94
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Skyshot Valorant Intermediate"
     }
    }
   },
@@ -9927,6 +10688,93 @@
    }
   },
   {
+   "name": "VT Widepulse Novice",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 4,
+     "profiles": [
+      {
+       "targetRadius": 1.4,
+       "targetRadiusGrowthTimeSeconds": 2.3,
+       "targetRadiusGrowthSize": 4.8,
+       "targetRadiusGrowthFinalSizeTimeSeconds": 0.1
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 120,
+      "width": 220
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.98,
+     "growthTimeMultiplier": 0.98,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 125
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "info": {
+         "weight": 2
+        },
+        "depth": {
+         "value": 0
+        },
+        "depthJitter": {
+         "value": 0
+        },
+        "ellipse": {
+         "xDiameter": {
+          "xPercentValue": 0.7
+         },
+         "yDiameter": {
+          "yPercentValue": 0.32
+         }
+        }
+       },
+       {
+        "info": {
+         "weight": 1
+        },
+        "depth": {
+         "value": 0
+        },
+        "depthJitter": {
+         "value": 0
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.8
+         },
+         "yLength": {
+          "yPercentValue": 0.699999928
+         }
+        }
+       }
+      ],
+      "minDistance": {
+       "value": 20
+      }
+     }
+    }
+   }
+  },
+  {
    "name": "VT bounceTS Intermediate",
    "def": {
     "durationSeconds": 60,
@@ -10332,6 +11180,145 @@
     },
     "scoreTargets": {
      "targetScore": 160
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "info": {
+         "weight": 2
+        },
+        "depth": {
+         "value": 0
+        },
+        "depthJitter": {
+         "value": 0
+        },
+        "ellipse": {
+         "xDiameter": {
+          "xPercentValue": 0.73
+         },
+         "yDiameter": {
+          "yPercentValue": 0.4
+         }
+        }
+       },
+       {
+        "info": {
+         "weight": 1
+        },
+        "depth": {
+         "value": 0
+        },
+        "depthJitter": {
+         "value": 0
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.66
+         },
+         "yLength": {
+          "yPercentValue": 0.460000128
+         }
+        }
+       }
+      ],
+      "minDistance": {
+       "value": 27
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "VT ww5t Novice S5",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.4
+    },
+    "scoreTargets": {
+     "targetScore": 130
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT ww5t Intermediate S5"
+    }
+   }
+  },
+  {
+   "name": "VT ww5t Novice S5 Clusters",
+   "def": {
+    "scoreTargets": {
+     "targetScore": 150
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT ww5t Novice S5",
+     "numTargets": 12
+    }
+   }
+  },
+  {
+   "name": "VT ww5t Novice S5 Hard",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 0.8
+    },
+    "scoreTargets": {
+     "targetScore": 125
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT ww5t Novice S5"
+    }
+   }
+  },
+  {
+   "name": "VT ww5t Novice S5 Pokeball",
+   "def": {
+    "scoreTargets": {
+     "targetScore": 140
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT ww5t Novice S5",
+     "shotType": {
+      "poke": true
+     }
+    }
+   }
+  },
+  {
+   "name": "VT ww5t Novice S5 Speed",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 5,
+     "profiles": [
+      {
+       "targetRadius": 4.1
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+     },
+     "cylinderRoom": {
+      "height": 250,
+      "radius": 200,
+      "width": 390,
+      "sideAngleDegrees": 14
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 150
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -12421,6 +13408,133 @@
      {
       "scenario": "VDIM VT Aether Intermediate S5 Bot 3",
       "numPlays": 3
+     }
+    ]
+   }
+  },
+  {
+   "name": "Novice S5 - Clicking I",
+   "def": {
+    "items": [
+     {
+      "scenario": "VDIM RawMouseControl Reload Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT 1w2ts Horizontal",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT 1w2ts Vertical",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM 1w2ts Perfected Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Reflex Flick - Easy",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Quadpulse Novice",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT 1w4ts Novice S5 Pokeball Small",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT 1w4ts Novice S5 Clusters",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT 1w4ts Novice S5 Speed",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT 1w4ts Novice S5 Hard",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT 1w4ts Novice S4",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM Pokeball Frenzy Auto Wide Wall 4 Targets",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT 1w2ts Horizontal Wide",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM 1w2ts Pasu Perfected Goated Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Aimerz+ Week #5 - Static Switching Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Widepulse Novice",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ww5t Novice S5 Pokeball",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ww5t Novice S5 Clusters",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ww5t Novice S5 Speed",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ww5t Novice S5 Hard",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ww5t Novice S5",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM Floatswitch Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Floating Heads Timing Novice 3-Click",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Floating Heads Timing Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Skyshot Valorant Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Floatpoke Novice S5",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Floating Heads Novice S5 3 Targets",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Floating Heads Novice S5 Clusters",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Floating Heads Novice S5 Hard",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Floating Heads Novice S5",
+      "numPlays": 4
      }
     ]
    }
