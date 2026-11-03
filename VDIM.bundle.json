@@ -156,77 +156,6 @@
    }
   },
   {
-   "name": "1w2ts Perfected (1)",
-   "def": {
-    "durationSeconds": 60,
-    "shotType": {
-     "clickSingle": true,
-     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
-    },
-    "targetDef": {
-     "numTargets": 2,
-     "profiles": [
-      {
-       "targetRadius": 1.18
-      }
-     ]
-    },
-    "room": {
-     "cameraPosition": {
-      "x": 0,
-      "y": -200,
-      "z": 0
-     },
-     "simpleRoom": {
-      "height": 190,
-      "width": 220
-     }
-    },
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.96,
-     "levelOffset": 20
-    },
-    "scoreTargets": {
-     "targetScore": 105
-    },
-    "staticDef": {
-     "targetPlacementStrategy": {
-      "regions": [
-       {
-        "info": {
-         "weight": 2
-        },
-        "ellipse": {
-         "xDiameter": {
-          "xPercentValue": 0.6
-         },
-         "yDiameter": {
-          "yPercentValue": 0.32
-         }
-        }
-       },
-       {
-        "info": {
-         "weight": 1
-        },
-        "rectangle": {
-         "xLength": {
-          "xPercentValue": 0.65
-         },
-         "yLength": {
-          "yPercentValue": 0.55
-         }
-        }
-       }
-      ],
-      "minDistance": {
-       "value": 20
-      }
-     }
-    }
-   }
-  },
-  {
    "name": "1w2ts Perfected Novice",
    "def": {
     "overrides": {
@@ -326,6 +255,9 @@
    "def": {
     "overrides": {
      "targetRadiusMultiplier": 1.4
+    },
+    "scoreTargets": {
+     "targetScore": 120
     },
     "referenceDef": {
      "scenarioName": "VDIM Aimerz+ Week #5 - Static Switching"
@@ -1142,6 +1074,20 @@
    }
   },
   {
+   "name": "DotTS Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.3
+    },
+    "scoreTargets": {
+     "targetScore": 80
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM DotTS 30% Larger"
+    }
+   }
+  },
+  {
    "name": "Floating Heads Timing Intermediate",
    "def": {
     "durationSeconds": 60,
@@ -1804,6 +1750,20 @@
    }
   },
   {
+   "name": "Pokevox Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.37
+    },
+    "scoreTargets": {
+     "targetScore": 85
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM Pokevox Intermediate"
+    }
+   }
+  },
+  {
    "name": "Popswitch Intermediate",
    "def": {
     "durationSeconds": 60,
@@ -1900,6 +1860,22 @@
      "leftRightInitialDirection": "DIRECTION_RANDOM",
      "forwardBackInitialDirection": "DIRECTION_RANDOM",
      "startOnFloor": true
+    }
+   }
+  },
+  {
+   "name": "Popswitch Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.9,
+     "accelerationMultiplier": 0.9
+    },
+    "scoreTargets": {
+     "targetScore": 50
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM Popswitch Intermediate"
     }
    }
   },
@@ -2032,66 +2008,6 @@
   },
   {
    "name": "RawMouseControl Reload",
-   "def": {
-    "durationSeconds": 60,
-    "shotType": {
-     "clickSingle": true,
-     "reload": {
-      "maxShots": 3,
-      "numToReloadOnHit": 3,
-      "reloadTime": 0.5
-     },
-     "accuracyPenalty": "ACCURACY_PENALTY_NONE"
-    },
-    "targetDef": {
-     "numTargets": 3,
-     "profiles": [
-      {
-       "targetRadius": 1.3
-      }
-     ]
-    },
-    "room": {
-     "cameraPosition": {
-      "x": 0,
-      "y": -200,
-      "z": 0
-     },
-     "simpleRoom": {
-      "height": 130,
-      "width": 150
-     }
-    },
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.96,
-     "levelOffset": 20
-    },
-    "scoreTargets": {
-     "targetScore": 250
-    },
-    "staticDef": {
-     "targetPlacementStrategy": {
-      "regions": [
-       {
-        "ellipse": {
-         "xDiameter": {
-          "xPercentValue": 0.09
-         },
-         "yDiameter": {
-          "yPercentValue": 0.09
-         }
-        }
-       }
-      ],
-      "minDistance": {
-       "value": 4
-      }
-     }
-    }
-   }
-  },
-  {
-   "name": "RawMouseControl Reload (1)",
    "def": {
     "durationSeconds": 60,
     "shotType": {
@@ -2921,6 +2837,20 @@
    }
   },
   {
+   "name": "StaticSwitchingVox Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.37
+    },
+    "scoreTargets": {
+     "targetScore": 80
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM StaticSwitchingVox xSmall"
+    }
+   }
+  },
+  {
    "name": "StaticSwitchingVox xSmall",
    "def": {
     "durationSeconds": 60,
@@ -3487,6 +3417,21 @@
       }
      },
      "directionRadiusPercent": 0.01
+    }
+   }
+  },
+  {
+   "name": "Trippez Smooth Switching Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.4,
+     "speedMultiplier": 0.9
+    },
+    "scoreTargets": {
+     "targetScore": 38
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM Trippez Smooth Switching Intermediate"
     }
    }
   },
@@ -6096,6 +6041,78 @@
    }
   },
   {
+   "name": "VT DotTS Novice S5",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.4
+    },
+    "scoreTargets": {
+     "targetScore": 110
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT DotTS Intermediate S5"
+    }
+   }
+  },
+  {
+   "name": "VT DotTS Novice S5 Evasive",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.3
+    },
+    "scoreTargets": {
+     "targetScore": 95
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT DotTS Intermediate S5 Evasive"
+    }
+   }
+  },
+  {
+   "name": "VT DotTS Novice S5 Hard",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 0.8
+    },
+    "scoreTargets": {
+     "targetScore": 97
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT DotTS Novice S5"
+    }
+   }
+  },
+  {
+   "name": "VT DotTS Novice S5 Regen",
+   "def": {
+    "scoreTargets": {
+     "targetScore": 107
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT DotTS Novice S5",
+     "shotType": {
+      "trackingKill": true,
+      "healthSeconds": 0.26,
+      "healthRegenRate": 2
+     }
+    }
+   }
+  },
+  {
+   "name": "VT DotTS Novice S5 Speed",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.45
+    },
+    "scoreTargets": {
+     "targetScore": 115
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT DotTS Intermediate S5 Speed"
+    }
+   }
+  },
+  {
    "name": "VT DriftTS Intermediate S5",
    "def": {
     "durationSeconds": 60,
@@ -6736,6 +6753,82 @@
        "value": 50
       }
      }
+    }
+   }
+  },
+  {
+   "name": "VT EddieTS Novice S5",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.3,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.95
+    },
+    "scoreTargets": {
+     "targetScore": 95
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT EddieTS Intermedite S5"
+    }
+   }
+  },
+  {
+   "name": "VT EddieTS Novice S5 Hard",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 0.8,
+     "speedMultiplier": 1.03,
+     "accelerationMultiplier": 1.02
+    },
+    "scoreTargets": {
+     "targetScore": 88
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT EddieTS Novice S5"
+    }
+   }
+  },
+  {
+   "name": "VT EddieTS Novice S5 Regen",
+   "def": {
+    "scoreTargets": {
+     "targetScore": 98
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT EddieTS Novice S5",
+     "shotType": {
+      "trackingKill": true,
+      "healthSeconds": 0.2,
+      "healthRegenRate": 1.4
+     }
+    }
+   }
+  },
+  {
+   "name": "VT EddieTS Novice S5 Speed",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.45
+    },
+    "scoreTargets": {
+     "targetScore": 120
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT EddieTS Intermedite S5 Speed"
+    }
+   }
+  },
+  {
+   "name": "VT EddieTS Novice S5 Static",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35
+    },
+    "scoreTargets": {
+     "targetScore": 118
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT EddieTS Intermedite S5 Static"
     }
    }
   },
@@ -9674,6 +9767,66 @@
    }
   },
   {
+   "name": "VT Penta Bounce Novice S5",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 45
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Penta Bounce Intermediate S5"
+    }
+   }
+  },
+  {
+   "name": "VT Penta Bounce Novice S5 Hard",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 0.84,
+     "speedMultiplier": 1.03
+    },
+    "scoreTargets": {
+     "targetScore": 40
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Penta Bounce Novice S5"
+    }
+   }
+  },
+  {
+   "name": "VT Penta Bounce Novice S5 Smooth",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.3,
+     "speedMultiplier": 0.88
+    },
+    "scoreTargets": {
+     "targetScore": 38
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Penta Bounce Intermediate S5 Smooth"
+    }
+   }
+  },
+  {
+   "name": "VT Penta Bounce Novice S5 Speed",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.4,
+     "speedMultiplier": 0.9
+    },
+    "scoreTargets": {
+     "targetScore": 40
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Penta Bounce Novice S5"
+    }
+   }
+  },
+  {
    "name": "VT Popcorn Intermediate S5",
    "def": {
     "durationSeconds": 60,
@@ -10737,6 +10890,20 @@
    }
   },
   {
+   "name": "VT Speedswitch 180 Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35
+    },
+    "scoreTargets": {
+     "targetScore": 130
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Speedswitch 180 Intermediate"
+    }
+   }
+  },
+  {
    "name": "VT Speedswitch 90 Intermediate",
    "def": {
     "durationSeconds": 60,
@@ -10828,6 +10995,20 @@
      "leftRightInitialDirection": "DIRECTION_RANDOM",
      "upDownInitialDirection": "DIRECTION_RANDOM",
      "forwardBackInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "VT Speedswitch 90 Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35
+    },
+    "scoreTargets": {
+     "targetScore": 140
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Speedswitch 90 Intermediate"
     }
    }
   },
@@ -11281,6 +11462,22 @@
    }
   },
   {
+   "name": "VT bounceTS Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.3,
+     "speedMultiplier": 0.92,
+     "accelerationMultiplier": 0.92
+    },
+    "scoreTargets": {
+     "targetScore": 50
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT bounceTS Intermediate"
+    }
+   }
+  },
+  {
    "name": "VT skyTs Intermediate",
    "def": {
     "durationSeconds": 60,
@@ -11409,6 +11606,38 @@
      },
      "leftRightInitialDirection": "DIRECTION_IN",
      "upDownInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "VT skyTs Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.9,
+     "accelerationMultiplier": 0.96
+    },
+    "scoreTargets": {
+     "targetScore": 100
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT skyTs Intermediate"
+    }
+   }
+  },
+  {
+   "name": "VT skyTs Novice Varied",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.97
+    },
+    "scoreTargets": {
+     "targetScore": 110
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT skyTs Intermediate Varied"
     }
    }
   },
@@ -12466,6 +12695,22 @@
    }
   },
   {
+   "name": "patCircleSwitch V2 Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.96
+    },
+    "scoreTargets": {
+     "targetScore": 98
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM patCircleSwitch V2 Intermediate"
+    }
+   }
+  },
+  {
    "name": "psalmTS angelic click 30% larger",
    "def": {
     "durationSeconds": 60,
@@ -12813,6 +13058,22 @@
    }
   },
   {
+   "name": "swayTs Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.94,
+     "accelerationMultiplier": 0.96
+    },
+    "scoreTargets": {
+     "targetScore": 88
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM swayTs Intermediate"
+    }
+   }
+  },
+  {
    "name": "tamTargetSwitch Control Intermediate",
    "def": {
     "durationSeconds": 60,
@@ -13127,6 +13388,22 @@
      },
      "leftRightInitialDirection": "DIRECTION_RANDOM",
      "upDownInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "waldoTs Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.36,
+     "speedMultiplier": 0.97,
+     "accelerationMultiplier": 0.97
+    },
+    "scoreTargets": {
+     "targetScore": 115
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM waldoTs Intermediate"
     }
    }
   }
@@ -14095,6 +14372,125 @@
      }
     ]
    }
+  },
+  {
+   "name": "Novice S5 - Switching I",
+   "def": {
+    "items": [
+     {
+      "scenario": "VDIM VT Speedswitch 90 Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Speedswitch 180 Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Pokevox Novice",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM StaticSwitchingVox Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Aimerz+ Week #5 - Static Switching Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM DotTS Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT DotTS Novice S5 Speed",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT DotTS Novice S5 Evasive",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT DotTS Novice S5 Regen",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT DotTS Novice S5 Hard",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT DotTS Novice S5",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM waldoTs Novice",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM patCircleSwitch V2 Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT skyTs Novice Varied",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT skyTs Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM swayTs Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT EddieTS Novice S5 Speed",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT EddieTS Novice S5 Static",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT EddieTS Novice S5 Regen",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT EddieTS Novice S5 Hard",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT EddieTS Novice S5",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM Popswitch Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Trippez Smooth Switching Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT bounceTS Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Penta Bounce Novice S5 Speed",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Penta Bounce Novice S5 Smooth",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Penta Bounce Novice S5 Hard",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Penta Bounce Novice S5",
+      "numPlays": 4
+     }
+    ]
+   }
   }
  ],
  "guides": [
@@ -14140,7 +14536,7 @@
       "playlists": [
        "VDIM Novice S5 - Clicking I",
        "VDIM Novice S5 - Clicking II",
-       "VDIM Intermediate S5 - Switching I",
+       "VDIM Novice S5 - Switching I",
        "VDIM Intermediate S5 - Switching II",
        "VDIM Intermediate S5 - Tracking I",
        "VDIM Intermediate S5 - Tracking II"
