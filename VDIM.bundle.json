@@ -358,6 +358,22 @@
    }
   },
   {
+   "name": "Aimerz+ cheaTS Med S1 Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.96,
+     "accelerationMultiplier": 0.94
+    },
+    "scoreTargets": {
+     "targetScore": 67
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM Aimerz+ cheaTS Med S1"
+    }
+   }
+  },
+  {
    "name": "BounceSphere Intermediate",
    "def": {
     "durationSeconds": 60,
@@ -587,6 +603,22 @@
        "turnRateJitter": 80
       }
      ]
+    }
+   }
+  },
+  {
+   "name": "CG Adjust Switch Micro Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.94,
+     "accelerationMultiplier": 0.95
+    },
+    "scoreTargets": {
+     "targetScore": 67
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM CG Adjust Switch Micro Intermediate"
     }
    }
   },
@@ -1008,6 +1040,22 @@
      "leftRightInitialDirection": "DIRECTION_RANDOM",
      "upDownInitialDirection": "DIRECTION_RANDOM",
      "forwardBackInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "Controlswitch Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.94,
+     "accelerationMultiplier": 0.95
+    },
+    "scoreTargets": {
+     "targetScore": 48
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM Controlswitch Intermediate"
     }
    }
   },
@@ -1471,6 +1519,22 @@
      "leftRightInitialDirection": "DIRECTION_RANDOM",
      "upDownInitialDirection": "DIRECTION_RANDOM",
      "forwardBackInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "FuglaaXYZ TS Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.95,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 42
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM FuglaaXYZ TS Intermediate"
     }
    }
   },
@@ -3239,6 +3303,22 @@
    }
   },
   {
+   "name": "ToonsTS Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.9,
+     "accelerationMultiplier": 0.9
+    },
+    "scoreTargets": {
+     "targetScore": 63
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM ToonsTS Intermediate"
+    }
+   }
+  },
+  {
    "name": "Trackstop Intermediate",
    "def": {
     "durationSeconds": 60,
@@ -3514,6 +3594,14 @@
      "speedMultiplier": 0.97,
      "accelerationMultiplier": 0.97
     },
+    "referenceDef": {
+     "scenarioName": "VDIM VPP AdjustSwitch Intermediate"
+    }
+   }
+  },
+  {
+   "name": "VPP AdjustSwitch Novice (1)",
+   "def": {
     "referenceDef": {
      "scenarioName": "VDIM VPP AdjustSwitch Intermediate"
     }
@@ -4110,7 +4198,7 @@
      "levelOffset": 20
     },
     "scoreTargets": {
-     "targetScore": 125
+     "targetScore": 115
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -4194,7 +4282,7 @@
      "levelOffset": 20
     },
     "scoreTargets": {
-     "targetScore": 140
+     "targetScore": 135
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -4252,7 +4340,7 @@
      "targetRadiusMultiplier": 0.8
     },
     "scoreTargets": {
-     "targetScore": 108
+     "targetScore": 100
     },
     "referenceDef": {
      "scenarioName": "VDIM VT 1w4ts Novice S4"
@@ -4266,7 +4354,7 @@
      "targetRadiusMultiplier": 0.9
     },
     "scoreTargets": {
-     "targetScore": 115
+     "targetScore": 108
     },
     "referenceDef": {
      "scenarioName": "VDIM VT 1w4ts Novice S4",
@@ -4644,6 +4732,22 @@
      ],
      "leftRightInitialDirection": "DIRECTION_RANDOM",
      "upDownInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "VT Angleswitch Micro Valorant Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.95,
+     "accelerationMultiplier": 0.96
+    },
+    "scoreTargets": {
+     "targetScore": 52
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Angleswitch Micro Valorant Intermediate"
     }
    }
   },
@@ -5230,6 +5334,62 @@
       "trackingKill": true,
       "healthSeconds": 0.45
      }
+    }
+   }
+  },
+  {
+   "name": "VT ControlTS Novice S5",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 42
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT ControlTS Intermediate S5"
+    }
+   }
+  },
+  {
+   "name": "VT ControlTS Novice S5 Hard",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.94,
+     "accelerationMultiplier": 0.94
+    },
+    "scoreTargets": {
+     "targetScore": 38
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT ControlTS Intermediate S5 Hard"
+    }
+   }
+  },
+  {
+   "name": "VT ControlTS Novice S5 Smooth",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 28
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT ControlTS Intermediate S5 Smooth"
+    }
+   }
+  },
+  {
+   "name": "VT ControlTS Novice S5 Speed",
+   "def": {
+    "referenceDef": {
+     "scenarioName": "VDIM VT ControlTS Intermediate S5 Speed"
     }
    }
   },
@@ -6298,7 +6458,71 @@
    }
   },
   {
-   "name": "VT EddieTS Intermedite S5",
+   "name": "VT DriftTS Novice S5",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.95,
+     "accelerationMultiplier": 0.95
+    },
+    "scoreTargets": {
+     "targetScore": 52
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT DriftTS Intermediate S5"
+    }
+   }
+  },
+  {
+   "name": "VT DriftTS Novice S5 Hard",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.95,
+     "accelerationMultiplier": 0.94
+    },
+    "scoreTargets": {
+     "targetScore": 48
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT DriftTS Intermediate S5 Hard"
+    }
+   }
+  },
+  {
+   "name": "VT DriftTS Novice S5 Smooth",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.38,
+     "speedMultiplier": 0.94,
+     "accelerationMultiplier": 0.95
+    },
+    "scoreTargets": {
+     "targetScore": 41
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT DriftTS Intermediate S5 Smooth"
+    }
+   }
+  },
+  {
+   "name": "VT DriftTS Novice S5 Speed",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.95,
+     "accelerationMultiplier": 0.94
+    },
+    "scoreTargets": {
+     "targetScore": 62
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT DriftTS Intermediate S5 Speed"
+    }
+   }
+  },
+  {
+   "name": "VT EddieTS Intermediate S5",
    "def": {
     "durationSeconds": 60,
     "shotType": {
@@ -6397,7 +6621,7 @@
    }
   },
   {
-   "name": "VT EddieTS Intermedite S5 Hard",
+   "name": "VT EddieTS Intermediate S5 Hard",
    "def": {
     "durationSeconds": 60,
     "shotType": {
@@ -6496,7 +6720,7 @@
    }
   },
   {
-   "name": "VT EddieTS Intermedite S5 Regen",
+   "name": "VT EddieTS Intermediate S5 Regen",
    "def": {
     "durationSeconds": 60,
     "shotType": {
@@ -6596,7 +6820,7 @@
    }
   },
   {
-   "name": "VT EddieTS Intermedite S5 Speed",
+   "name": "VT EddieTS Intermediate S5 Speed",
    "def": {
     "durationSeconds": 60,
     "shotType": {
@@ -6695,7 +6919,7 @@
    }
   },
   {
-   "name": "VT EddieTS Intermedite S5 Static",
+   "name": "VT EddieTS Intermediate S5 Static",
    "def": {
     "durationSeconds": 60,
     "shotType": {
@@ -6768,7 +6992,7 @@
      "targetScore": 95
     },
     "referenceDef": {
-     "scenarioName": "VDIM VT EddieTS Intermedite S5"
+     "scenarioName": "VDIM VT EddieTS Intermediate S5"
     }
    }
   },
@@ -6814,7 +7038,7 @@
      "targetScore": 120
     },
     "referenceDef": {
-     "scenarioName": "VDIM VT EddieTS Intermedite S5 Speed"
+     "scenarioName": "VDIM VT EddieTS Intermediate S5 Speed"
     }
    }
   },
@@ -6828,7 +7052,7 @@
      "targetScore": 118
     },
     "referenceDef": {
-     "scenarioName": "VDIM VT EddieTS Intermedite S5 Static"
+     "scenarioName": "VDIM VT EddieTS Intermediate S5 Static"
     }
    }
   },
@@ -7091,7 +7315,7 @@
    }
   },
   {
-   "name": "VT FlyTS Intermedite S5",
+   "name": "VT FlyTS Intermediate S5",
    "def": {
     "durationSeconds": 60,
     "shotType": {
@@ -7201,7 +7425,7 @@
    }
   },
   {
-   "name": "VT FlyTS Intermedite S5 Hard",
+   "name": "VT FlyTS Intermediate S5 Hard",
    "def": {
     "durationSeconds": 60,
     "shotType": {
@@ -7313,7 +7537,7 @@
    }
   },
   {
-   "name": "VT FlyTS Intermedite S5 Smooth",
+   "name": "VT FlyTS Intermediate S5 Smooth",
    "def": {
     "durationSeconds": 60,
     "shotType": {
@@ -7426,7 +7650,7 @@
    }
   },
   {
-   "name": "VT FlyTS Intermedite S5 Speed",
+   "name": "VT FlyTS Intermediate S5 Speed",
    "def": {
     "durationSeconds": 60,
     "shotType": {
@@ -7532,6 +7756,62 @@
      "leftRightInitialDirection": "DIRECTION_RANDOM",
      "upDownInitialDirection": "DIRECTION_RANDOM",
      "forwardBackInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "VT FlyTS Novice S5",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.95,
+     "accelerationMultiplier": 0.96
+    },
+    "scoreTargets": {
+     "targetScore": 58
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT FlyTS Intermediate S5"
+    }
+   }
+  },
+  {
+   "name": "VT FlyTS Novice S5 Hard",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.94,
+     "accelerationMultiplier": 0.94
+    },
+    "scoreTargets": {
+     "targetScore": 52
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT FlyTS Intermediate S5 Hard"
+    }
+   }
+  },
+  {
+   "name": "VT FlyTS Novice S5 Smooth",
+   "def": {
+    "referenceDef": {
+     "scenarioName": "VDIM VT FlyTS Intermediate S5 Smooth"
+    }
+   }
+  },
+  {
+   "name": "VT FlyTS Novice S5 Speed",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.94,
+     "accelerationMultiplier": 0.96
+    },
+    "scoreTargets": {
+     "targetScore": 65
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT FlyTS Intermediate S5 Speed"
     }
    }
   },
@@ -12111,6 +12391,22 @@
    }
   },
   {
+   "name": "WhisphereTS Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.95,
+     "accelerationMultiplier": 0.95
+    },
+    "scoreTargets": {
+     "targetScore": 58
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM WhisphereTS Intermediate"
+    }
+   }
+  },
+  {
    "name": "cAt purrClick Easy",
    "def": {
     "overrides": {
@@ -12266,6 +12562,22 @@
        "turnRateJitter": 80
       }
      ]
+    }
+   }
+  },
+  {
+   "name": "cAt purrSwitch Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.31,
+     "speedMultiplier": 0.94,
+     "accelerationMultiplier": 0.95
+    },
+    "scoreTargets": {
+     "targetScore": 62
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM cAt purrSwitch Intermediate"
     }
    }
   },
@@ -12623,6 +12935,22 @@
      "leftRightInitialDirection": "DIRECTION_RANDOM",
      "upDownInitialDirection": "DIRECTION_RANDOM",
      "forwardBackInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "domiSwitch Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.95,
+     "accelerationMultiplier": 0.96
+    },
+    "scoreTargets": {
+     "targetScore": 23
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM domiSwitch"
     }
    }
   },
@@ -13188,6 +13516,22 @@
    }
   },
   {
+   "name": "tamTargetSwitch Control Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.95,
+     "accelerationMultiplier": 0.97
+    },
+    "scoreTargets": {
+     "targetScore": 48
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM tamTargetSwitch Control Intermediate"
+    }
+   }
+  },
+  {
    "name": "tamTargetSwitch Smooth Intermediate",
    "def": {
     "durationSeconds": 60,
@@ -13325,6 +13669,22 @@
    }
   },
   {
+   "name": "tamTargetSwitch Smooth Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.95
+    },
+    "scoreTargets": {
+     "targetScore": 35
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM tamTargetSwitch Smooth Intermediate"
+    }
+   }
+  },
+  {
    "name": "waldoTs Intermediate",
    "def": {
     "durationSeconds": 60,
@@ -13409,6 +13769,474 @@
   }
  ],
  "playlists": [
+  {
+   "name": "Entry S5 - Clicking I",
+   "def": {
+    "items": [
+     {
+      "scenario": "VDIM RawMouseControl Reload Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT 1w2ts Horizontal L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT 1w2ts Vertical L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM 1w2ts Perfected Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Reflex Flick - Easy L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Quadpulse Novice L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT 1w4ts Novice S5 Pokeball Small L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT 1w4ts Novice S5 Clusters L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT 1w4ts Novice S5 Speed L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT 1w4ts Novice S5 Hard L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT 1w4ts Novice S4 L16",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM Pokeball Frenzy Auto Wide Wall 4 Targets L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT 1w2ts Horizontal Wide L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM 1w2ts Pasu Perfected Goated Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Aimerz+ Week #5 - Static Switching Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Widepulse Novice L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ww5t Novice S5 Pokeball L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ww5t Novice S5 Clusters L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ww5t Novice S5 Speed L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ww5t Novice S5 Hard L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ww5t Novice S5 L16",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM Floatswitch Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Floating Heads Timing Novice 3-Click L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Floating Heads Timing Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Skyshot Valorant Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Floatpoke Novice S5 L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Floating Heads Novice S5 3 Targets L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Floating Heads Novice S5 Clusters L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Floating Heads Novice S5 Hard L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Floating Heads Novice S5 L16",
+      "numPlays": 4
+     }
+    ]
+   }
+  },
+  {
+   "name": "Entry S5 - Clicking II",
+   "def": {
+    "items": [
+     {
+      "scenario": "VDIM Tamspeed 2bpes Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM cAt purrClick Easy L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Psalm Click Easy L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM ToonsClick Easy L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM remClick Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT PasuTs Novice S5 L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Pasu Novice S5 Speed L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Pasu Novice S5 Multi L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Pasu Novice S5 Hard L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Pasu Novice S5 L16",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM Leapcorn Pure Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Bounceshot Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Curveshot Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Poptrack Novice L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Popswitch Novice L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Popcorn Novice S5 Speed L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Popcorn Novice S5 Multi L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Popcorn Novice S5 Hard L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Popcorn Novice S5 L16",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM VPP AdjustSwitch Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Star Clicking Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM dev1T Static Click Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM CG Adjust Click Micro 2T Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Frogswitch Novice S5 L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Frogtagon Novice S5 2 Targets L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Frogtagon Novice S5 Clusters L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Frogtagon Novice S5 Hard L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Frogtagon Novice S5 L16",
+      "numPlays": 4
+     }
+    ]
+   }
+  },
+  {
+   "name": "Entry S5 - Switching I",
+   "def": {
+    "items": [
+     {
+      "scenario": "VDIM VT Speedswitch 90 Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Speedswitch 180 Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Pokevox Novice L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM StaticSwitchingVox Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Aimerz+ Week #5 - Static Switching Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM DotTS Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT DotTS Novice S5 Speed L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT DotTS Novice S5 Evasive L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT DotTS Novice S5 Regen L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT DotTS Novice S5 Hard L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT DotTS Novice S5 L16",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM waldoTs Novice L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM patCircleSwitch V2 Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT skyTs Novice Varied L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT skyTs Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM swayTs Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT EddieTS Novice S5 Speed L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT EddieTS Novice S5 Static L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT EddieTS Novice S5 Regen L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT EddieTS Novice S5 Hard L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT EddieTS Novice S5 L16",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM Popswitch Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Trippez Smooth Switching Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT bounceTS Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Penta Bounce Novice S5 Speed L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Penta Bounce Novice S5 Smooth L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Penta Bounce Novice S5 Hard L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Penta Bounce Novice S5 L16",
+      "numPlays": 4
+     }
+    ]
+   }
+  },
+  {
+   "name": "Entry S5 - Switching II",
+   "def": {
+    "items": [
+     {
+      "scenario": "VDIM CG Adjust Switch Micro Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Angleswitch Micro Valorant Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VPP AdjustSwitch Novice L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM Aimerz+ cheaTS Med S1 Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM WhisphereTS Novice L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT FlyTS Novice S5 Speed L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT FlyTS Novice S5 Smooth L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT FlyTS Novice S5 Hard L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT FlyTS Novice S5 L16",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM cAt purrSwitch Novice L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM ToonsTS Novice L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM FuglaaXYZ TS Novice L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT DriftTS Novice S5 Speed L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT DriftTS Novice S5 Smooth L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT DriftTS Novice S5 Hard L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT DriftTS Novice S5 L16",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM tamTargetSwitch Smooth Novice L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM tamTargetSwitch Control Novice L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM domiSwitch Novice L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM Controlswitch Novice L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ControlTS Novice S5 Speed L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ControlTS Novice S5 Smooth L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ControlTS Novice S5 Hard L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ControlTS Novice S5 L16",
+      "numPlays": 4
+     }
+    ]
+   }
+  },
   {
    "name": "Intermediate S5 - Clicking I",
    "def": {
@@ -13724,23 +14552,23 @@
       "numPlays": 2
      },
      {
-      "scenario": "VDIM VT EddieTS Intermedite S5 Speed",
+      "scenario": "VDIM VT EddieTS Intermediate S5 Speed",
       "numPlays": 3
      },
      {
-      "scenario": "VDIM VT EddieTS Intermedite S5 Static",
+      "scenario": "VDIM VT EddieTS Intermediate S5 Static",
       "numPlays": 3
      },
      {
-      "scenario": "VDIM VT EddieTS Intermedite S5 Regen",
+      "scenario": "VDIM VT EddieTS Intermediate S5 Regen",
       "numPlays": 3
      },
      {
-      "scenario": "VDIM VT EddieTS Intermedite S5 Hard",
+      "scenario": "VDIM VT EddieTS Intermediate S5 Hard",
       "numPlays": 3
      },
      {
-      "scenario": "VDIM VT EddieTS Intermedite S5",
+      "scenario": "VDIM VT EddieTS Intermediate S5",
       "numPlays": 4
      },
      {
@@ -13799,19 +14627,19 @@
       "numPlays": 3
      },
      {
-      "scenario": "VDIM VT FlyTS Intermedite S5 Speed",
+      "scenario": "VDIM VT FlyTS Intermediate S5 Speed",
       "numPlays": 3
      },
      {
-      "scenario": "VDIM VT FlyTS Intermedite S5 Smooth",
+      "scenario": "VDIM VT FlyTS Intermediate S5 Smooth",
       "numPlays": 3
      },
      {
-      "scenario": "VDIM VT FlyTS Intermedite S5 Hard",
+      "scenario": "VDIM VT FlyTS Intermediate S5 Hard",
       "numPlays": 3
      },
      {
-      "scenario": "VDIM VT FlyTS Intermedite S5",
+      "scenario": "VDIM VT FlyTS Intermediate S5",
       "numPlays": 4
      },
      {
@@ -14491,9 +15319,146 @@
      }
     ]
    }
+  },
+  {
+   "name": "Novice S5 - Switching II",
+   "def": {
+    "items": [
+     {
+      "scenario": "VDIM CG Adjust Switch Micro Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Angleswitch Micro Valorant Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VPP AdjustSwitch Novice",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM Aimerz+ cheaTS Med S1 Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM WhisphereTS Novice",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT FlyTS Novice S5 Speed",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT FlyTS Novice S5 Smooth",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT FlyTS Novice S5 Hard",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT FlyTS Novice S5",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM cAt purrSwitch Novice",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM ToonsTS Novice",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM FuglaaXYZ TS Novice",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT DriftTS Novice S5 Speed",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT DriftTS Novice S5 Smooth",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT DriftTS Novice S5 Hard",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT DriftTS Novice S5",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM tamTargetSwitch Smooth Novice",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM tamTargetSwitch Control Novice",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM domiSwitch Novice",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM Controlswitch Novice",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ControlTS Novice S5 Speed",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ControlTS Novice S5 Smooth",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ControlTS Novice S5 Hard",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ControlTS Novice S5",
+      "numPlays": 4
+     }
+    ]
+   }
   }
  ],
  "guides": [
+  {
+   "name": "Entry S5",
+   "def": {
+    "sections": [
+     {
+      "text": "",
+      "playlists": [
+       "VDIM Entry S5 - Clicking I",
+       "VDIM Entry S5 - Clicking II",
+       "VDIM Entry S5 - Switching I",
+       "VDIM Entry S5 - Switching II",
+       "VDIM Intermediate S5 - Tracking I",
+       "VDIM Intermediate S5 - Tracking II"
+      ]
+     },
+     {
+      "text": "\nChange duration",
+      "guides": [
+       "VDIM Entry S5 40s",
+       "VDIM Entry S5 30s"
+      ]
+     },
+     {
+      "text": "\nChange difficulty",
+      "guides": [
+       "VDIM Entry S5 L1",
+       "VDIM Entry S5 L-1",
+       "VDIM Novice S5",
+       "VDIM Intermediate S5"
+      ]
+     }
+    ]
+   }
+  },
   {
    "name": "Intermediate S5",
    "def": {
@@ -14537,7 +15502,7 @@
        "VDIM Novice S5 - Clicking I",
        "VDIM Novice S5 - Clicking II",
        "VDIM Novice S5 - Switching I",
-       "VDIM Intermediate S5 - Switching II",
+       "VDIM Novice S5 - Switching II",
        "VDIM Intermediate S5 - Tracking I",
        "VDIM Intermediate S5 - Tracking II"
       ]
