@@ -546,25 +546,18 @@
      "targetPlacementStrategy": {
       "regions": [
        {
-        "info": {},
-        "depth": {
-         "value": 0
-        },
-        "depthJitter": {
-         "value": 0
-        },
         "rectangle": {
          "xLength": {
-          "xPercentValue": 0.52
+          "xPercentValue": 0.85
          },
          "yLength": {
-          "yPercentValue": 0.52
+          "yPercentValue": 0.85
          }
         }
        }
       ],
       "minDistance": {
-       "value": 43
+       "value": 20
       }
      },
      "profiles": [
@@ -575,6 +568,20 @@
        "turnRateJitter": 80
       }
      ]
+    }
+   }
+  },
+  {
+   "name": "CG Adjust Click Micro 2T Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35
+    },
+    "scoreTargets": {
+     "targetScore": 83
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM CG Adjust Click Micro 2T"
     }
    }
   },
@@ -1629,6 +1636,19 @@
    }
   },
   {
+   "name": "Leapcorn Pure Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.92,
+     "accelerationMultiplier": 0.93
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM Leapcorn Pure"
+    }
+   }
+  },
+  {
    "name": "Pokeball Frenzy Auto Wide Wall 4 Targets",
    "def": {
     "overrides": {
@@ -1991,6 +2011,22 @@
      "leftRightInitialDirection": "DIRECTION_NEGATIVE",
      "upDownInitialDirection": "DIRECTION_POSITIVE",
      "forwardBackInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "Psalm Click Easy",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.5,
+     "speedMultiplier": 0.94,
+     "accelerationMultiplier": 0.97
+    },
+    "scoreTargets": {
+     "targetScore": 70
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM psalmTS angelic click 30% larger"
     }
    }
   },
@@ -2872,6 +2908,19 @@
    }
   },
   {
+   "name": "Star Clicking Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.4,
+     "speedMultiplier": 0.98,
+     "accelerationMultiplier": 0.97
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM Star Clicking Intermediate"
+    }
+   }
+  },
+  {
    "name": "StaticSwitchingVox xSmall",
    "def": {
     "durationSeconds": 60,
@@ -3016,6 +3065,32 @@
        "directionChangePercent": 0.5
       }
      ]
+    }
+   }
+  },
+  {
+   "name": "Tamspeed 2bpes Novice",
+   "def": {
+    "overrides": {
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.94
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM Tamspeed 2bpes",
+     "explicitTargetRadius": 5
+    }
+   }
+  },
+  {
+   "name": "ToonsClick Easy",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.43,
+     "speedMultiplier": 0.95,
+     "accelerationMultiplier": 0.97
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM ToonsClick Intermediate"
     }
    }
   },
@@ -3483,6 +3558,19 @@
        "turnRateJitter": 80
       }
      ]
+    }
+   }
+  },
+  {
+   "name": "VPP AdjustSwitch Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.97,
+     "accelerationMultiplier": 0.97
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VPP AdjustSwitch Intermediate"
     }
    }
   },
@@ -4830,6 +4918,19 @@
    }
   },
   {
+   "name": "VT Bounceshot Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.33,
+     "speedMultiplier": 0.9,
+     "accelerationMultiplier": 0.92
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Bounceshot Intermediate 20% smaller"
+    }
+   }
+  },
+  {
    "name": "VT Closerange Long Strafes Intermediate",
    "def": {
     "durationSeconds": 60,
@@ -5446,6 +5547,19 @@
      },
      "leftRightInitialDirection": "DIRECTION_RANDOM",
      "forwardBackInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "VT Curveshot Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.94
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Curveshot Intermediate"
     }
    }
   },
@@ -7405,6 +7519,19 @@
    }
   },
   {
+   "name": "VT Frogswitch Novice S5",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.96,
+     "accelerationMultiplier": 0.95
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Frogswitch Intermediate S5"
+    }
+   }
+  },
+  {
    "name": "VT Frogtagon Intermediate S5",
    "def": {
     "durationSeconds": 60,
@@ -7737,6 +7864,139 @@
       }
      },
      "directionRadiusPercent": 0.7
+    }
+   }
+  },
+  {
+   "name": "VT Frogtagon Novice S5",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.96
+    },
+    "scoreTargets": {
+     "targetScore": 105
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Frogtagon Intermediate S5"
+    }
+   }
+  },
+  {
+   "name": "VT Frogtagon Novice S5 2 Targets",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.92
+    },
+    "scoreTargets": {
+     "targetScore": 98
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Frogtagon Intermediate S5 2 Targets"
+    }
+   }
+  },
+  {
+   "name": "VT Frogtagon Novice S5 Clusters",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 8,
+     "profiles": [
+      {
+       "info": {
+        "description": "Large Fast",
+        "weight": 5
+       },
+       "targetRadius": 3.2,
+       "targetRadiusJitter": 0.1,
+       "speed": 58,
+       "speedJitter": 2
+      },
+      {
+       "info": {
+        "description": "Small Slow",
+        "weight": 1
+       },
+       "targetRadius": 2.4,
+       "targetRadiusJitter": 0.05,
+       "speed": 31,
+       "speedJitter": 2
+      },
+      {
+       "info": {
+        "description": "Medium",
+        "weight": 3
+       },
+       "targetRadius": 2.85,
+       "targetRadiusJitter": 0.1,
+       "speed": 44,
+       "speedJitter": 2
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "barrelRoom": {
+      "radius": 85
+     }
+    },
+    "overrides": {
+     "targetRadiusMultiplier": 1.3,
+     "speedMultiplier": 0.95
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 120
+    },
+    "barrelDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "info": {},
+        "circle": {
+         "diameter": {
+          "xPercentValue": 0.92
+         },
+         "innerDiameter": {
+          "xPercentValue": 0.7
+         }
+        }
+       }
+      ],
+      "minDistance": {
+       "value": 15
+      }
+     },
+     "directionRadiusPercent": 0.7
+    }
+   }
+  },
+  {
+   "name": "VT Frogtagon Novice S5 Hard",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 0.8,
+     "speedMultiplier": 1.02
+    },
+    "scoreTargets": {
+     "targetScore": 95
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Frogtagon Novice S5"
     }
    }
   },
@@ -8995,6 +9255,53 @@
    }
   },
   {
+   "name": "VT Pasu Novice S5",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.4,
+     "speedMultiplier": 0.94,
+     "accelerationMultiplier": 0.96
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Pasu Intermediate S5"
+    }
+   }
+  },
+  {
+   "name": "VT Pasu Novice S5 Hard",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 0.8,
+     "speedMultiplier": 1.02,
+     "accelerationMultiplier": 1.02
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Pasu Novice S5"
+    }
+   }
+  },
+  {
+   "name": "VT Pasu Novice S5 Multi",
+   "def": {
+    "referenceDef": {
+     "scenarioName": "VDIM VT Pasu Novice S5",
+     "shotType": {
+      "clickMulti": true,
+      "healthClicks": 3,
+      "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+     }
+    }
+   }
+  },
+  {
+   "name": "VT Pasu Novice S5 Speed",
+   "def": {
+    "referenceDef": {
+     "scenarioName": "VDIM VT Pasu Intermediate S5 Speed"
+    }
+   }
+  },
+  {
    "name": "VT PasuTs Intermediate S5",
    "def": {
     "scoreTargets": {
@@ -9002,6 +9309,18 @@
     },
     "referenceDef": {
      "scenarioName": "VDIM VT Pasu Intermediate S5",
+     "shotType": {
+      "trackingKill": true,
+      "healthSeconds": 0.6
+     }
+    }
+   }
+  },
+  {
+   "name": "VT PasuTs Novice S5",
+   "def": {
+    "referenceDef": {
+     "scenarioName": "VDIM VT Pasu Novice S5",
      "shotType": {
       "trackingKill": true,
       "healthSeconds": 0.6
@@ -9498,6 +9817,58 @@
    }
   },
   {
+   "name": "VT Popcorn Novice S5",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.34,
+     "speedMultiplier": 0.88,
+     "accelerationMultiplier": 0.96
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Popcorn Intermediate S5"
+    }
+   }
+  },
+  {
+   "name": "VT Popcorn Novice S5 Hard",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 0.83,
+     "speedMultiplier": 1.05,
+     "accelerationMultiplier": 1.04
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Popcorn Novice S5"
+    }
+   }
+  },
+  {
+   "name": "VT Popcorn Novice S5 Multi",
+   "def": {
+    "referenceDef": {
+     "scenarioName": "VDIM VT Popcorn Novice S5",
+     "shotType": {
+      "clickMulti": true,
+      "healthClicks": 3,
+      "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+     }
+    }
+   }
+  },
+  {
+   "name": "VT Popcorn Novice S5 Speed",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.37,
+     "speedMultiplier": 0.97,
+     "accelerationMultiplier": 0.96
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Popcorn Novice S5"
+    }
+   }
+  },
+  {
    "name": "VT Popswitch Intermediate",
    "def": {
     "durationSeconds": 60,
@@ -9595,6 +9966,19 @@
    }
   },
   {
+   "name": "VT Popswitch Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.3,
+     "speedMultiplier": 0.94,
+     "accelerationMultiplier": 0.94
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Popswitch Intermediate"
+    }
+   }
+  },
+  {
    "name": "VT Poptrack Intermediate",
    "def": {
     "durationSeconds": 60,
@@ -9668,6 +10052,19 @@
      "leftRightInitialDirection": "DIRECTION_RANDOM",
      "forwardBackInitialDirection": "DIRECTION_RANDOM",
      "startOnFloor": true
+    }
+   }
+  },
+  {
+   "name": "VT Poptrack Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.32,
+     "speedMultiplier": 0.94,
+     "accelerationMultiplier": 0.94
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Poptrack Intermediate"
     }
    }
   },
@@ -11485,6 +11882,20 @@
    }
   },
   {
+   "name": "cAt purrClick Easy",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.39,
+     "speedMultiplier": 0.9,
+     "accelerationMultiplier": 0.91,
+     "timeScaleMultiplier": 1.11
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM cAt purrClick Normal"
+    }
+   }
+  },
+  {
    "name": "cAt purrClick Normal",
    "def": {
     "durationSeconds": 60,
@@ -11850,6 +12261,20 @@
    }
   },
   {
+   "name": "dev1T Static Click Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.4
+    },
+    "scoreTargets": {
+     "targetScore": 78
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM dev1T Static Click"
+    }
+   }
+  },
+  {
    "name": "domiSwitch",
    "def": {
     "durationSeconds": 60,
@@ -12167,7 +12592,7 @@
       {
        "targetRadius": 2.6,
        "speed": 58,
-       "acceleration": 213
+       "acceleration": 298
       }
      ]
     },
@@ -12201,7 +12626,6 @@
      "targetPlacementStrategy": {
       "regions": [
        {
-        "info": {},
         "depth": {
          "value": 36
         },
@@ -12210,10 +12634,10 @@
         },
         "rectangle": {
          "xLength": {
-          "xPercentValue": 0.799999833
+          "xPercentValue": 0.799999774
          },
          "yLength": {
-          "yPercentValue": 0.799999833
+          "yPercentValue": 0.799999774
          }
         }
        }
@@ -12229,10 +12653,10 @@
         "weight": 5
        },
        "distance": {
-        "xPercentValue": 0.32
+        "xPercentValue": 0.19
        },
        "distanceJitter": {
-        "xPercentValue": 0.08
+        "xPercentValue": 0.075
        },
        "angle": 0,
        "angleJitter": 13,
@@ -12244,10 +12668,10 @@
         "weight": 11
        },
        "distance": {
-        "xPercentValue": 0.35
+        "xPercentValue": 0.13
        },
        "distanceJitter": {
-        "xPercentValue": 0.08
+        "xPercentValue": 0.075
        },
        "angle": 0
       },
@@ -12257,10 +12681,10 @@
         "weight": 2
        },
        "distance": {
-        "xPercentValue": 0.35
+        "xPercentValue": 0.13
        },
        "distanceJitter": {
-        "xPercentValue": 0.05
+        "xPercentValue": 0.06
        },
        "angle": 20,
        "directionChangePercent": 0.5
@@ -12271,14 +12695,28 @@
         "weight": 1
        },
        "distance": {
-        "xPercentValue": 0.35
+        "xPercentValue": 0.14
        },
        "distanceJitter": {
         "xPercentValue": 0.05
        },
        "angle": 0
       }
-     ]
+     ],
+     "forwardBackInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "remClick Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.4,
+     "speedMultiplier": 0.98,
+     "accelerationMultiplier": 0.99
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM remClick - F"
     }
    }
   },
@@ -13538,6 +13976,125 @@
      }
     ]
    }
+  },
+  {
+   "name": "Novice S5 - Clicking II",
+   "def": {
+    "items": [
+     {
+      "scenario": "VDIM Tamspeed 2bpes Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM cAt purrClick Easy",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Psalm Click Easy",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM ToonsClick Easy",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM remClick Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT PasuTs Novice S5",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Pasu Novice S5 Speed",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Pasu Novice S5 Multi",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Pasu Novice S5 Hard",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Pasu Novice S5",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM Leapcorn Pure Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Bounceshot Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Curveshot Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Poptrack Novice",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Popswitch Novice",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Popcorn Novice S5 Speed",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Popcorn Novice S5 Multi",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Popcorn Novice S5 Hard",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Popcorn Novice S5",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM VPP AdjustSwitch Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Star Clicking Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM dev1T Static Click Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM CG Adjust Click Micro 2T Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Frogswitch Novice S5",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Frogtagon Novice S5 2 Targets",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Frogtagon Novice S5 Clusters",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Frogtagon Novice S5 Hard",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Frogtagon Novice S5",
+      "numPlays": 4
+     }
+    ]
+   }
   }
  ],
  "guides": [
@@ -13567,7 +14124,41 @@
       "text": "\nChange difficulty",
       "guides": [
        "VDIM Intermediate S5 L1",
-       "VDIM Intermediate S5 L-1"
+       "VDIM Intermediate S5 L-1",
+       "VDIM Novice S5"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "name": "Novice S5",
+   "def": {
+    "sections": [
+     {
+      "text": "",
+      "playlists": [
+       "VDIM Novice S5 - Clicking I",
+       "VDIM Novice S5 - Clicking II",
+       "VDIM Intermediate S5 - Switching I",
+       "VDIM Intermediate S5 - Switching II",
+       "VDIM Intermediate S5 - Tracking I",
+       "VDIM Intermediate S5 - Tracking II"
+      ]
+     },
+     {
+      "text": "\nChange duration",
+      "guides": [
+       "VDIM Novice S5 40s",
+       "VDIM Novice S5 30s"
+      ]
+     },
+     {
+      "text": "\nChange difficulty",
+      "guides": [
+       "VDIM Novice S5 L1",
+       "VDIM Novice S5 L-1",
+       "VDIM Intermediate S5"
       ]
      }
     ]
