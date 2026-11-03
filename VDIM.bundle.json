@@ -456,6 +456,22 @@
    }
   },
   {
+   "name": "BounceSphere Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 50
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM BounceSphere Intermediate"
+    }
+   }
+  },
+  {
    "name": "CG Adjust Click Micro 2T",
    "def": {
     "durationSeconds": 60,
@@ -684,6 +700,22 @@
    }
   },
   {
+   "name": "Centering II 180 Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 43
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM Centering II 180 Intermediate"
+    }
+   }
+  },
+  {
    "name": "Controlsphere",
    "def": {
     "durationSeconds": 60,
@@ -908,6 +940,38 @@
      "leftRightInitialDirection": "DIRECTION_NEGATIVE",
      "upDownInitialDirection": "DIRECTION_POSITIVE",
      "forwardBackInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "Controlsphere Blink Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 42
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM Controlsphere Blink Intermediate"
+    }
+   }
+  },
+  {
+   "name": "Controlsphere Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 61
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM Controlsphere"
     }
    }
   },
@@ -2055,6 +2119,22 @@
    }
   },
   {
+   "name": "Prediction Cancelling - Midrange I Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 50
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM Prediction Cancelling - Midrange I"
+    }
+   }
+  },
+  {
    "name": "Psalm Click Easy",
    "def": {
     "overrides": {
@@ -2430,6 +2510,19 @@
    }
   },
   {
+   "name": "SYW (Smooth Your Wrist) Truly FIXED Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM SYW (Smooth Your Wrist) Truly FIXED"
+    }
+   }
+  },
+  {
    "name": "Silo Easier",
    "def": {
     "durationSeconds": 60,
@@ -2524,6 +2617,22 @@
    }
   },
   {
+   "name": "Silo Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 45
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM Silo Easier"
+    }
+   }
+  },
+  {
    "name": "Smooth Your Vertical Altered POV Intermediate",
    "def": {
     "durationSeconds": 60,
@@ -2581,6 +2690,22 @@
    }
   },
   {
+   "name": "Smooth Your Vertical Altered POV Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.9,
+     "accelerationMultiplier": 0.9
+    },
+    "scoreTargets": {
+     "targetScore": 50
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM Smooth Your Vertical Altered POV Intermediate"
+    }
+   }
+  },
+  {
    "name": "Smoothbot Pauer Glider Intermediate",
    "def": {
     "durationSeconds": 60,
@@ -2593,9 +2718,9 @@
       {
        "targetRadius": 1.8,
        "speed": 140,
-       "acceleration": 273,
+       "acceleration": 213,
        "pill": {
-        "height": 8.59998
+        "height": 9
        }
       }
      ]
@@ -2663,6 +2788,22 @@
        "directionChangePercent": 0
       }
      ]
+    }
+   }
+  },
+  {
+   "name": "Smoothbot Pauer Glider Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.89,
+     "accelerationMultiplier": 0.89
+    },
+    "scoreTargets": {
+     "targetScore": 38
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM Smoothbot Pauer Glider Intermediate"
     }
    }
   },
@@ -2763,6 +2904,22 @@
      ],
      "leftRightInitialDirection": "DIRECTION_NEGATIVE",
      "upDownInitialDirection": "DIRECTION_POSITIVE"
+    }
+   }
+  },
+  {
+   "name": "Smoothsphere Diamond Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 60
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM Smoothsphere Diamond"
     }
    }
   },
@@ -3427,6 +3584,22 @@
    }
   },
   {
+   "name": "Trackstop Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 36
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM Trackstop Intermediate"
+    }
+   }
+  },
+  {
    "name": "Trippez Smooth Switching Intermediate",
    "def": {
     "durationSeconds": 60,
@@ -3591,17 +3764,9 @@
    "def": {
     "overrides": {
      "targetRadiusMultiplier": 1.35,
-     "speedMultiplier": 0.97,
-     "accelerationMultiplier": 0.97
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
     },
-    "referenceDef": {
-     "scenarioName": "VDIM VPP AdjustSwitch Intermediate"
-    }
-   }
-  },
-  {
-   "name": "VPP AdjustSwitch Novice (1)",
-   "def": {
     "referenceDef": {
      "scenarioName": "VDIM VPP AdjustSwitch Intermediate"
     }
@@ -4644,6 +4809,102 @@
    }
   },
   {
+   "name": "VT Aether Novice S5 Bot 1",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 42
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Aether Intermediate S5 Bot 1"
+    }
+   }
+  },
+  {
+   "name": "VT Aether Novice S5 Bot 1 Hard",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 38
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Aether Intermediate S5 Bot 1 Hard"
+    }
+   }
+  },
+  {
+   "name": "VT Aether Novice S5 Bot 1 Reactive Focus",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 50
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Aether Intermediate S5 Bot 1 Reactive Focus"
+    }
+   }
+  },
+  {
+   "name": "VT Aether Novice S5 Bot 3",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 55
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Aether Intermediate S5 Bot 3"
+    }
+   }
+  },
+  {
+   "name": "VT Aether Novice S5 Bot 3 Hard",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 48
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Aether Intermediate S5 Bot 3 Hard"
+    }
+   }
+  },
+  {
+   "name": "VT Aether Novice S5 Bot 3 Reactive Focus",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 61
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Aether Intermediate S5 Bot 3 Reactive Focus"
+    }
+   }
+  },
+  {
    "name": "VT Angleswitch Micro Valorant Intermediate",
    "def": {
     "durationSeconds": 60,
@@ -4861,6 +5122,22 @@
    }
   },
   {
+   "name": "VT BT180TI Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 55
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT BT180TI Intermediate"
+    }
+   }
+  },
+  {
    "name": "VT Bounceshot Intermediate 20% smaller",
    "def": {
     "durationSeconds": 60,
@@ -5059,6 +5336,22 @@
    }
   },
   {
+   "name": "VT Closerange Long Strafes Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 60
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Closerange Long Strafes Intermediate"
+    }
+   }
+  },
+  {
    "name": "VT Closerange Short Strafes Intermediate",
    "def": {
     "durationSeconds": 60,
@@ -5134,6 +5427,22 @@
        "angle": 0
       }
      ]
+    }
+   }
+  },
+  {
+   "name": "VT Closerange Short Strafes Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 60
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Closerange Short Strafes Intermediate"
     }
    }
   },
@@ -5549,6 +5858,70 @@
    }
   },
   {
+   "name": "VT Controlsphere Novice S5",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 55
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Controlsphere Intermediate S5"
+    }
+   }
+  },
+  {
+   "name": "VT Controlsphere Novice S5 Hard",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 55
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Controlsphere Intermediate S5 Hard"
+    }
+   }
+  },
+  {
+   "name": "VT Controlsphere Novice S5 Precision Focus",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 55
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Controlsphere Intermediate S5 Precision Focus"
+    }
+   }
+  },
+  {
+   "name": "VT Controlsphere Novice S5 Reactive Focus",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 55
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Controlsphere Intermediate S5 Reactive Focus"
+    }
+   }
+  },
+  {
    "name": "VT Curveshot Intermediate",
    "def": {
     "durationSeconds": 60,
@@ -5762,6 +6135,22 @@
      },
      "leftRightInitialDirection": "DIRECTION_RANDOM",
      "forwardBackInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "VT Curveswitch Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 35
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Curveswitch Intermediate"
     }
    }
   },
@@ -8828,6 +9217,147 @@
    }
   },
   {
+   "name": "VT Ground Novice S5 Bot 1",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 42
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Ground Intermediate S5 Bot 1"
+    }
+   }
+  },
+  {
+   "name": "VT Ground Novice S5 Bot 1 Precision Focus",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 50
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Ground Intermediate S5 Bot 1 Precision Focus"
+    }
+   }
+  },
+  {
+   "name": "VT Ground Novice S5 Bot 1 Reactive Focus",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 48
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Ground Intermediate S5 Bot 1 Reactive Focus"
+    }
+   }
+  },
+  {
+   "name": "VT Ground Novice S5 Bot 2",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 52
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Ground Intermediate S5 Bot 2"
+    }
+   }
+  },
+  {
+   "name": "VT Ground Novice S5 Bot 2 Precision Focus",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 50
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Ground Intermediate S5 Bot 2 Precision Focus"
+    }
+   }
+  },
+  {
+   "name": "VT Ground Novice S5 Bot 2 Reactive Focus",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 50
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Ground Intermediate S5 Bot 2 Reactive Focus"
+    }
+   }
+  },
+  {
+   "name": "VT Ground Novice S5 Bot 3",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Ground Intermediate S5 Bot 3"
+    }
+   }
+  },
+  {
+   "name": "VT Ground Novice S5 Bot 3 Precision Focus",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 50
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Ground Intermediate S5 Bot 3 Precision Focus"
+    }
+   }
+  },
+  {
+   "name": "VT Ground Novice S5 Bot 3 Reactive Focus",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 53
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Ground Intermediate S5 Bot 3 Reactive Focus"
+    }
+   }
+  },
+  {
    "name": "VT MSFI Intermediate",
    "def": {
     "durationSeconds": 60,
@@ -8933,6 +9463,22 @@
    }
   },
   {
+   "name": "VT MSFI Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 42
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT MSFI Intermediate"
+    }
+   }
+  },
+  {
    "name": "VT Midrange Long Strafes Intermediate",
    "def": {
     "durationSeconds": 60,
@@ -8990,6 +9536,22 @@
        "angle": 0
       }
      ]
+    }
+   }
+  },
+  {
+   "name": "VT Midrange Long Strafes Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 45
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Midrange Long Strafes Intermediate"
     }
    }
   },
@@ -9068,6 +9630,22 @@
        "angle": 0
       }
      ]
+    }
+   }
+  },
+  {
+   "name": "VT Midrange Short Strafes Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 39
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Midrange Short Strafes Intermediate"
     }
    }
   },
@@ -9473,6 +10051,150 @@
     },
     "referenceDef": {
      "scenarioName": "VDIM VT PGT Intermediate S5 Bot 3"
+    }
+   }
+  },
+  {
+   "name": "VT PGT Novice S5 Bot 1",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 60
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT PGT Intermediate S5 Bot 1"
+    }
+   }
+  },
+  {
+   "name": "VT PGT Novice S5 Bot 1 Precision",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 60
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT PGT Intermediate S5 Bot 1 Precision"
+    }
+   }
+  },
+  {
+   "name": "VT PGT Novice S5 Bot 1 Reactive",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 60
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT PGT Intermediate S5 Bot 1 Reactive"
+    }
+   }
+  },
+  {
+   "name": "VT PGT Novice S5 Bot 2",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 63
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT PGT Intermediate S5 Bot 2"
+    }
+   }
+  },
+  {
+   "name": "VT PGT Novice S5 Bot 2 Precision",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 65
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT PGT Intermediate S5 Bot 2 Precision"
+    }
+   }
+  },
+  {
+   "name": "VT PGT Novice S5 Bot 2 Reactive",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 65
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT PGT Intermediate S5 Bot 2 Reactive"
+    }
+   }
+  },
+  {
+   "name": "VT PGT Novice S5 Bot 3",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 70
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT PGT Intermediate S5 Bot 3"
+    }
+   }
+  },
+  {
+   "name": "VT PGT Novice S5 Bot 3 Precision",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 68
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT PGT Intermediate S5 Bot 3 Precision"
+    }
+   }
+  },
+  {
+   "name": "VT PGT Novice S5 Bot 3 Reactive",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 70
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT PGT Intermediate S5 Bot 3 Reactive"
     }
    }
   },
@@ -10839,6 +11561,70 @@
    }
   },
   {
+   "name": "VT Raw Control Novice S5",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 70
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Raw Control Intermediate S5"
+    }
+   }
+  },
+  {
+   "name": "VT Raw Control Novice S5 Hard",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 58
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Raw Control Intermediate S5 Hard"
+    }
+   }
+  },
+  {
+   "name": "VT Raw Control Novice S5 Precision Focus",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 70
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Raw Control Intermediate S5 Precision Focus"
+    }
+   }
+  },
+  {
+   "name": "VT Raw Control Novice S5 Reactive Focus",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 70
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Raw Control Intermediate S5 Reactive Focus"
+    }
+   }
+  },
+  {
    "name": "VT Skyshot Valorant Intermediate",
    "def": {
     "durationSeconds": 60,
@@ -11069,6 +11855,70 @@
     },
     "referenceDef": {
      "scenarioName": "VDIM VT Snake Track Intermediate S5"
+    }
+   }
+  },
+  {
+   "name": "VT Snake Track Novice S5",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 50
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Snake Track Intermediate S5"
+    }
+   }
+  },
+  {
+   "name": "VT Snake Track Novice S5 Hard",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 42
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Snake Track Intermediate S5 Hard"
+    }
+   }
+  },
+  {
+   "name": "VT Snake Track Novice S5 Precision Focus",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 50
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Snake Track Intermediate S5 Precision Focus"
+    }
+   }
+  },
+  {
+   "name": "VT Snake Track Novice S5 Reactive Focus",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 53
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Snake Track Intermediate S5 Reactive Focus"
     }
    }
   },
@@ -11456,6 +12306,22 @@
        "value": 44
       }
      }
+    }
+   }
+  },
+  {
+   "name": "VT Wide Angle Tracking Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 43
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM VT Wide Angle Tracking Intermediate"
     }
    }
   },
@@ -12649,6 +13515,22 @@
    }
   },
   {
+   "name": "cAt purrTrack Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.38,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 48
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM cAt purrTrack Intermediate"
+    }
+   }
+  },
+  {
    "name": "cloverRawControl Easy",
    "def": {
     "durationSeconds": 60,
@@ -12737,6 +13619,22 @@
      ],
      "leftRightInitialDirection": "DIRECTION_NEGATIVE",
      "upDownInitialDirection": "DIRECTION_NEGATIVE"
+    }
+   }
+  },
+  {
+   "name": "cloverRawControl Novice",
+   "def": {
+    "overrides": {
+     "targetRadiusMultiplier": 1.35,
+     "speedMultiplier": 0.93,
+     "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 55
+    },
+    "referenceDef": {
+     "scenarioName": "VDIM cloverRawControl Easy"
     }
    }
   },
@@ -14238,6 +15136,256 @@
    }
   },
   {
+   "name": "Entry S5 - Tracking I",
+   "def": {
+    "items": [
+     {
+      "scenario": "VDIM SYW (Smooth Your Wrist) Truly FIXED Novice L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM Centering II 180 Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Wide Angle Tracking Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM tamTargetSwitch Smooth Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Smoothsphere Diamond Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Smoothbot Pauer Glider Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Snake Track Novice S5 Precision Focus L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Snake Track Novice S5 Reactive Focus L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Snake Track Novice S5 Hard L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Snake Track Novice S5 L16",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM Smooth Your Vertical Altered POV Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT BT180TI Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM BounceSphere Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Curveswitch Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT PGT Novice S5 Bot 1 Precision L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT PGT Novice S5 Bot 2 Precision L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT PGT Novice S5 Bot 3 Precision L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT PGT Novice S5 Bot 1 Reactive L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT PGT Novice S5 Bot 2 Reactive L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT PGT Novice S5 Bot 3 Reactive L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT PGT Novice S5 Bot 1 L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT PGT Novice S5 Bot 2 L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT PGT Novice S5 Bot 3 L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM cAt purrTrack Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM tamTargetSwitch Control Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Controlsphere Novice L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM cloverRawControl Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Silo Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Raw Control Novice S5 Precision Focus L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Raw Control Novice S5 Reactive Focus L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Raw Control Novice S5 Hard L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Raw Control Novice S5 L16",
+      "numPlays": 4
+     }
+    ]
+   }
+  },
+  {
+   "name": "Entry S5 - Tracking II",
+   "def": {
+    "items": [
+     {
+      "scenario": "VDIM VT Midrange Long Strafes Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Midrange Short Strafes Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Closerange Short Strafes Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Closerange Long Strafes Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Prediction Cancelling - Midrange I Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Trackstop Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT MSFI Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Ground Novice S5 Bot 1 Precision Focus L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Ground Novice S5 Bot 2 Precision Focus L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Ground Novice S5 Bot 3 Precision Focus L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Ground Novice S5 Bot 1 Reactive Focus L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Ground Novice S5 Bot 2 Reactive Focus L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Ground Novice S5 Bot 3 Reactive Focus L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Ground Novice S5 Bot 1 L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Ground Novice S5 Bot 2 L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Ground Novice S5 Bot 3 L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM Controlsphere Blink Novice L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Controlsphere Novice S5 Precision Focus L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Controlsphere Novice S5 Reactive Focus L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Controlsphere Novice S5 Hard L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Controlsphere Novice S5 L16",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM VT Aether Novice S5 Bot 1 Reactive Focus L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Aether Novice S5 Bot 3 Reactive Focus L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Aether Novice S5 Bot 1 Hard L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Aether Novice S5 Bot 3 Hard L16",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Aether Novice S5 Bot 1 L16",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Aether Novice S5 Bot 3 L16",
+      "numPlays": 3
+     }
+    ]
+   }
+  },
+  {
    "name": "Intermediate S5 - Clicking I",
    "def": {
     "items": [
@@ -15422,6 +16570,256 @@
      }
     ]
    }
+  },
+  {
+   "name": "Novice S5 - Tracking I",
+   "def": {
+    "items": [
+     {
+      "scenario": "VDIM SYW (Smooth Your Wrist) Truly FIXED Novice",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM Centering II 180 Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Wide Angle Tracking Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM tamTargetSwitch Smooth Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Smoothsphere Diamond Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Smoothbot Pauer Glider Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Snake Track Novice S5 Precision Focus",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Snake Track Novice S5 Reactive Focus",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Snake Track Novice S5 Hard",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Snake Track Novice S5",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM Smooth Your Vertical Altered POV Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT BT180TI Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM BounceSphere Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Curveswitch Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT PGT Novice S5 Bot 1 Precision",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT PGT Novice S5 Bot 2 Precision",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT PGT Novice S5 Bot 3 Precision",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT PGT Novice S5 Bot 1 Reactive",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT PGT Novice S5 Bot 2 Reactive",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT PGT Novice S5 Bot 3 Reactive",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT PGT Novice S5 Bot 1",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT PGT Novice S5 Bot 2",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT PGT Novice S5 Bot 3",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM cAt purrTrack Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM tamTargetSwitch Control Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Controlsphere Novice",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM cloverRawControl Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Silo Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Raw Control Novice S5 Precision Focus",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Raw Control Novice S5 Reactive Focus",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Raw Control Novice S5 Hard",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Raw Control Novice S5",
+      "numPlays": 4
+     }
+    ]
+   }
+  },
+  {
+   "name": "Novice S5 - Tracking II",
+   "def": {
+    "items": [
+     {
+      "scenario": "VDIM VT Midrange Long Strafes Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Midrange Short Strafes Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Closerange Short Strafes Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Closerange Long Strafes Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Prediction Cancelling - Midrange I Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Trackstop Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT MSFI Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Ground Novice S5 Bot 1 Precision Focus",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Ground Novice S5 Bot 2 Precision Focus",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Ground Novice S5 Bot 3 Precision Focus",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Ground Novice S5 Bot 1 Reactive Focus",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Ground Novice S5 Bot 2 Reactive Focus",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Ground Novice S5 Bot 3 Reactive Focus",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Ground Novice S5 Bot 1",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Ground Novice S5 Bot 2",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Ground Novice S5 Bot 3",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM Controlsphere Blink Novice",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Controlsphere Novice S5 Precision Focus",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Controlsphere Novice S5 Reactive Focus",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Controlsphere Novice S5 Hard",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Controlsphere Novice S5",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM VT Aether Novice S5 Bot 1 Reactive Focus",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Aether Novice S5 Bot 3 Reactive Focus",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Aether Novice S5 Bot 1 Hard",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Aether Novice S5 Bot 3 Hard",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Aether Novice S5 Bot 1",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Aether Novice S5 Bot 3",
+      "numPlays": 3
+     }
+    ]
+   }
   }
  ],
  "guides": [
@@ -15436,8 +16834,8 @@
        "VDIM Entry S5 - Clicking II",
        "VDIM Entry S5 - Switching I",
        "VDIM Entry S5 - Switching II",
-       "VDIM Intermediate S5 - Tracking I",
-       "VDIM Intermediate S5 - Tracking II"
+       "VDIM Entry S5 - Tracking I",
+       "VDIM Entry S5 - Tracking II"
       ]
      },
      {
@@ -15503,8 +16901,8 @@
        "VDIM Novice S5 - Clicking II",
        "VDIM Novice S5 - Switching I",
        "VDIM Novice S5 - Switching II",
-       "VDIM Intermediate S5 - Tracking I",
-       "VDIM Intermediate S5 - Tracking II"
+       "VDIM Novice S5 - Tracking I",
+       "VDIM Novice S5 - Tracking II"
       ]
      },
      {
@@ -15519,6 +16917,7 @@
       "guides": [
        "VDIM Novice S5 L1",
        "VDIM Novice S5 L-1",
+       "VDIM Entry S5",
        "VDIM Intermediate S5"
       ]
      }
