@@ -274,7 +274,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.35
+     "healthSeconds": 0.35,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 5,
@@ -559,7 +560,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.35
+     "healthSeconds": 0.35,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 3,
@@ -985,7 +987,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.6
+     "healthSeconds": 0.6,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 5,
@@ -1133,7 +1136,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.3
+     "healthSeconds": 0.3,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -1458,7 +1462,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.3
+     "healthSeconds": 0.3,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 3,
@@ -1728,6 +1733,9 @@
      "speedMultiplier": 0.92,
      "accelerationMultiplier": 0.93
     },
+    "scoreTargets": {
+     "targetScore": 55
+    },
     "referenceDef": {
      "scenarioName": "VDIM Leapcorn Pure"
     }
@@ -1912,7 +1920,8 @@
     "shotType": {
      "trackingKill": true,
      "healthSeconds": 0.35,
-     "healthRegenRate": 1
+     "healthRegenRate": 1,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -3092,7 +3101,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.25
+     "healthSeconds": 0.25,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -3377,7 +3387,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.3
+     "healthSeconds": 0.3,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 3,
@@ -3620,7 +3631,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.5
+     "healthSeconds": 0.5,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 3,
@@ -3709,7 +3721,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.2
+     "healthSeconds": 0.2,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 2,
@@ -3781,6 +3794,9 @@
      "targetRadiusMultiplier": 1.35,
      "speedMultiplier": 0.93,
      "accelerationMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 60
     },
     "referenceDef": {
      "scenarioName": "VDIM VPP AdjustSwitch Intermediate"
@@ -4926,7 +4942,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.35
+     "healthSeconds": 0.35,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 3,
@@ -5267,6 +5284,9 @@
      "speedMultiplier": 0.9,
      "accelerationMultiplier": 0.92
     },
+    "scoreTargets": {
+     "targetScore": 46
+    },
     "referenceDef": {
      "scenarioName": "VDIM VT Bounceshot Intermediate 20% smaller"
     }
@@ -5468,7 +5488,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.6
+     "healthSeconds": 0.6,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -5639,7 +5660,8 @@
      "shotType": {
       "trackingKill": true,
       "healthSeconds": 0.85,
-      "healthRegenRate": 1.5
+      "healthRegenRate": 1.5,
+      "removeIfBelowHealthSeconds": 0.04
      }
     }
    }
@@ -5657,7 +5679,8 @@
      "scenarioName": "VDIM VT ControlTS Intermediate S5",
      "shotType": {
       "trackingKill": true,
-      "healthSeconds": 0.45
+      "healthSeconds": 0.45,
+      "removeIfBelowHealthSeconds": 0.04
      }
     }
    }
@@ -6063,7 +6086,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.4
+     "healthSeconds": 0.4,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 10,
@@ -6176,7 +6200,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.26
+     "healthSeconds": 0.26,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 5,
@@ -6261,7 +6286,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.25
+     "healthSeconds": 0.25,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 5,
@@ -6355,7 +6381,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.25
+     "healthSeconds": 0.25,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 5,
@@ -6441,7 +6468,8 @@
     "shotType": {
      "trackingKill": true,
      "healthSeconds": 0.25,
-     "healthRegenRate": 1
+     "healthRegenRate": 1,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 5,
@@ -6526,7 +6554,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.25
+     "healthSeconds": 0.25,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 5,
@@ -6651,14 +6680,15 @@
    "name": "VT DotTS Novice S5 Regen",
    "def": {
     "scoreTargets": {
-     "targetScore": 107
+     "targetScore": 106
     },
     "referenceDef": {
      "scenarioName": "VDIM VT DotTS Novice S5",
      "shotType": {
       "trackingKill": true,
       "healthSeconds": 0.26,
-      "healthRegenRate": 2
+      "healthRegenRate": 2,
+      "removeIfBelowHealthSeconds": 0.04
      }
     }
    }
@@ -6683,7 +6713,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.45
+     "healthSeconds": 0.45,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -6843,7 +6874,8 @@
      "shotType": {
       "trackingKill": true,
       "healthSeconds": 0.5,
-      "healthRegenRate": 1.5
+      "healthRegenRate": 1.5,
+      "removeIfBelowHealthSeconds": 0.04
      }
     }
    }
@@ -6932,7 +6964,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.2
+     "healthSeconds": 0.2,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -7031,7 +7064,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.2
+     "healthSeconds": 0.2,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -7131,7 +7165,8 @@
     "shotType": {
      "trackingKill": true,
      "healthSeconds": 0.2,
-     "healthRegenRate": 1.3
+     "healthRegenRate": 1.3,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -7230,7 +7265,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.2
+     "healthSeconds": 0.2,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -7329,7 +7365,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.2
+     "healthSeconds": 0.2,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -7428,7 +7465,8 @@
      "shotType": {
       "trackingKill": true,
       "healthSeconds": 0.2,
-      "healthRegenRate": 1.4
+      "healthRegenRate": 1.4,
+      "removeIfBelowHealthSeconds": 0.04
      }
     }
    }
@@ -7728,7 +7766,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.5
+     "healthSeconds": 0.5,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -7838,7 +7877,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.5
+     "healthSeconds": 0.5,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -7951,7 +7991,8 @@
     "shotType": {
      "trackingKill": true,
      "healthSeconds": 0.5,
-     "healthRegenRate": 1.1
+     "healthRegenRate": 1.1,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -8063,7 +8104,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.5
+     "healthSeconds": 0.5,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -8229,7 +8271,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.2
+     "healthSeconds": 0.2,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -10389,6 +10432,9 @@
      "speedMultiplier": 1.02,
      "accelerationMultiplier": 1.02
     },
+    "scoreTargets": {
+     "targetScore": 90
+    },
     "referenceDef": {
      "scenarioName": "VDIM VT Pasu Novice S5"
     }
@@ -10410,6 +10456,9 @@
   {
    "name": "VT Pasu Novice S5 Speed",
    "def": {
+    "scoreTargets": {
+     "targetScore": 108
+    },
     "referenceDef": {
      "scenarioName": "VDIM VT Pasu Intermediate S5 Speed"
     }
@@ -10425,7 +10474,8 @@
      "scenarioName": "VDIM VT Pasu Intermediate S5",
      "shotType": {
       "trackingKill": true,
-      "healthSeconds": 0.6
+      "healthSeconds": 0.6,
+      "removeIfBelowHealthSeconds": 0.04
      }
     }
    }
@@ -10433,11 +10483,15 @@
   {
    "name": "VT PasuTs Novice S5",
    "def": {
+    "scoreTargets": {
+     "targetScore": 45
+    },
     "referenceDef": {
      "scenarioName": "VDIM VT Pasu Novice S5",
      "shotType": {
       "trackingKill": true,
-      "healthSeconds": 0.6
+      "healthSeconds": 0.6,
+      "removeIfBelowHealthSeconds": 0.04
      }
     }
    }
@@ -10448,7 +10502,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.5
+     "healthSeconds": 0.5,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 5,
@@ -10534,7 +10589,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.5
+     "healthSeconds": 0.5,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 5,
@@ -10621,7 +10677,8 @@
     "shotType": {
      "trackingKill": true,
      "healthSeconds": 0.5,
-     "healthRegenRate": 0.8
+     "healthRegenRate": 0.8,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 5,
@@ -10707,7 +10764,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.5
+     "healthSeconds": 0.5,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 5,
@@ -10998,6 +11056,9 @@
      "speedMultiplier": 0.88,
      "accelerationMultiplier": 0.96
     },
+    "scoreTargets": {
+     "targetScore": 80
+    },
     "referenceDef": {
      "scenarioName": "VDIM VT Popcorn Intermediate S5"
     }
@@ -11011,6 +11072,9 @@
      "speedMultiplier": 1.05,
      "accelerationMultiplier": 1.04
     },
+    "scoreTargets": {
+     "targetScore": 73
+    },
     "referenceDef": {
      "scenarioName": "VDIM VT Popcorn Novice S5"
     }
@@ -11019,6 +11083,9 @@
   {
    "name": "VT Popcorn Novice S5 Multi",
    "def": {
+    "scoreTargets": {
+     "targetScore": 80
+    },
     "referenceDef": {
      "scenarioName": "VDIM VT Popcorn Novice S5",
      "shotType": {
@@ -11037,6 +11104,9 @@
      "speedMultiplier": 0.97,
      "accelerationMultiplier": 0.96
     },
+    "scoreTargets": {
+     "targetScore": 85
+    },
     "referenceDef": {
      "scenarioName": "VDIM VT Popcorn Novice S5"
     }
@@ -11048,7 +11118,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.3
+     "healthSeconds": 0.3,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 5,
@@ -11147,6 +11218,9 @@
      "speedMultiplier": 0.94,
      "accelerationMultiplier": 0.94
     },
+    "scoreTargets": {
+     "targetScore": 60
+    },
     "referenceDef": {
      "scenarioName": "VDIM VT Popswitch Intermediate"
     }
@@ -11236,6 +11310,9 @@
      "targetRadiusMultiplier": 1.32,
      "speedMultiplier": 0.94,
      "accelerationMultiplier": 0.94
+    },
+    "scoreTargets": {
+     "targetScore": 54
     },
     "referenceDef": {
      "scenarioName": "VDIM VT Poptrack Intermediate"
@@ -11950,7 +12027,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.18
+     "healthSeconds": 0.18,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -12061,7 +12139,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.18
+     "healthSeconds": 0.18,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 3,
@@ -12526,7 +12605,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.3
+     "healthSeconds": 0.3,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -12651,7 +12731,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.2
+     "healthSeconds": 0.2,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -12717,7 +12798,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.2
+     "healthSeconds": 0.2,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -13098,7 +13180,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.35
+     "healthSeconds": 0.35,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -13315,7 +13398,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.3
+     "healthSeconds": 0.3,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -13671,7 +13755,8 @@
     "shotType": {
      "trackingKill": true,
      "healthSeconds": 0.6,
-     "healthRegenRate": 1.6
+     "healthRegenRate": 1.6,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -13809,7 +13894,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.25
+     "healthSeconds": 0.25,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 5,
@@ -14148,7 +14234,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.2
+     "healthSeconds": 0.2,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -14256,7 +14343,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.4
+     "healthSeconds": 0.4,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 12,
@@ -14387,7 +14475,8 @@
     "shotType": {
      "trackingKill": true,
      "healthSeconds": 0.55,
-     "healthRegenRate": 1.5
+     "healthRegenRate": 1.5,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -14539,7 +14628,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.2
+     "healthSeconds": 0.2,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 3,
