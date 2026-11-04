@@ -16820,6 +16820,724 @@
      }
     ]
    }
+  },
+  {
+   "name": "Preintermediate S5 - Clicking I",
+   "def": {
+    "items": [
+     {
+      "scenario": "VDIM RawMouseControl Reload L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT 1w2ts Horizontal Small L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT 1w2ts Vertical Small L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM 1w2ts Perfected L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Reflex Flick - Fair L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Quadpulse Intermediate L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT 1w3ts Intermediate S5 Pokeball L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT 1w3ts Intermediate S5 Clusters L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT 1w3ts Intermediate S5 Speed L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT 1w3ts Intermediate S5 Hard L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT 1w3ts Intermediate S5 L17",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM Pokeball Frenzy Auto Wide Wall 4 Targets Small L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT 1w2ts Horizontal Wide Small L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM 1w2ts Pasu Perfected Goated L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Aimerz+ Week #5 - Static Switching L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Widepulse Intermediate L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ww5t Intermediate S5 Pokeball L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ww5t Intermediate S5 Clusters L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ww5t Intermediate S5 Speed L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ww5t Intermediate S5 Hard L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ww5t Intermediate S5 L17",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM Floatswitch Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Floating Heads Timing Intermediate 3-Click L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Floating Heads Timing Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Skyshot Valorant Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Floatpoke Intermediate S5 L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Floating Heads Intermediate S5 3 Targets L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Floating Heads Intermediate S5 Clusters L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Floating Heads Intermediate S5 Hard L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Floating Heads Intermediate S5 L17",
+      "numPlays": 4
+     }
+    ]
+   }
+  },
+  {
+   "name": "Preintermediate S5 - Clicking II",
+   "def": {
+    "items": [
+     {
+      "scenario": "VDIM Tamspeed 2bpes L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM cAt purrClick Normal L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM psalmTS angelic click 30% larger L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM ToonsClick Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM remClick - F L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT PasuTs Intermediate S5 L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Pasu Intermediate S5 Speed L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Pasu Intermediate S5 Multi L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Pasu Intermediate S5 Hard L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Pasu Intermediate S5 L17",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM Leapcorn Pure L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Bounceshot Intermediate 20% smaller L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Curveshot Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Poptrack Intermediate L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Popswitch Intermediate L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Popcorn Intermediate S5 Speed L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Popcorn Intermediate S5 Multi L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Popcorn Intermediate S5 Hard L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Popcorn Intermediate S5 L17",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM VPP AdjustSwitch Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Star Clicking Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM dev1T Static Click L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM CG Adjust Click Micro 2T L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Frogswitch Intermediate S5 L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Frogtagon Intermediate S5 2 Targets L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Frogtagon Intermediate S5 Clusters L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Frogtagon Intermediate S5 Hard L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Frogtagon Intermediate S5 L17",
+      "numPlays": 4
+     }
+    ]
+   }
+  },
+  {
+   "name": "Preintermediate S5 - Switching I",
+   "def": {
+    "items": [
+     {
+      "scenario": "VDIM VT Speedswitch 90 Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Speedswitch 180 Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Pokevox Intermediate L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM StaticSwitchingVox xSmall L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Aimerz+ Week #5 - Static Switching L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM DotTS 30% Larger L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT DotTS Intermediate S5 Speed L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT DotTS Intermediate S5 Evasive L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT DotTS Intermediate S5 Regen L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT DotTS Intermediate S5 Hard L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT DotTS Intermediate S5 L17",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM waldoTs Intermediate L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM patCircleSwitch V2 Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT skyTs Intermediate Varied L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT skyTs Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM swayTs Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT EddieTS Intermediate S5 Speed L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT EddieTS Intermediate S5 Static L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT EddieTS Intermediate S5 Regen L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT EddieTS Intermediate S5 Hard L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT EddieTS Intermediate S5 L17",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM Popswitch Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Trippez Smooth Switching Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT bounceTS Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Penta Bounce Intermediate S5 Speed L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Penta Bounce Intermediate S5 Smooth L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Penta Bounce Intermediate S5 Hard L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Penta Bounce Intermediate S5 L17",
+      "numPlays": 4
+     }
+    ]
+   }
+  },
+  {
+   "name": "Preintermediate S5 - Switching II",
+   "def": {
+    "items": [
+     {
+      "scenario": "VDIM CG Adjust Switch Micro Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Angleswitch Micro Valorant Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VPP AdjustSwitch Intermediate L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM Aimerz+ cheaTS Med S1 L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM WhisphereTS Intermediate L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT FlyTS Intermediate S5 Speed L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT FlyTS Intermediate S5 Smooth L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT FlyTS Intermediate S5 Hard L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT FlyTS Intermediate S5 L17",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM cAt purrSwitch Intermediate L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM ToonsTS Intermediate L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM FuglaaXYZ TS Intermediate L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT DriftTS Intermediate S5 Speed L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT DriftTS Intermediate S5 Smooth L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT DriftTS Intermediate S5 Hard L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT DriftTS Intermediate S5 L17",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM tamTargetSwitch Smooth Intermediate L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM tamTargetSwitch Control Intermediate L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM domiSwitch L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM Controlswitch Intermediate L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ControlTS Intermediate S5 Speed L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ControlTS Intermediate S5 Smooth L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ControlTS Intermediate S5 Hard L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT ControlTS Intermediate S5 L17",
+      "numPlays": 4
+     }
+    ]
+   }
+  },
+  {
+   "name": "Preintermediate S5 - Tracking I",
+   "def": {
+    "items": [
+     {
+      "scenario": "VDIM SYW (Smooth Your Wrist) Truly FIXED L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM Centering II 180 Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Wide Angle Tracking Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM tamTargetSwitch Smooth Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Smoothsphere Diamond L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Smoothbot Pauer Glider Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Snake Track Intermediate S5 Precision Focus L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Snake Track Intermediate S5 Reactive Focus L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Snake Track Intermediate S5 Hard L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Snake Track Intermediate S5 L17",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM Smooth Your Vertical Altered POV Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT BT180TI Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM BounceSphere Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Curveswitch Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT PGT Intermediate S5 Bot 1 Precision L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT PGT Intermediate S5 Bot 2 Precision L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT PGT Intermediate S5 Bot 3 Precision L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT PGT Intermediate S5 Bot 1 Reactive L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT PGT Intermediate S5 Bot 2 Reactive L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT PGT Intermediate S5 Bot 3 Reactive L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT PGT Intermediate S5 Bot 1 L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT PGT Intermediate S5 Bot 2 L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT PGT Intermediate S5 Bot 3 L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM cAt purrTrack Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM tamTargetSwitch Control Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Controlsphere L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM cloverRawControl Easy L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Silo Easier L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Raw Control Intermediate S5 Precision Focus L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Raw Control Intermediate S5 Reactive Focus L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Raw Control Intermediate S5 Hard L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Raw Control Intermediate S5 L17",
+      "numPlays": 4
+     }
+    ]
+   }
+  },
+  {
+   "name": "Preintermediate S5 - Tracking II",
+   "def": {
+    "items": [
+     {
+      "scenario": "VDIM VT Midrange Long Strafes Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Midrange Short Strafes Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Closerange Short Strafes Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Closerange Long Strafes Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Prediction Cancelling - Midrange I L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM Trackstop Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT MSFI Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Ground Intermediate S5 Bot 1 Precision Focus L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Ground Intermediate S5 Bot 2 Precision Focus L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Ground Intermediate S5 Bot 3 Precision Focus L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Ground Intermediate S5 Bot 1 Reactive Focus L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Ground Intermediate S5 Bot 2 Reactive Focus L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Ground Intermediate S5 Bot 3 Reactive Focus L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Ground Intermediate S5 Bot 1 L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Ground Intermediate S5 Bot 2 L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Ground Intermediate S5 Bot 3 L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM Controlsphere Blink Intermediate L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Controlsphere Intermediate S5 Precision Focus L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Controlsphere Intermediate S5 Reactive Focus L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Controlsphere Intermediate S5 Hard L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Controlsphere Intermediate S5 L17",
+      "numPlays": 4
+     },
+     {
+      "scenario": "VDIM VT Aether Intermediate S5 Bot 1 Reactive Focus L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Aether Intermediate S5 Bot 3 Reactive Focus L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Aether Intermediate S5 Bot 1 Hard L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Aether Intermediate S5 Bot 3 Hard L17",
+      "numPlays": 2
+     },
+     {
+      "scenario": "VDIM VT Aether Intermediate S5 Bot 1 L17",
+      "numPlays": 3
+     },
+     {
+      "scenario": "VDIM VT Aether Intermediate S5 Bot 3 L17",
+      "numPlays": 3
+     }
+    ]
+   }
   }
  ],
  "guides": [
@@ -16850,8 +17568,7 @@
       "guides": [
        "VDIM Entry S5 L1",
        "VDIM Entry S5 L-1",
-       "VDIM Novice S5",
-       "VDIM Intermediate S5"
+       "VDIM Overview"
       ]
      }
     ]
@@ -16884,7 +17601,7 @@
       "guides": [
        "VDIM Intermediate S5 L1",
        "VDIM Intermediate S5 L-1",
-       "VDIM Novice S5"
+       "VDIM Overview"
       ]
      }
     ]
@@ -16917,8 +17634,60 @@
       "guides": [
        "VDIM Novice S5 L1",
        "VDIM Novice S5 L-1",
+       "VDIM Overview"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "name": "Overview",
+   "def": {
+    "sections": [
+     {
+      "text": "VDIM consists of 6 playlists with a well rounded selection of scenarios. Select the appropriate difficulty below. The guides are sorted from easiest to hardest.\n\n",
+      "guides": [
        "VDIM Entry S5",
-       "VDIM Intermediate S5"
+       "VDIM Entry S5 L2",
+       "VDIM Novice S5",
+       "VDIM Novice S5 L2",
+       "VDIM Preintermediate S5",
+       "VDIM Intermediate S5",
+       "VDIM Intermediate S5 L2",
+       "VDIM Intermediate S5 L4"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "name": "Preintermediate S5",
+   "def": {
+    "sections": [
+     {
+      "text": "",
+      "playlists": [
+       "VDIM Preintermediate S5 - Clicking I",
+       "VDIM Preintermediate S5 - Clicking II",
+       "VDIM Preintermediate S5 - Switching I",
+       "VDIM Preintermediate S5 - Switching II",
+       "VDIM Preintermediate S5 - Tracking I",
+       "VDIM Preintermediate S5 - Tracking II"
+      ]
+     },
+     {
+      "text": "\nChange duration",
+      "guides": [
+       "VDIM Preintermediate S5 40s",
+       "VDIM Preintermediate S5 30s"
+      ]
+     },
+     {
+      "text": "\nChange difficulty",
+      "guides": [
+       "VDIM Preintermediate S5 L1",
+       "VDIM Preintermediate S5 L-1",
+       "VDIM Overview"
       ]
      }
     ]
