@@ -161,6 +161,9 @@
     "overrides": {
      "targetRadiusMultiplier": 1.38
     },
+    "scoreTargets": {
+     "targetScore": 96
+    },
     "referenceDef": {
      "scenarioName": "VDIM 1w2ts Perfected"
     }
@@ -173,7 +176,8 @@
     "shotType": {
      "trackingKill": true,
      "healthSeconds": 0.15,
-     "healthRegenRate": 4.7
+     "healthRegenRate": 4.7,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 4,
@@ -1341,6 +1345,9 @@
      "targetRadiusMultiplier": 1.42,
      "speedMultiplier": 0.93
     },
+    "scoreTargets": {
+     "targetScore": 82
+    },
     "referenceDef": {
      "scenarioName": "VDIM Floating Heads Timing Intermediate"
     }
@@ -1368,7 +1375,8 @@
     "durationSeconds": 60,
     "shotType": {
      "trackingKill": true,
-     "healthSeconds": 0.2
+     "healthSeconds": 0.2,
+     "removeIfBelowHealthSeconds": 0.04
     },
     "targetDef": {
      "numTargets": 6,
@@ -1435,6 +1443,9 @@
     "overrides": {
      "targetRadiusMultiplier": 1.4,
      "speedMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 76
     },
     "referenceDef": {
      "scenarioName": "VDIM Floatswitch Intermediate"
@@ -1727,6 +1738,9 @@
    "def": {
     "overrides": {
      "targetRadiusMultiplier": 1.4
+    },
+    "scoreTargets": {
+     "targetScore": 96
     },
     "referenceDef": {
      "scenarioName": "VDIM Pokeball Frenzy Auto Wide Wall 4 Targets Small"
@@ -2230,6 +2244,7 @@
     "durationSeconds": 60,
     "shotType": {
      "clickSingle": true,
+     "removeClosestOnMiss": true,
      "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
@@ -2259,7 +2274,7 @@
      "levelOffset": 20
     },
     "scoreTargets": {
-     "targetScore": 60
+     "targetScore": 57
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -3909,6 +3924,7 @@
     "durationSeconds": 60,
     "shotType": {
      "clickSingle": true,
+     "removeClosestOnMiss": true,
      "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
     },
     "targetDef": {
@@ -4519,7 +4535,7 @@
      "targetRadiusMultiplier": 0.9
     },
     "scoreTargets": {
-     "targetScore": 108
+     "targetScore": 106
     },
     "referenceDef": {
      "scenarioName": "VDIM VT 1w4ts Novice S4",
@@ -7697,6 +7713,9 @@
     "overrides": {
      "targetRadiusMultiplier": 1.4,
      "speedMultiplier": 0.93
+    },
+    "scoreTargets": {
+     "targetScore": 91
     },
     "referenceDef": {
      "scenarioName": "VDIM VT Floatpoke Intermediate S5"
@@ -11348,7 +11367,7 @@
      "levelOffset": 20
     },
     "scoreTargets": {
-     "targetScore": 150
+     "targetScore": 135
     },
     "staticDef": {
      "targetPlacementStrategy": {
@@ -11695,6 +11714,9 @@
     "overrides": {
      "targetRadiusMultiplier": 1.4,
      "speedMultiplier": 0.94
+    },
+    "scoreTargets": {
+     "targetScore": 83
     },
     "referenceDef": {
      "scenarioName": "VDIM VT Skyshot Valorant Intermediate"
@@ -13046,7 +13068,7 @@
    "name": "VT ww5t Novice S5 Pokeball",
    "def": {
     "scoreTargets": {
-     "targetScore": 140
+     "targetScore": 137
     },
     "referenceDef": {
      "scenarioName": "VDIM VT ww5t Novice S5",
@@ -13059,85 +13081,14 @@
   {
    "name": "VT ww5t Novice S5 Speed",
    "def": {
-    "durationSeconds": 60,
-    "shotType": {
-     "clickSingle": true,
-     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
-    },
-    "targetDef": {
-     "numTargets": 5,
-     "profiles": [
-      {
-       "targetRadius": 4.1
-      }
-     ]
-    },
-    "room": {
-     "cameraPosition": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-     },
-     "cylinderRoom": {
-      "height": 250,
-      "radius": 200,
-      "width": 390,
-      "sideAngleDegrees": 14
-     }
-    },
-    "levelOverrides": {
-     "targetRadiusMultiplier": 0.96,
-     "levelOffset": 20
+    "overrides": {
+     "targetRadiusMultiplier": 1.35
     },
     "scoreTargets": {
      "targetScore": 150
     },
-    "staticDef": {
-     "targetPlacementStrategy": {
-      "regions": [
-       {
-        "info": {
-         "weight": 2
-        },
-        "depth": {
-         "value": 0
-        },
-        "depthJitter": {
-         "value": 0
-        },
-        "ellipse": {
-         "xDiameter": {
-          "xPercentValue": 0.73
-         },
-         "yDiameter": {
-          "yPercentValue": 0.4
-         }
-        }
-       },
-       {
-        "info": {
-         "weight": 1
-        },
-        "depth": {
-         "value": 0
-        },
-        "depthJitter": {
-         "value": 0
-        },
-        "rectangle": {
-         "xLength": {
-          "xPercentValue": 0.66
-         },
-         "yLength": {
-          "yPercentValue": 0.460000128
-         }
-        }
-       }
-      ],
-      "minDistance": {
-       "value": 27
-      }
-     }
+    "referenceDef": {
+     "scenarioName": "VDIM VT ww5t Intermediate S5 Speed"
     }
    }
   },
@@ -17559,8 +17510,7 @@
      {
       "text": "\nChange duration",
       "guides": [
-       "VDIM Entry S5 40s",
-       "VDIM Entry S5 30s"
+       "VDIM Entry S5 40s"
       ]
      },
      {
@@ -17592,8 +17542,7 @@
      {
       "text": "\nChange duration",
       "guides": [
-       "VDIM Intermediate S5 40s",
-       "VDIM Intermediate S5 30s"
+       "VDIM Intermediate S5 40s"
       ]
      },
      {
@@ -17625,8 +17574,7 @@
      {
       "text": "\nChange duration",
       "guides": [
-       "VDIM Novice S5 40s",
-       "VDIM Novice S5 30s"
+       "VDIM Novice S5 40s"
       ]
      },
      {
@@ -17656,6 +17604,12 @@
        "VDIM Intermediate S5 L2",
        "VDIM Intermediate S5 L4"
       ]
+     },
+     {
+      "text": "\nIf the playlists are taking too much time you can try the 40s variations (compared to the default 60s).\n",
+      "guides": [
+       "VDIM Overview 40s"
+      ]
      }
     ]
    }
@@ -17678,8 +17632,7 @@
      {
       "text": "\nChange duration",
       "guides": [
-       "VDIM Preintermediate S5 40s",
-       "VDIM Preintermediate S5 30s"
+       "VDIM Preintermediate S5 40s"
       ]
      },
      {
