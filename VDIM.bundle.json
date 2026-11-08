@@ -10419,6 +10419,9 @@
      "speedMultiplier": 0.94,
      "accelerationMultiplier": 0.96
     },
+    "scoreTargets": {
+     "targetScore": 95
+    },
     "referenceDef": {
      "scenarioName": "VDIM VT Pasu Intermediate S5"
     }
@@ -10986,7 +10989,7 @@
         },
         "rectangle": {
          "xLength": {
-          "xPercentValue": 0.639999807
+          "xPercentValue": 0.799999774
          },
          "yLength": {
           "value": 1
@@ -10995,7 +10998,7 @@
        }
       ],
       "minXDistance": {
-       "value": 20
+       "value": 15
       }
      },
      "leftRightInitialDirection": "DIRECTION_IN",
@@ -14222,6 +14225,9 @@
      "targetRadiusMultiplier": 1.4,
      "speedMultiplier": 0.98,
      "accelerationMultiplier": 0.99
+    },
+    "scoreTargets": {
+     "targetScore": 62
     },
     "referenceDef": {
      "scenarioName": "VDIM remClick - F"
