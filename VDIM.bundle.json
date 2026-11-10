@@ -9140,7 +9140,7 @@
        "speed": 127.92,
        "acceleration": 588,
        "pill": {
-        "height": 21.4000092
+        "height": 23.9000092
        }
       }
      ]
@@ -9173,13 +9173,12 @@
        "xPercentValue": 0.85
       },
       "depth": {
-       "depthPercentValue": 0.320000082
+       "depthPercentValue": 0.450000107
       }
      },
      "targetPlacementStrategy": {
       "regions": [
        {
-        "info": {},
         "xOffset": {
          "xPercentValue": 0
         },
@@ -9187,7 +9186,7 @@
          "yPercentValue": -0.37
         },
         "depth": {
-         "value": 16
+         "value": 26
         },
         "depthJitter": {
          "value": 0
@@ -9223,11 +9222,10 @@
      ],
      "forwardBackProfiles": [
       {
-       "info": {},
        "time": 1.2,
        "timeJitter": 0.2,
-       "speedMultiplier": 0.249999836,
-       "accelerationMultiplier": 0.199999839
+       "speedMultiplier": 0.25,
+       "accelerationMultiplier": 0.2
       }
      ],
      "leftRightInitialDirection": "DIRECTION_NEGATIVE",
