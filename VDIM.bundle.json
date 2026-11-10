@@ -596,7 +596,6 @@
      "targetPlacementStrategy": {
       "regions": [
        {
-        "info": {},
         "depth": {
          "value": 0
         },
@@ -605,16 +604,16 @@
         },
         "rectangle": {
          "xLength": {
-          "xPercentValue": 0.52
+          "xPercentValue": 0.75
          },
          "yLength": {
-          "yPercentValue": 0.52
+          "yPercentValue": 0.71
          }
         }
        }
       ],
       "minDistance": {
-       "value": 43
+       "value": 17
       }
      },
      "profiles": [
@@ -4977,25 +4976,18 @@
      "targetPlacementStrategy": {
       "regions": [
        {
-        "info": {},
-        "depth": {
-         "value": 0
-        },
-        "depthJitter": {
-         "value": 0
-        },
         "rectangle": {
          "xLength": {
-          "xPercentValue": 0.599999905
+          "xPercentValue": 0.739999771
          },
          "yLength": {
-          "yPercentValue": 0.52
+          "yPercentValue": 0.61
          }
         }
        }
       ],
       "minDistance": {
-       "value": 43
+       "value": 19
       }
      },
      "leftRightProfiles": [
