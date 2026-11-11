@@ -1,0 +1,2193 @@
+{
+ "scenarios": [
+  {
+   "name": "Close Fast Strafes Invincible Precise",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "trackingInvincible": true
+    },
+    "targetDef": {
+     "numTargets": 1,
+     "profiles": [
+      {
+       "targetRadius": 2.6,
+       "speed": 84,
+       "acceleration": 715,
+       "pill": {
+        "height": 30.5
+       }
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": 0,
+      "z": -29
+     },
+     "cylinderRoom": {
+      "height": 100,
+      "radius": 109,
+      "widthDegrees": 135
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "accelerationMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 53
+    },
+    "strafeDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "xOffset": {
+         "xPercentValue": 0
+        },
+        "yOffset": {
+         "yPercentValue": -0.34
+        },
+        "rectangle": {
+         "xLength": {
+          "value": 1
+         },
+         "yLength": {
+          "value": 1
+         }
+        }
+       }
+      ]
+     },
+     "leftRightProfiles": [
+      {
+       "distance": {
+        "xPercentValue": 0.14
+       },
+       "distanceJitter": {
+        "xPercentValue": 0.06
+       }
+      }
+     ],
+     "leftRightInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "Close Needle Thin",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "trackingInvincible": true
+    },
+    "targetDef": {
+     "numTargets": 1,
+     "profiles": [
+      {
+       "targetRadius": 1.5,
+       "speed": 83,
+       "acceleration": 1050,
+       "pill": {
+        "height": 30.5
+       }
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": 0,
+      "z": -29
+     },
+     "cylinderRoom": {
+      "height": 100,
+      "radius": 100,
+      "widthDegrees": 180
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "accelerationMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 45
+    },
+    "strafeDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "xOffset": {
+         "xPercentValue": 0
+        },
+        "yOffset": {
+         "yPercentValue": -0.34
+        },
+        "rectangle": {
+         "xLength": {
+          "value": 1
+         },
+         "yLength": {
+          "value": 1
+         }
+        }
+       }
+      ]
+     },
+     "leftRightProfiles": [
+      {
+       "distance": {
+        "xPercentValue": 0.18
+       },
+       "distanceJitter": {
+        "xPercentValue": 0.07
+       }
+      }
+     ],
+     "leftRightInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "MLSI Demotori",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "trackingInvincible": true
+    },
+    "targetDef": {
+     "numTargets": 1,
+     "profiles": [
+      {
+       "targetRadius": 4.5,
+       "speed": 137,
+       "acceleration": 3000,
+       "pill": {
+        "height": 30.5
+       }
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": 0,
+      "z": -29
+     },
+     "cylinderRoom": {
+      "height": 100,
+      "radius": 165,
+      "widthDegrees": 140
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "accelerationMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 60
+    },
+    "strafeDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "xOffset": {
+         "xPercentValue": 0
+        },
+        "yOffset": {
+         "yPercentValue": -0.34
+        },
+        "rectangle": {
+         "xLength": {
+          "value": 1
+         },
+         "yLength": {
+          "value": 1
+         }
+        }
+       }
+      ]
+     },
+     "leftRightProfiles": [
+      {
+       "distance": {
+        "xPercentValue": 0.25
+       },
+       "distanceJitter": {
+        "xPercentValue": 0.095
+       }
+      }
+     ],
+     "leftRightInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "MLSI Demotori Thin",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "trackingInvincible": true
+    },
+    "targetDef": {
+     "numTargets": 1,
+     "profiles": [
+      {
+       "targetRadius": 3.1,
+       "speed": 128,
+       "acceleration": 3000,
+       "pill": {
+        "height": 30.5
+       }
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": 0,
+      "z": -29
+     },
+     "cylinderRoom": {
+      "height": 100,
+      "radius": 165,
+      "widthDegrees": 140
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "accelerationMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 65
+    },
+    "strafeDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "xOffset": {
+         "xPercentValue": 0
+        },
+        "yOffset": {
+         "yPercentValue": -0.34
+        },
+        "rectangle": {
+         "xLength": {
+          "value": 1
+         },
+         "yLength": {
+          "value": 1
+         }
+        }
+       }
+      ]
+     },
+     "leftRightProfiles": [
+      {
+       "distance": {
+        "xPercentValue": 0.39
+       },
+       "distanceJitter": {
+        "xPercentValue": 0.065
+       }
+      }
+     ],
+     "leftRightInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "Plaza Smooth 2",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "trackingInvincible": true
+    },
+    "targetDef": {
+     "numTargets": 1,
+     "profiles": [
+      {
+       "targetRadius": 3.7,
+       "speed": 143,
+       "acceleration": 625,
+       "pill": {
+        "height": 30.5
+       }
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": 0,
+      "z": -29
+     },
+     "cylinderRoom": {
+      "height": 100,
+      "radius": 126,
+      "widthDegrees": 400
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "accelerationMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 65
+    },
+    "strafeDef": {
+     "bounds": {
+      "depth": {
+       "depthPercentValue": 0.55
+      }
+     },
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "xOffset": {
+         "xPercentValue": 0
+        },
+        "yOffset": {
+         "yPercentValue": -0.34
+        },
+        "rectangle": {
+         "xLength": {
+          "value": 1
+         },
+         "yLength": {
+          "value": 1
+         }
+        }
+       }
+      ]
+     },
+     "leftRightProfiles": [
+      {
+       "time": 1.4,
+       "timeJitter": 0.9
+      }
+     ],
+     "forwardBackProfiles": [
+      {
+       "info": {
+        "weight": 2
+       },
+       "distance": {
+        "depthPercentValue": 0.5
+       },
+       "distanceJitter": {
+        "depthPercentValue": 0.155
+       },
+       "speedMultiplier": 0.36,
+       "accelerationMultiplier": 0.61,
+       "pauseTime": 0.4,
+       "pauseTimeJitter": 0.1
+      },
+      {
+       "info": {
+        "weight": 4
+       },
+       "time": 1.1,
+       "timeJitter": 0.5,
+       "speedMultiplier": 0.11,
+       "accelerationMultiplier": 0.14
+      }
+     ],
+     "leftRightInitialDirection": "DIRECTION_RANDOM",
+     "forwardBackInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "Smooth Thin Strafes Rasberry",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "trackingInvincible": true
+    },
+    "targetDef": {
+     "numTargets": 1,
+     "profiles": [
+      {
+       "targetRadius": 2.85,
+       "speed": 81,
+       "acceleration": 505,
+       "pill": {
+        "height": 22
+       }
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -174,
+      "z": -45
+     },
+     "simpleRoom": {
+      "height": 124,
+      "width": 237
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "accelerationMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 65
+    },
+    "bounceDef": {
+     "bounds": {
+      "width": {
+       "xPercentValue": 0.9
+      }
+     },
+     "bounceProfiles": [
+      {
+       "height": {
+        "yPercentValue": 0.77
+       },
+       "heightJitter": {
+        "yPercentValue": 0
+       },
+       "delaySeconds": 4.1,
+       "delaySecondsJitter": 1.58,
+       "speedMultiplier": 0.58,
+       "accelerationMultiplier": 0.12,
+       "floatTime": 0.19
+      }
+     ],
+     "leftRightProfiles": [
+      {
+       "centerBias": 0.2,
+       "distance": {
+        "xPercentValue": 0.15
+       },
+       "distanceJitter": {
+        "xPercentValue": 0.05
+       }
+      }
+     ],
+     "leftRightInitialDirection": "DIRECTION_RANDOM",
+     "floorHeight": {
+      "value": 9
+     },
+     "startOnFloor": true
+    }
+   }
+  },
+  {
+   "name": "cA 1ts ruohong",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 1,
+     "profiles": [
+      {
+       "targetRadius": 1.25
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 130,
+      "width": 170
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 90
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.8
+         },
+         "yLength": {
+          "yPercentValue": 0.8
+         }
+        }
+       }
+      ],
+      "minDistance": {
+       "xPercentValue": 0.51
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "cA 2ts wideflick",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 2,
+     "profiles": [
+      {
+       "targetRadius": 2.4
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 154,
+      "width": 181
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 120
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "circle": {
+         "diameter": {
+          "yPercentValue": 0.9
+         },
+         "innerDiameter": {
+          "xPercentValue": 0.4
+         }
+        }
+       }
+      ],
+      "minDistance": {
+       "xPercentValue": 0.25
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "cA 3ts precise",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 3,
+     "profiles": [
+      {
+       "targetRadius": 2
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "barrelRoom": {
+      "radius": 118
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 118
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "circle": {
+         "diameter": {
+          "xPercentValue": 0.73
+         },
+         "innerDiameter": {
+          "xPercentValue": 0.5
+         }
+        }
+       }
+      ],
+      "minDistance": {
+       "xPercentValue": 0.160000101
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "cA 4ts horizontal",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 4,
+     "profiles": [
+      {
+       "targetRadius": 1.3
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 118,
+      "width": 211
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 115
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.85
+         },
+         "yLength": {
+          "yPercentValue": 0.85
+         }
+        }
+       }
+      ],
+      "minDistance": {
+       "xPercentValue": 0.190000102
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "cA 4ts pokeball",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "poke": true
+    },
+    "targetDef": {
+     "numTargets": 4,
+     "profiles": [
+      {
+       "targetRadius": 1.2
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 122,
+      "width": 183
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 110
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.8
+         },
+         "yLength": {
+          "yPercentValue": 0.8
+         }
+        }
+       }
+      ],
+      "minDistance": {
+       "xPercentValue": 0.04
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "cA 5ts vibrate",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 5,
+     "profiles": [
+      {
+       "targetRadius": 1.2,
+       "speed": 8,
+       "acceleration": 60
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 150,
+      "width": 141
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 115
+    },
+    "strafeDef": {
+     "relativeBounds": {
+      "width": {
+       "value": 0.4
+      },
+      "height": {
+       "value": 0.2
+      }
+     },
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "info": {
+         "weight": 2
+        },
+        "circle": {
+         "diameter": {
+          "xPercentValue": 0.749999821
+         }
+        }
+       },
+       {
+        "info": {
+         "weight": 1
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.8
+         },
+         "yLength": {
+          "yPercentValue": 0.8
+         }
+        }
+       }
+      ],
+      "minDistance": {
+       "xPercentValue": 0.15
+      }
+     },
+     "leftRightProfiles": [
+      {
+       "distance": {
+        "xPercentValue": 1
+       },
+       "distanceJitter": {
+        "xPercentValue": 0
+       }
+      }
+     ],
+     "upDownProfiles": [
+      {
+       "distance": {
+        "yPercentValue": 1
+       },
+       "distanceJitter": {
+        "yPercentValue": 0
+       },
+       "speedMultiplier": 0.700000286,
+       "accelerationMultiplier": 0.760000229
+      }
+     ],
+     "leftRightInitialDirection": "DIRECTION_RANDOM",
+     "upDownInitialDirection": "DIRECTION_RANDOM",
+     "forwardBackInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "cA 7ts pressure",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 7,
+     "profiles": [
+      {
+       "targetRadius": 1.1,
+       "targetRadiusGrowthTimeSeconds": 2.2,
+       "targetRadiusGrowthSize": 6
+      }
+     ],
+     "staggerInitialTargetsSeconds": 0.15
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 238,
+      "width": 225
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "growthTimeMultiplier": 0.99,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 140
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.8
+         },
+         "yLength": {
+          "yPercentValue": 0.8
+         }
+        }
+       }
+      ],
+      "minDistance": {
+       "xPercentValue": 0.09
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "cA 900targets",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 37,
+     "profiles": [
+      {
+       "targetRadius": 1.5
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 162,
+      "width": 190
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 160
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.85
+         },
+         "yLength": {
+          "yPercentValue": 0.85
+         }
+        }
+       }
+      ],
+      "minDistance": {
+       "value": 4
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "cA fuglaapressure",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 5,
+     "profiles": [
+      {
+       "targetRadius": 1,
+       "targetRadiusGrowthTimeSeconds": 2.6,
+       "targetRadiusGrowthSize": 6.3
+      }
+     ],
+     "staggerInitialTargetsSeconds": 0.1
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 203,
+      "width": 211
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "growthTimeMultiplier": 0.99,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 135
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.85
+         },
+         "yLength": {
+          "yPercentValue": 0.85
+         }
+        }
+       }
+      ],
+      "minDistance": {
+       "xPercentValue": 0.190000102
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "cA micropressure",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 4,
+     "profiles": [
+      {
+       "targetRadius": 1,
+       "targetRadiusGrowthTimeSeconds": 1.7,
+       "targetRadiusGrowthSize": 6
+      }
+     ],
+     "staggerInitialTargetsSeconds": 0.15
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "barrelRoom": {
+      "radius": 100
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "timeScaleMultiplier": 0.99,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 170
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "circle": {
+         "diameter": {
+          "xPercentValue": 0.599999905
+         }
+        }
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "name": "cA sixshot",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 6,
+     "profiles": [
+      {
+       "targetRadius": 1.3
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 122,
+      "width": 183
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 130
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.8
+         },
+         "yLength": {
+          "yPercentValue": 0.8
+         }
+        }
+       }
+      ],
+      "minDistance": {
+       "xPercentValue": 0.06
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "cA voxTSs smaller",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 5,
+     "profiles": [
+      {
+       "targetRadius": 2
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 78,
+      "width": 207
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 140
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "depth": {
+         "depthPercentValue": 0.35
+        },
+        "depthJitter": {
+         "depthPercentValue": 0.35
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.8
+         },
+         "yLength": {
+          "yPercentValue": 0.8
+         }
+        }
+       }
+      ],
+      "minDistance": {
+       "xPercentValue": 0.06
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "cA x-axis flick",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "removeClosestOnMiss": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 2,
+     "profiles": [
+      {
+       "targetRadius": 1.4
+      }
+     ],
+     "newestTargetIsGhost": true
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 112,
+      "width": 193
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 115
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "info": {
+         "description": "Left Close"
+        },
+        "xOffset": {
+         "xPercentValue": -0.05
+        },
+        "yOffset": {
+         "yPercentValue": 0
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.07
+         },
+         "yLength": {
+          "yPercentValue": 0.15
+         }
+        }
+       },
+       {
+        "info": {
+         "description": "Right Close"
+        },
+        "xOffset": {
+         "xPercentValue": 0.05
+        },
+        "yOffset": {
+         "yPercentValue": 0
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.07
+         },
+         "yLength": {
+          "yPercentValue": 0.15
+         }
+        }
+       },
+       {
+        "info": {
+         "description": "Left Mid1"
+        },
+        "xOffset": {
+         "xPercentValue": -0.12
+        },
+        "yOffset": {
+         "yPercentValue": 0
+        },
+        "depth": {
+         "depthPercentValue": 0.05
+        },
+        "depthJitter": {
+         "depthPercentValue": 0
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.07
+         },
+         "yLength": {
+          "yPercentValue": 0.15
+         }
+        }
+       },
+       {
+        "info": {
+         "description": "Right Mid1"
+        },
+        "xOffset": {
+         "xPercentValue": 0.12
+        },
+        "yOffset": {
+         "yPercentValue": 0
+        },
+        "depth": {
+         "depthPercentValue": 0.05
+        },
+        "depthJitter": {
+         "depthPercentValue": 0
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.07
+         },
+         "yLength": {
+          "yPercentValue": 0.15
+         }
+        }
+       },
+       {
+        "info": {
+         "description": "Left Mid2"
+        },
+        "xOffset": {
+         "xPercentValue": -0.2
+        },
+        "yOffset": {
+         "yPercentValue": 0
+        },
+        "depth": {
+         "depthPercentValue": 0.1
+        },
+        "depthJitter": {
+         "depthPercentValue": 0
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.07
+         },
+         "yLength": {
+          "yPercentValue": 0.15
+         }
+        }
+       },
+       {
+        "info": {
+         "description": "Right Mid2"
+        },
+        "xOffset": {
+         "xPercentValue": 0.2
+        },
+        "yOffset": {
+         "yPercentValue": 0
+        },
+        "depth": {
+         "depthPercentValue": 0.1
+        },
+        "depthJitter": {
+         "depthPercentValue": 0
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.07
+         },
+         "yLength": {
+          "yPercentValue": 0.15
+         }
+        }
+       },
+       {
+        "info": {
+         "description": "Left Far"
+        },
+        "xOffset": {
+         "xPercentValue": -0.28
+        },
+        "yOffset": {
+         "yPercentValue": 0
+        },
+        "depth": {
+         "depthPercentValue": 0.2
+        },
+        "depthJitter": {
+         "depthPercentValue": 0
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.07
+         },
+         "yLength": {
+          "yPercentValue": 0.15
+         }
+        }
+       },
+       {
+        "info": {
+         "description": "Right Far"
+        },
+        "xOffset": {
+         "xPercentValue": 0.28
+        },
+        "yOffset": {
+         "yPercentValue": 0
+        },
+        "depth": {
+         "depthPercentValue": 0.2
+        },
+        "depthJitter": {
+         "depthPercentValue": 0
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.07
+         },
+         "yLength": {
+          "yPercentValue": 0.15
+         }
+        }
+       }
+      ],
+      "regionsInfo": {
+       "explicitOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        4,
+        5,
+        2,
+        3
+       ]
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "cA y-axis flick",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "removeClosestOnMiss": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 2,
+     "profiles": [
+      {
+       "targetRadius": 1.4
+      }
+     ],
+     "newestTargetIsGhost": true
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 112,
+      "width": 143
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 115
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "info": {
+         "description": "Down Close"
+        },
+        "xOffset": {
+         "xPercentValue": 0
+        },
+        "yOffset": {
+         "yPercentValue": -0.05
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.15
+         },
+         "yLength": {
+          "yPercentValue": 0.07
+         }
+        }
+       },
+       {
+        "info": {
+         "description": "Up Close"
+        },
+        "xOffset": {
+         "xPercentValue": 0
+        },
+        "yOffset": {
+         "yPercentValue": 0.05
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.15
+         },
+         "yLength": {
+          "yPercentValue": 0.07
+         }
+        }
+       },
+       {
+        "info": {
+         "description": "Down Mid1"
+        },
+        "xOffset": {
+         "xPercentValue": 0
+        },
+        "yOffset": {
+         "yPercentValue": -0.12
+        },
+        "depth": {
+         "depthPercentValue": 0.05
+        },
+        "depthJitter": {
+         "depthPercentValue": 0
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.15
+         },
+         "yLength": {
+          "yPercentValue": 0.07
+         }
+        }
+       },
+       {
+        "info": {
+         "description": "Up Mid1"
+        },
+        "xOffset": {
+         "xPercentValue": 0
+        },
+        "yOffset": {
+         "yPercentValue": 0.12
+        },
+        "depth": {
+         "depthPercentValue": 0.05
+        },
+        "depthJitter": {
+         "depthPercentValue": 0
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.15
+         },
+         "yLength": {
+          "yPercentValue": 0.07
+         }
+        }
+       },
+       {
+        "info": {
+         "description": "Down Mid2"
+        },
+        "xOffset": {
+         "xPercentValue": 0
+        },
+        "yOffset": {
+         "yPercentValue": -0.2
+        },
+        "depth": {
+         "depthPercentValue": 0.1
+        },
+        "depthJitter": {
+         "depthPercentValue": 0
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.15
+         },
+         "yLength": {
+          "yPercentValue": 0.07
+         }
+        }
+       },
+       {
+        "info": {
+         "description": "Up Mid2"
+        },
+        "xOffset": {
+         "xPercentValue": 0
+        },
+        "yOffset": {
+         "yPercentValue": 0.2
+        },
+        "depth": {
+         "depthPercentValue": 0.1
+        },
+        "depthJitter": {
+         "depthPercentValue": 0
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.15
+         },
+         "yLength": {
+          "yPercentValue": 0.07
+         }
+        }
+       },
+       {
+        "info": {
+         "description": "Down Far"
+        },
+        "xOffset": {
+         "xPercentValue": 0
+        },
+        "yOffset": {
+         "yPercentValue": -0.27
+        },
+        "depth": {
+         "depthPercentValue": 0.2
+        },
+        "depthJitter": {
+         "depthPercentValue": 0
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.15
+         },
+         "yLength": {
+          "yPercentValue": 0.07
+         }
+        }
+       },
+       {
+        "info": {
+         "description": "Up Far"
+        },
+        "xOffset": {
+         "xPercentValue": 0
+        },
+        "yOffset": {
+         "yPercentValue": 0.27
+        },
+        "depth": {
+         "depthPercentValue": 0.2
+        },
+        "depthJitter": {
+         "depthPercentValue": 0
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.15
+         },
+         "yLength": {
+          "yPercentValue": 0.07
+         }
+        }
+       }
+      ],
+      "regionsInfo": {
+       "explicitOrder": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        4,
+        5,
+        2,
+        3
+       ]
+      }
+     }
+    }
+   }
+  },
+  {
+   "name": "controlstrafes midrange",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "trackingInvincible": true
+    },
+    "targetDef": {
+     "numTargets": 1,
+     "profiles": [
+      {
+       "targetRadius": 3.2,
+       "speed": 121,
+       "acceleration": 1370,
+       "pill": {
+        "height": 30.5
+       }
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": 0,
+      "z": -29
+     },
+     "cylinderRoom": {
+      "height": 100,
+      "radius": 165,
+      "widthDegrees": 140
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.97,
+     "speedMultiplier": 1.01,
+     "accelerationMultiplier": 1.01,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 50
+    },
+    "strafeDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "xOffset": {
+         "xPercentValue": 0
+        },
+        "yOffset": {
+         "yPercentValue": -0.34
+        },
+        "rectangle": {
+         "xLength": {
+          "value": 1
+         },
+         "yLength": {
+          "value": 1
+         }
+        }
+       }
+      ]
+     },
+     "leftRightProfiles": [
+      {
+       "distance": {
+        "xPercentValue": 0.22
+       },
+       "distanceJitter": {
+        "xPercentValue": 0.1
+       }
+      }
+     ],
+     "leftRightInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  }
+ ],
+ "playlists": [
+  {
+   "name": "Jade Palace Ground Benchmark Entry",
+   "def": {
+    "items": [
+     {
+      "scenario": "KV Smooth Thin Strafes Rasberry L8",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV Close Needle Thin L8",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV MLSI Demotori Thin L8",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV MLSI Demotori L8",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV controlstrafes midrange L8",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV Plaza Smooth 2 L8",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV Close Fast Strafes Invincible Precise L8",
+      "numPlays": 1
+     },
+     {
+      "scenario": "VDIM VT Ground Intermediate S5 Bot 3 L8",
+      "numPlays": 1
+     }
+    ]
+   }
+  },
+  {
+   "name": "Jade Palace Ground Benchmark Intermediate",
+   "def": {
+    "items": [
+     {
+      "scenario": "KV Smooth Thin Strafes Rasberry",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV Close Needle Thin",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV MLSI Demotori Thin",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV MLSI Demotori",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV controlstrafes midrange",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV Plaza Smooth 2",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV Close Fast Strafes Invincible Precise",
+      "numPlays": 1
+     },
+     {
+      "scenario": "VDIM VT Ground Intermediate S5 Bot 3",
+      "numPlays": 1
+     }
+    ]
+   }
+  },
+  {
+   "name": "Jade Palace Ground Benchmark Novice",
+   "def": {
+    "items": [
+     {
+      "scenario": "KV Smooth Thin Strafes Rasberry L14",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV Close Needle Thin L14",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV MLSI Demotori Thin L14",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV MLSI Demotori L14",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV controlstrafes midrange L14",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV Plaza Smooth 2 L14",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV Close Fast Strafes Invincible Precise L14",
+      "numPlays": 1
+     },
+     {
+      "scenario": "VDIM VT Ground Intermediate S5 Bot 3 L14",
+      "numPlays": 1
+     }
+    ]
+   }
+  },
+  {
+   "name": "cA Static Benchmark",
+   "def": {
+    "items": [
+     {
+      "scenario": "KV cA x-axis flick",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA y-axis flick",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 2ts wideflick",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 4ts horizontal",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA micropressure",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 5ts vibrate",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 1ts ruohong",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA fuglaapressure",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 3ts precise",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 4ts pokeball",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 900targets",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA sixshot",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA voxTSs smaller",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 7ts pressure",
+      "numPlays": 1
+     }
+    ]
+   }
+  },
+  {
+   "name": "cA Static Benchmark Entry",
+   "def": {
+    "items": [
+     {
+      "scenario": "KV cA x-axis flick L6",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA y-axis flick L6",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 2ts wideflick L6",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 4ts horizontal L6",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA micropressure L6",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 5ts vibrate L6",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 1ts ruohong L6",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA fuglaapressure L6",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 3ts precise L6",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 4ts pokeball L6",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 900targets L6",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA sixshot L6",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA voxTSs smaller L6",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 7ts pressure L6",
+      "numPlays": 1
+     }
+    ]
+   }
+  },
+  {
+   "name": "cA Static Benchmark Intermediate",
+   "def": {
+    "items": [
+     {
+      "scenario": "KV cA x-axis flick L18",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA y-axis flick L18",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 2ts wideflick L18",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 4ts horizontal L18",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA micropressure L18",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 5ts vibrate L18",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 1ts ruohong L18",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA fuglaapressure L18",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 3ts precise L18",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 4ts pokeball L18",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 900targets L18",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA sixshot L18",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA voxTSs smaller L18",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 7ts pressure L18",
+      "numPlays": 1
+     }
+    ]
+   }
+  },
+  {
+   "name": "cA Static Benchmark Novice",
+   "def": {
+    "items": [
+     {
+      "scenario": "KV cA x-axis flick L12",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA y-axis flick L12",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 2ts wideflick L12",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 4ts horizontal L12",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA micropressure L12",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 5ts vibrate L12",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 1ts ruohong L12",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA fuglaapressure L12",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 3ts precise L12",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 4ts pokeball L12",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 900targets L12",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA sixshot L12",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA voxTSs smaller L12",
+      "numPlays": 1
+     },
+     {
+      "scenario": "KV cA 7ts pressure L12",
+      "numPlays": 1
+     }
+    ]
+   }
+  }
+ ],
+ "guides": [
+  {
+   "name": "Jade Palace Ground Benchmark",
+   "def": {
+    "sections": [
+     {
+      "text": "",
+      "playlists": [
+       "KV Jade Palace Ground Benchmark Entry",
+       "KV Jade Palace Ground Benchmark Entry L3",
+       "KV Jade Palace Ground Benchmark Novice",
+       "KV Jade Palace Ground Benchmark Novice L3",
+       "KV Jade Palace Ground Benchmark Intermediate",
+       "KV Jade Palace Ground Benchmark Intermediate L3"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "name": "cA Static Benchmark",
+   "def": {
+    "sections": [
+     {
+      "text": "",
+      "playlists": [
+       "KV cA Static Benchmark Entry",
+       "KV cA Static Benchmark Entry L3",
+       "KV cA Static Benchmark Novice",
+       "KV cA Static Benchmark Novice L3",
+       "KV cA Static Benchmark Intermediate",
+       "KV cA Static Benchmark",
+       "KV cA Static Benchmark L2",
+       "KV cA Static Benchmark L4"
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}
+
