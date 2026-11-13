@@ -151,7 +151,7 @@
        }
       }
      ],
-     "leftRightInitialDirection": "DIRECTION_RANDOM"
+     "leftRightInitialDirection": "DIRECTION_POSITIVE"
     }
    }
   },

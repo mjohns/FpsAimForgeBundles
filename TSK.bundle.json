@@ -26,8 +26,9 @@
       "y": 0,
       "z": 0
      },
+     "drawFloorShadows": true,
      "cylinderRoom": {
-      "height": 76,
+      "height": 55,
       "radius": 200,
       "widthDegrees": 360
      }
@@ -248,8 +249,9 @@
       "y": 0,
       "z": 0
      },
+     "drawFloorShadows": true,
      "cylinderRoom": {
-      "height": 76,
+      "height": 62,
       "radius": 200,
       "sideAngleDegrees": 80,
       "widthDegrees": 180
@@ -310,8 +312,9 @@
       "y": 0,
       "z": 0
      },
+     "drawFloorShadows": true,
      "cylinderRoom": {
-      "height": 76,
+      "height": 60,
       "radius": 200,
       "sideAngleDegrees": 80,
       "widthDegrees": 180
@@ -434,8 +437,9 @@
       "y": 0,
       "z": 0
      },
+     "drawFloorShadows": true,
      "cylinderRoom": {
-      "height": 76,
+      "height": 52,
       "radius": 200,
       "sideAngleDegrees": 34,
       "widthDegrees": 90
@@ -2453,7 +2457,7 @@
        "speed": 97.2,
        "acceleration": 280,
        "pill": {
-        "height": 20
+        "height": 26
        }
       }
      ]
@@ -2462,10 +2466,11 @@
      "cameraPosition": {
       "x": 0,
       "y": -200,
-      "z": 0
+      "z": -3
      },
+     "drawFloorShadows": true,
      "simpleRoom": {
-      "height": 102,
+      "height": 50,
       "width": 353
      }
     },
@@ -2481,6 +2486,20 @@
       "width": {
        "xPercentValue": 0.965
       }
+     },
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "point": {
+         "x": {
+          "xPercentValue": 0
+         },
+         "y": {
+          "yPercentValue": -0.12
+         }
+        }
+       }
+      ]
      },
      "leftRightProfiles": [
       {
@@ -2513,7 +2532,7 @@
        "speed": 97.2,
        "acceleration": 280,
        "pill": {
-        "height": 20
+        "height": 26
        }
       }
      ]
@@ -2522,10 +2541,11 @@
      "cameraPosition": {
       "x": 0,
       "y": -200,
-      "z": 0
+      "z": -5
      },
+     "drawFloorShadows": true,
      "simpleRoom": {
-      "height": 102,
+      "height": 60,
       "width": 353
      }
     },
@@ -2541,6 +2561,20 @@
       "width": {
        "xPercentValue": 0.965
       }
+     },
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "point": {
+         "x": {
+          "xPercentValue": 0
+         },
+         "y": {
+          "yPercentValue": -0.12
+         }
+        }
+       }
+      ]
      },
      "leftRightProfiles": [
       {
@@ -2580,6 +2614,8 @@
       "y": -200,
       "z": -20
      },
+     "drawFloorShadows": true,
+     "drawRoofShadows": true,
      "simpleRoom": {
       "height": 270,
       "width": 102
@@ -2599,7 +2635,7 @@
         "xPercentValue": 0
        },
        "y": {
-        "yPercentValue": -0.48
+        "yPercentValue": -0.49
        }
       },
       {
@@ -2607,7 +2643,7 @@
         "xPercentValue": 0
        },
        "y": {
-        "yPercentValue": 0.48
+        "yPercentValue": 0.49
        }
       }
      ]
@@ -2647,6 +2683,8 @@
       "y": -68,
       "z": 59
      },
+     "drawFloorShadows": true,
+     "drawRoofShadows": true,
      "simpleRoom": {
       "height": 270,
       "width": 102
@@ -2666,7 +2704,7 @@
         "xPercentValue": 0
        },
        "y": {
-        "yPercentValue": -0.48
+        "yPercentValue": -0.49
        }
       },
       {
@@ -2674,7 +2712,7 @@
         "xPercentValue": 0
        },
        "y": {
-        "yPercentValue": 0.48
+        "yPercentValue": 0.49
        }
       }
      ]
@@ -2714,6 +2752,8 @@
       "y": -200,
       "z": -20
      },
+     "drawFloorShadows": true,
+     "drawRoofShadows": true,
      "simpleRoom": {
       "height": 270,
       "width": 102
@@ -2729,7 +2769,7 @@
     "strafeDef": {
      "bounds": {
       "height": {
-       "yPercentValue": 0.965
+       "yPercentValue": 0.995
       }
      },
      "upDownProfiles": [
@@ -2763,7 +2803,7 @@
        "targetRadius": 1.2,
        "speed": 107.999992,
        "pill": {
-        "height": 20
+        "height": 26.5
        }
       }
      ],
@@ -2775,8 +2815,9 @@
       "y": -200,
       "z": 0
      },
+     "drawFloorShadows": true,
      "simpleRoom": {
-      "height": 102,
+      "height": 54,
       "width": 203
      }
     },
@@ -2792,6 +2833,20 @@
       "width": {
        "xPercentValue": 0.965
       }
+     },
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "point": {
+         "x": {
+          "xPercentValue": 0
+         },
+         "y": {
+          "yPercentValue": -0.08
+         }
+        }
+       }
+      ]
      },
      "leftRightProfiles": [
       {
@@ -2844,6 +2899,7 @@
       "y": -124,
       "z": -178
      },
+     "drawFloorShadows": true,
      "simpleRoom": {
       "height": 386,
       "width": 150
