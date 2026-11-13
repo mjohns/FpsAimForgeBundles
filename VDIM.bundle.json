@@ -743,6 +743,7 @@
       "y": 1,
       "z": 0
      },
+     "drawFloorShadows": true,
      "cylinderRoom": {
       "height": 150,
       "radius": 200,
@@ -2055,6 +2056,7 @@
       "y": 0,
       "z": -29
      },
+     "drawFloorShadows": true,
      "cylinderRoom": {
       "height": 100,
       "radius": 200,
@@ -2083,7 +2085,6 @@
      "targetPlacementStrategy": {
       "regions": [
        {
-        "info": {},
         "xOffset": {
          "xPercentValue": 0
         },
@@ -2498,8 +2499,9 @@
       "y": -200,
       "z": 0
      },
+     "drawFloorShadows": true,
      "simpleRoom": {
-      "height": 150,
+      "height": 32,
       "width": 200
      }
     },
@@ -3526,6 +3528,7 @@
       "y": 0,
       "z": -29
      },
+     "drawFloorShadows": true,
      "cylinderRoom": {
       "height": 100,
       "radius": 200,
@@ -3551,7 +3554,6 @@
      "targetPlacementStrategy": {
       "regions": [
        {
-        "info": {},
         "xOffset": {
          "xPercentValue": 0
         },
@@ -5310,8 +5312,9 @@
       "y": 0,
       "z": 0
      },
+     "drawFloorShadows": true,
      "cylinderRoom": {
-      "height": 150,
+      "height": 56,
       "radius": 120,
       "sideAngleDegrees": 46,
       "widthDegrees": 162
@@ -5331,6 +5334,20 @@
       "width": {
        "xPercentValue": 0.9
       }
+     },
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "point": {
+         "x": {
+          "xPercentValue": 0
+         },
+         "y": {
+          "yPercentValue": -0.09
+         }
+        }
+       }
+      ]
      },
      "profiles": [
       {
@@ -5405,8 +5422,9 @@
       "y": 0,
       "z": 0
      },
+     "drawFloorShadows": true,
      "cylinderRoom": {
-      "height": 150,
+      "height": 52,
       "radius": 120,
       "sideAngleDegrees": 46,
       "widthDegrees": 162
@@ -8842,6 +8860,7 @@
       "y": 0,
       "z": -29
      },
+     "drawFloorShadows": true,
      "cylinderRoom": {
       "height": 100,
       "radius": 200,
@@ -8867,7 +8886,6 @@
      "targetPlacementStrategy": {
       "regions": [
        {
-        "info": {},
         "xOffset": {
          "xPercentValue": 0
         },
@@ -8998,6 +9016,7 @@
       "y": 0,
       "z": -29
      },
+     "drawFloorShadows": true,
      "cylinderRoom": {
       "height": 100,
       "radius": 200,
@@ -9023,7 +9042,6 @@
      "targetPlacementStrategy": {
       "regions": [
        {
-        "info": {},
         "xOffset": {
          "xPercentValue": 0
         },
@@ -9140,7 +9158,7 @@
        "speed": 127.92,
        "acceleration": 588,
        "pill": {
-        "height": 23.9000092
+        "height": 29.4000092
        }
       }
      ]
@@ -9151,6 +9169,7 @@
       "y": 0,
       "z": -29
      },
+     "drawFloorShadows": true,
      "cylinderRoom": {
       "height": 100,
       "radius": 200,
@@ -9165,7 +9184,7 @@
      "levelOffset": 20
     },
     "scoreTargets": {
-     "targetScore": 55
+     "targetScore": 58
     },
     "strafeDef": {
      "bounds": {
@@ -9183,7 +9202,7 @@
          "xPercentValue": 0
         },
         "yOffset": {
-         "yPercentValue": -0.37
+         "yPercentValue": -0.34
         },
         "depth": {
          "value": 26
@@ -9434,6 +9453,7 @@
       "y": 0,
       "z": -29
      },
+     "drawFloorShadows": true,
      "cylinderRoom": {
       "height": 100,
       "radius": 200,
@@ -9459,7 +9479,6 @@
      "targetPlacementStrategy": {
       "regions": [
        {
-        "info": {},
         "xOffset": {
          "xPercentValue": 0
         },
@@ -9544,7 +9563,7 @@
        "targetRadius": 2.2,
        "speed": 124,
        "pill": {
-        "height": 15
+        "height": 25
        }
       }
      ]
@@ -9555,8 +9574,9 @@
       "y": 0,
       "z": 0
      },
+     "drawFloorShadows": true,
      "cylinderRoom": {
-      "height": 150,
+      "height": 50,
       "radius": 200,
       "sideAngleDegrees": 46,
       "widthDegrees": 126
@@ -9621,7 +9641,7 @@
        "targetRadius": 3.9,
        "speed": 107,
        "pill": {
-        "height": 15
+        "height": 25
        }
       }
      ]
@@ -9632,8 +9652,9 @@
       "y": 0,
       "z": 0
      },
+     "drawFloorShadows": true,
      "cylinderRoom": {
-      "height": 150,
+      "height": 57,
       "radius": 200,
       "sideAngleDegrees": 46,
       "widthDegrees": 126
@@ -12258,6 +12279,8 @@
       "y": -200,
       "z": 0
      },
+     "drawFloorShadows": true,
+     "drawRoofShadows": true,
      "simpleRoom": {
       "height": 150,
       "width": 380

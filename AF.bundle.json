@@ -1378,6 +1378,7 @@
       "y": -100,
       "z": -36
      },
+     "drawFloorShadows": true,
      "simpleRoom": {
       "height": 130,
       "width": 150,
@@ -1569,7 +1570,7 @@
        "targetRadius": 1.8,
        "speed": 53,
        "pill": {
-        "height": 10
+        "height": 20
        }
       }
      ]
@@ -1580,8 +1581,9 @@
       "y": -200,
       "z": 0
      },
+     "drawFloorShadows": true,
      "simpleRoom": {
-      "height": 150,
+      "height": 34,
       "width": 200
      }
     },
@@ -1599,7 +1601,7 @@
         "value": -80
        },
        "y": {
-        "value": 0
+        "value": -4
        }
       },
       {
@@ -1607,7 +1609,7 @@
         "value": 80
        },
        "y": {
-        "value": 0
+        "value": -4
        }
       }
      ]
@@ -1628,7 +1630,7 @@
        "targetRadius": 1.8,
        "speed": 76,
        "pill": {
-        "height": 16.7000103
+        "height": 22.2000103
        }
       }
      ]
@@ -1639,6 +1641,7 @@
       "y": 0,
       "z": -25
      },
+     "drawFloorShadows": true,
      "cylinderRoom": {
       "height": 100,
       "radius": 200,
@@ -1697,6 +1700,7 @@
       "y": 0,
       "z": -40
      },
+     "drawFloorShadows": true,
      "cylinderRoom": {
       "height": 130,
       "radius": 200,
@@ -1810,6 +1814,7 @@
       "y": 0,
       "z": -40
      },
+     "drawFloorShadows": true,
      "cylinderRoom": {
       "height": 130,
       "radius": 200,
@@ -1935,6 +1940,8 @@
       "y": -200,
       "z": 0
      },
+     "drawFloorShadows": true,
+     "drawRoofShadows": true,
      "simpleRoom": {
       "height": 200,
       "width": 120
@@ -1954,7 +1961,7 @@
         "value": 0
        },
        "y": {
-        "yPercentValue": -0.48
+        "yPercentValue": -0.49
        }
       },
       {
@@ -1962,7 +1969,7 @@
         "value": 0
        },
        "y": {
-        "yPercentValue": 0.48
+        "yPercentValue": 0.49
        }
       }
      ]
@@ -2945,6 +2952,93 @@
    }
   },
   {
+   "name": "MicroReact Horizontal",
+   "def": {
+    "durationSeconds": 45,
+    "shotType": {
+     "clickSingle": true,
+     "removeClosestOnMiss": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 1,
+     "profiles": [
+      {
+       "targetRadius": 1.5
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 24,
+      "width": 41
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 115
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "info": {
+         "description": "Left"
+        },
+        "xOffset": {
+         "xPercentValue": -0.31
+        },
+        "yOffset": {
+         "yPercentValue": 0
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.11
+         },
+         "yLength": {
+          "yPercentValue": 0.23
+         }
+        }
+       },
+       {
+        "info": {
+         "description": "Right"
+        },
+        "xOffset": {
+         "xPercentValue": 0.31
+        },
+        "yOffset": {
+         "yPercentValue": 0
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.11
+         },
+         "yLength": {
+          "yPercentValue": 0.23
+         }
+        }
+       }
+      ],
+      "regionsInfo": {
+       "explicitOrder": [
+        0,
+        1
+       ]
+      }
+     }
+    }
+   }
+  },
+  {
    "name": "Microshot Avasive",
    "def": {
     "durationSeconds": 45,
@@ -3070,7 +3164,7 @@
        "targetRadius": 4,
        "speed": 95,
        "pill": {
-        "height": 15.99998
+        "height": 27.9999809
        }
       }
      ]
@@ -3081,6 +3175,7 @@
       "y": 0,
       "z": 0
      },
+     "drawFloorShadows": true,
      "cylinderRoom": {
       "height": 53,
       "radius": 200,
@@ -3101,6 +3196,20 @@
       "width": {
        "xPercentValue": 0.97
       }
+     },
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "point": {
+         "x": {
+          "xPercentValue": 0
+         },
+         "y": {
+          "yPercentValue": -0.09
+         }
+        }
+       }
+      ]
      },
      "leftRightProfiles": [
       {
@@ -3156,7 +3265,7 @@
        "targetRadius": 6,
        "speed": 60,
        "pill": {
-        "height": 15.99998
+        "height": 25.9999809
        }
       }
      ]
@@ -3167,14 +3276,14 @@
       "y": 0,
       "z": 0
      },
+     "drawFloorShadows": true,
      "cylinderRoom": {
-      "height": 53,
+      "height": 49,
       "radius": 200,
       "sideAngleDegrees": 61,
       "widthDegrees": 144.000046
      }
     },
-    "overrides": {},
     "levelOverrides": {
      "targetRadiusMultiplier": 0.98,
      "speedMultiplier": 1.025
@@ -3187,6 +3296,20 @@
       "width": {
        "xPercentValue": 0.97
       }
+     },
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "point": {
+         "x": {
+          "xPercentValue": 0
+         },
+         "y": {
+          "yPercentValue": -0.06
+         }
+        }
+       }
+      ]
      },
      "leftRightProfiles": [
       {
@@ -4385,8 +4508,12 @@
       "widthDegrees": 169.200027
      }
     },
-    "overrides": {},
-    "levelOverrides": {},
+    "levelOverrides": {
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 780
+    },
     "strafeDef": {
      "bounds": {
       "width": {
@@ -4439,9 +4566,12 @@
       "widthDegrees": 61.2000427
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "speedMultiplier": 1.05
+     "speedMultiplier": 1.05,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 680
     },
     "strafeDef": {
      "bounds": {
@@ -4495,9 +4625,12 @@
       "widthDegrees": 82.8000565
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "speedMultiplier": 1.05
+     "speedMultiplier": 1.05,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 725
     },
     "strafeDef": {
      "bounds": {
@@ -4551,9 +4684,12 @@
       "widthDegrees": 36.0000496
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "speedMultiplier": 1.05
+     "speedMultiplier": 1.05,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 650
     },
     "strafeDef": {
      "bounds": {
@@ -4607,9 +4743,12 @@
       "widthDegrees": 97.2000351
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "speedMultiplier": 1.05
+     "speedMultiplier": 1.05,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 650
     },
     "strafeDef": {
      "bounds": {
@@ -4623,7 +4762,7 @@
         "xPercentValue": 0.64
        },
        "distanceJitter": {
-        "xPercentValue": 0.304999977
+        "xPercentValue": 0.305
        },
        "speedMultiplier": 1,
        "speedMultiplierJitter": 0.15,
@@ -4667,9 +4806,12 @@
       "widthDegrees": 86.4000397
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "speedMultiplier": 1.05
+     "speedMultiplier": 1.05,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 715
     },
     "strafeDef": {
      "bounds": {
@@ -4722,9 +4864,12 @@
       "width": 202
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "speedMultiplier": 1.05
+     "speedMultiplier": 1.05,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 700
     },
     "strafeDef": {
      "bounds": {
@@ -4777,9 +4922,12 @@
       "widthDegrees": 280.799957
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "speedMultiplier": 1.05
+     "speedMultiplier": 1.05,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 610
     },
     "strafeDef": {
      "bounds": {
@@ -4832,9 +4980,12 @@
       "widthDegrees": 309.599976
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "speedMultiplier": 1.05
+     "speedMultiplier": 1.05,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 680
     },
     "strafeDef": {
      "bounds": {
@@ -4893,9 +5044,12 @@
       "widthDegrees": 180.000015
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "speedMultiplier": 1.05
+     "speedMultiplier": 1.05,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 715
     },
     "strafeDef": {
      "bounds": {
@@ -4949,9 +5103,12 @@
       "widthDegrees": 205.2
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "speedMultiplier": 1.05
+     "speedMultiplier": 1.05,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 650
     },
     "strafeDef": {
      "bounds": {
@@ -5000,15 +5157,18 @@
       "z": 0
      },
      "cylinderRoom": {
-      "height": 89,
+      "height": 67,
       "radius": 200,
       "sideAngleDegrees": 61,
       "widthDegrees": 144.000046
      }
     },
-    "overrides": {},
     "levelOverrides": {
-     "speedMultiplier": 1.05
+     "speedMultiplier": 1.05,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 750
     },
     "strafeDef": {
      "bounds": {
@@ -6823,6 +6983,8 @@
       "y": -170,
       "z": 0
      },
+     "drawFloorShadows": true,
+     "drawRoofShadows": true,
      "simpleRoom": {
       "height": 150,
       "width": 325
