@@ -1,6 +1,102 @@
 {
  "scenarios": [
   {
+   "name": "1w2ts reload smallflicks",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+    },
+    "targetDef": {
+     "numTargets": 2,
+     "profiles": [
+      {
+       "targetRadius": 1.8
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -200,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 130,
+      "width": 150
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 133
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "info": {
+         "description": "smaller",
+         "weight": 2
+        },
+        "fixedDistanceFromLastTarget": {
+         "xPercentValue": 0.12
+        },
+        "fixedDistanceFromLastTargetJitter": {
+         "xPercentValue": 0.04
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.8
+         },
+         "yLength": {
+          "yPercentValue": 0.8
+         }
+        }
+       },
+       {
+        "info": {
+         "description": "larger",
+         "weight": 3
+        },
+        "fixedDistanceFromLastTarget": {
+         "value": 29
+        },
+        "fixedDistanceFromLastTargetJitter": {
+         "value": 8
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.8
+         },
+         "yLength": {
+          "yPercentValue": 0.8
+         }
+        }
+       },
+       {
+        "info": {
+         "description": "relocate anywhere",
+         "weight": 2
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.9
+         },
+         "yLength": {
+          "yPercentValue": 0.9
+         }
+        }
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
    "name": "Close Fast Strafes Invincible Precise",
    "def": {
     "durationSeconds": 60,
@@ -502,6 +598,133 @@
       "value": 10
      },
      "startOnFloor": true
+    }
+   }
+  },
+  {
+   "name": "VoxTs Click",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "reload": {
+      "maxShots": 3,
+      "numToReloadOnHit": 3,
+      "reloadTime": 0.4
+     },
+     "accuracyPenalty": "ACCURACY_PENALTY_NONE"
+    },
+    "targetDef": {
+     "numTargets": 4,
+     "profiles": [
+      {
+       "targetRadius": 1.75,
+       "speed": 34
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -227,
+      "z": 0
+     },
+     "drawFloorShadows": true,
+     "simpleRoom": {
+      "height": 79,
+      "width": 205
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 110
+    },
+    "linearDef": {
+     "angle": 0,
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "info": {
+         "description": "top",
+         "weight": 1
+        },
+        "xOffset": {
+         "xPercentValue": 0
+        },
+        "yOffset": {
+         "yPercentValue": 0.35
+        },
+        "depth": {
+         "depthPercentValue": 0.38
+        },
+        "depthJitter": {
+         "depthPercentValue": 0.38
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.8
+         },
+         "yLength": {
+          "value": 0.3
+         }
+        }
+       },
+       {
+        "info": {
+         "description": "bottom",
+         "weight": 1
+        },
+        "xOffset": {
+         "xPercentValue": 0
+        },
+        "yOffset": {
+         "yPercentValue": -0.35
+        },
+        "depth": {
+         "depthPercentValue": 0.38
+        },
+        "depthJitter": {
+         "depthPercentValue": 0.38
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.8
+         },
+         "yLength": {
+          "value": 0.3
+         }
+        }
+       },
+       {
+        "info": {
+         "description": "middle",
+         "weight": 1
+        },
+        "depth": {
+         "depthPercentValue": 0.38
+        },
+        "depthJitter": {
+         "depthPercentValue": 0.38
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.8
+         },
+         "yLength": {
+          "value": 0.3
+         }
+        }
+       }
+      ],
+      "minXDistance": {
+       "xPercentValue": 0.05
+      }
+     },
+     "leftRightInitialDirection": "DIRECTION_RANDOM",
+     "upDownInitialDirection": "DIRECTION_RANDOM"
     }
    }
   },
@@ -1768,7 +1991,7 @@
          "xPercentValue": 0
         },
         "yOffset": {
-         "yPercentValue": -0.34
+         "yPercentValue": -0.33
         },
         "rectangle": {
          "xLength": {
@@ -1911,6 +2134,114 @@
      "leftRightInitialDirection": "DIRECTION_RANDOM",
      "upDownInitialDirection": "DIRECTION_RANDOM",
      "forwardBackInitialDirection": "DIRECTION_RANDOM"
+    }
+   }
+  },
+  {
+   "name": "skyClick Goated",
+   "def": {
+    "durationSeconds": 60,
+    "shotType": {
+     "clickSingle": true,
+     "reload": {
+      "maxShots": 3,
+      "numToReloadOnHit": 3,
+      "reloadTime": 0.4
+     },
+     "accuracyPenalty": "ACCURACY_PENALTY_NONE"
+    },
+    "targetDef": {
+     "numTargets": 4,
+     "profiles": [
+      {
+       "targetRadius": 1.9,
+       "speed": 22
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -227,
+      "z": 0
+     },
+     "simpleRoom": {
+      "height": 78,
+      "width": 249
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "scoreTargets": {
+     "targetScore": 110
+    },
+    "linearDef": {
+     "angle": 0,
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "info": {
+         "description": "top",
+         "weight": 1
+        },
+        "xOffset": {
+         "xPercentValue": 0
+        },
+        "yOffset": {
+         "yPercentValue": 0.35
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.8
+         },
+         "yLength": {
+          "value": 0.3
+         }
+        }
+       },
+       {
+        "info": {
+         "description": "bottom",
+         "weight": 1
+        },
+        "xOffset": {
+         "xPercentValue": 0
+        },
+        "yOffset": {
+         "yPercentValue": -0.35
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.8
+         },
+         "yLength": {
+          "value": 0.3
+         }
+        }
+       },
+       {
+        "info": {
+         "description": "middle",
+         "weight": 1
+        },
+        "rectangle": {
+         "xLength": {
+          "xPercentValue": 0.8
+         },
+         "yLength": {
+          "value": 0.3
+         }
+        }
+       }
+      ],
+      "minXDistance": {
+       "xPercentValue": 0.05
+      }
+     },
+     "leftRightInitialDirection": "DIRECTION_RANDOM",
+     "upDownInitialDirection": "DIRECTION_RANDOM"
     }
    }
   }
