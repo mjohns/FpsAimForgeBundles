@@ -6166,6 +6166,151 @@
    }
   },
   {
+   "name": "Target Dummy Click",
+   "def": {
+    "referenceDef": {
+     "scenarioName": "AF Target Dummy Tracking",
+     "shotType": {
+      "clickMulti": true,
+      "healthClicks": 2000,
+      "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+     },
+     "description": "Enable movement and click a static target as you strafe."
+    }
+   }
+  },
+  {
+   "name": "Target Dummy Click Sphere",
+   "def": {
+    "referenceDef": {
+     "scenarioName": "AF Target Dummy Tracking Sphere",
+     "shotType": {
+      "clickMulti": true,
+      "healthClicks": 2000,
+      "accuracyPenalty": "ACCURACY_PENALTY_SQRT"
+     },
+     "description": "Enable movement and click a static target as you strafe."
+    }
+   }
+  },
+  {
+   "name": "Target Dummy Tracking",
+   "def": {
+    "description": "Enable movement and try to track a static target as you strafe.",
+    "durationSeconds": 45,
+    "shotType": {
+     "trackingInvincible": true
+    },
+    "targetDef": {
+     "numTargets": 1,
+     "profiles": [
+      {
+       "targetRadius": 2,
+       "pill": {
+        "height": 14
+       }
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -600,
+      "z": -40
+     },
+     "drawFloorShadows": true,
+     "simpleRoom": {
+      "height": 100,
+      "width": 700,
+      "depth": 900
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "depth": {
+         "value": 500
+        },
+        "depthJitter": {
+         "value": 0
+        },
+        "point": {
+         "x": {
+          "xPercentValue": 0
+         },
+         "y": {
+          "value": -42
+         }
+        }
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "name": "Target Dummy Tracking Sphere",
+   "def": {
+    "description": "Enable movement and try to track a static target as you strafe.",
+    "durationSeconds": 45,
+    "shotType": {
+     "trackingInvincible": true
+    },
+    "targetDef": {
+     "numTargets": 1,
+     "profiles": [
+      {
+       "targetRadius": 1.5
+      }
+     ]
+    },
+    "room": {
+     "cameraPosition": {
+      "x": 0,
+      "y": -600,
+      "z": -40
+     },
+     "drawFloorShadows": true,
+     "simpleRoom": {
+      "height": 100,
+      "width": 700,
+      "depth": 900
+     }
+    },
+    "levelOverrides": {
+     "targetRadiusMultiplier": 0.96,
+     "levelOffset": 20
+    },
+    "staticDef": {
+     "targetPlacementStrategy": {
+      "regions": [
+       {
+        "depth": {
+         "value": 500
+        },
+        "depthJitter": {
+         "value": 0
+        },
+        "point": {
+         "x": {
+          "xPercentValue": 0
+         },
+         "y": {
+          "value": -40
+         }
+        }
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
    "name": "UfoTrack1",
    "def": {
     "durationSeconds": 40,
